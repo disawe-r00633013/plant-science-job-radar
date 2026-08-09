@@ -1,0 +1,9 @@
+{
+  "updatedAt": "2026-08-09T08:00:00+08:00",
+  "note": "Seed data. GitHub Actions will replace/update this after the first successful run.",
+  "sources": [
+    {"name": "HigherEdJobs — Plant & Soil Science", "ok": true, "count": 1},
+    {"name": "APS Job Board", "ok": true, "count": 1},
+    {"name": "AcademicJobsOnline", "ok": true, "count": 1}
+  ]
+}

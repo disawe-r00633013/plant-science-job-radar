@@ -1,0 +1,69 @@
+{
+  "timezone": "Asia/Taipei",
+  "stale_after_days": 21,
+  "max_jobs_per_source": 120,
+  "min_keep_score": 35,
+  "detail_fetch_limit": 45,
+  "sources": [
+    {
+      "name": "HigherEdJobs — Plant & Soil Science",
+      "type": "higheredjobs",
+      "url": "https://www.higheredjobs.com/faculty/search.cfm?JobCat=49",
+      "enabled": true
+    },
+    {
+      "name": "APS Job Board",
+      "type": "aps",
+      "url": "https://jobs.apsnet.org/jobs",
+      "enabled": true
+    },
+    {
+      "name": "AcademicJobsOnline",
+      "type": "ajo",
+      "url": "https://academicjobsonline.org/ajo?joblst-0-0-0-0------=",
+      "enabled": true
+    }
+  ],
+  "scoring": {
+    "base": 35,
+    "positive": [
+      {"term": "plant pathology", "points": 22, "label": "Plant Pathology"},
+      {"term": "plant-microbe", "points": 22, "label": "Plant–Microbe"},
+      {"term": "plant microbe", "points": 22, "label": "Plant–Microbe"},
+      {"term": "horticulture", "points": 16, "label": "Horticulture"},
+      {"term": "controlled environment", "points": 16, "label": "CEA"},
+      {"term": "greenhouse", "points": 10, "label": "Greenhouse"},
+      {"term": "crop physiology", "points": 14, "label": "Crop Physiology"},
+      {"term": "crop science", "points": 12, "label": "Crop Science"},
+      {"term": "postharvest", "points": 14, "label": "Postharvest"},
+      {"term": "post-harvest", "points": 14, "label": "Postharvest"},
+      {"term": "biological", "points": 10, "label": "Biologicals"},
+      {"term": "biostimulant", "points": 12, "label": "Biostimulant"},
+      {"term": "plant health", "points": 14, "label": "Plant Health"},
+      {"term": "disease management", "points": 12, "label": "Disease Management"},
+      {"term": "extension", "points": 8, "label": "Extension"},
+      {"term": "specialty crop", "points": 8, "label": "Specialty Crops"},
+      {"term": "microbiome", "points": 14, "label": "Microbiome"},
+      {"term": "microbial", "points": 8, "label": "Microbial"},
+      {"term": "aquapon", "points": 12, "label": "Aquaponics"},
+      {"term": "hydropon", "points": 10, "label": "Hydroponics"},
+      {"term": "assistant professor", "points": 10, "label": "Assistant Professor"},
+      {"term": "tenure-track", "points": 8, "label": "Tenure Track"},
+      {"term": "tenure track", "points": 8, "label": "Tenure Track"},
+      {"term": "research scientist", "points": 7, "label": "Research Scientist"}
+    ],
+    "negative": [
+      {"term": "medical doctor", "points": -45, "label": "Medical"},
+      {"term": "clinical", "points": -18, "label": "Clinical"},
+      {"term": "animal science", "points": -14, "label": "Animal Science"},
+      {"term": "veterinary pathology", "points": -28, "label": "Veterinary"},
+      {"term": "pure mathematics", "points": -30, "label": "Unrelated"},
+      {"term": "theoretical physics", "points": -30, "label": "Unrelated"}
+    ]
+  },
+  "relevance_terms": [
+    "plant", "crop", "horticultur", "patholog", "microbe", "microbial", "microbiome",
+    "greenhouse", "controlled environment", "postharvest", "post-harvest", "agronom",
+    "biological", "biostimulant", "specialty crop", "hydropon", "aquapon"
+  ]
+}
