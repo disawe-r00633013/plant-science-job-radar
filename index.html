@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173f35">
+  <title>US Plant Science Career Radar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <div>
+      <p class="eyebrow">UNITED STATES · INDUSTRY + ACADEMIA</p>
+      <h1>🌱 US Plant Science Career Radar</h1>
+      <p class="subtitle">每天自動找美國植物科學職缺。Industry 會同時掃 LinkedIn／Indeed 的搜尋索引、公司官方 careers 與可發現的 Greenhouse / Lever ATS。</p>
+    </div>
+    <div class="hero-actions">
+      <button id="syncBtn" class="btn sync-btn">☁ GitHub 同步</button>
+      <span id="syncStatus" class="sync-status" data-state="off">尚未設定</span>
+      <button id="settingsBtn" class="btn primary">⚙️ 搜尋設定</button>
+    </div>
+  </div>
+</header>
+
+<main class="page">
+  <section id="sourceAlert" class="source-alert hidden"></section>
+
+  <section class="stats">
+    <div class="stat"><span>最後更新</span><strong id="lastUpdated">—</strong></div>
+    <div class="stat"><span>Industry</span><strong id="industryCount">0</strong></div>
+    <div class="stat"><span>Academia</span><strong id="academiaCount">0</strong></div>
+    <div class="stat"><span>本週新發現</span><strong id="newCount">0</strong></div>
+  </section>
+
+  <section class="source-strip card">
+    <div class="source-strip-title">
+      <div><strong>資料來源</strong><span>點來源可直接篩選</span></div>
+      <button id="clearSourceBtn" class="btn small ghost">顯示全部來源</button>
+    </div>
+    <div id="sourceChips" class="source-chips"></div>
+  </section>
+
+  <nav class="pipeline-tabs card" aria-label="求職流程">
+    <button class="pipeline-tab active" data-stage="new"><span>🔎</span> 新職缺 <b id="newTabCount">0</b></button>
+    <button class="pipeline-tab" data-stage="saved"><span>♡</span> 收藏 <b id="savedTabCount">0</b></button>
+    <button class="pipeline-tab" data-stage="applied"><span>✓</span> 已申請 <b id="appliedTabCount">0</b></button>
+    <button class="pipeline-tab" data-stage="hidden"><span>🚫</span> 隱藏 <b id="hiddenTabCount">0</b></button>
+  </nav>
+
+  <section class="controls card">
+    <label class="search-box">
+      <span>搜尋</span>
+      <input id="searchInput" type="search" placeholder="職稱、公司／學校、州、關鍵字…">
+    </label>
+    <label>
+      <span>Sector</span>
+      <select id="sectorFilter">
+        <option value="all">Industry + Academia</option>
+        <option value="industry">Industry</option>
+        <option value="academia">Academia</option>
+      </select>
+    </label>
+    <label>
+      <span>來源</span>
+      <select id="sourceFilter"><option value="all">全部來源</option></select>
+    </label>
+    <label>
+      <span>最低適合度</span>
+      <select id="scoreFilter">
+        <option value="0">全部</option><option value="50">50+</option>
+        <option value="60">60+</option><option value="70">70+</option>
+        <option value="80">80+</option><option value="90">90+</option>
+      </select>
+    </label>
+    <label>
+      <span>排序</span>
+      <select id="sortFilter">
+        <option value="score">適合度優先</option>
+        <option value="new">新發現優先</option>
+        <option value="source">來源</option>
+        <option value="title">職稱 A→Z</option>
+      </select>
+    </label>
+  </section>
+
+  <section class="quick-row" id="quickTopics"></section>
+
+  <section class="section-head">
+    <div>
+      <h2 id="stageTitle">新職缺</h2>
+      <p id="resultSummary">正在載入…</p>
+    </div>
+    <button id="showAllBtn" class="btn small">清除領域篩選</button>
+  </section>
+
+  <section id="jobsGrid" class="jobs-grid"></section>
+  <section id="emptyState" class="empty card hidden">
+    <h3>目前沒有符合條件的職缺</h3>
+    <p>可以降低最低適合度、切換 Industry / Academia、換來源，或到「搜尋設定」調整偏好。</p>
+  </section>
+
+  <section class="footnote card">
+    <strong>關於 LinkedIn / Indeed</strong>
+    <p>本網站不登入或直接爬取你的 LinkedIn / Indeed 帳號。它使用搜尋引擎已公開索引的職缺連結作為補充來源；公司官方 career page 與公開 ATS 來源會優先保留。職缺是否仍開放請以原始招聘頁為準。</p>
+  </section>
+</main>
+
+<dialog id="settingsDialog">
+  <form method="dialog" class="settings-panel">
+    <div class="settings-head">
+      <div>
+        <p class="eyebrow">MY SEARCH PROFILE</p>
+        <h2>搜尋與評分設定</h2>
+        <p>搜尋偏好存在這個瀏覽器；申請進度可另外同步到 GitHub。</p>
+      </div>
+      <button class="icon-btn" value="cancel">✕</button>
+    </div>
+
+    <div class="settings-section">
+      <h3>1. Sector</h3>
+      <div class="check-grid">
+        <label class="check"><input type="checkbox" name="sector" value="industry"> Industry</label>
+        <label class="check"><input type="checkbox" name="sector" value="academia"> Academia</label>
+      </div>
+    </div>
+
+    <div class="settings-section">
+      <h3>2. 職位類型</h3>
+      <div id="roleSettings" class="check-grid wide"></div>
+    </div>
+
+    <div class="settings-section">
+      <h3>3. 研究領域重要度</h3>
+      <p class="hint">高＝大幅加分；普通＝小幅加分；忽略＝不加分。</p>
+      <div id="topicSettings" class="weight-grid"></div>
+    </div>
+
+    <div class="settings-section">
+      <h3>4. 排除關鍵字</h3>
+      <textarea id="excludeKeywords" rows="3"></textarea>
+      <p class="hint">用逗號分隔。出現在職稱或摘要時會大幅扣分。</p>
+    </div>
+
+    <div class="settings-section two-col">
+      <label><span>預設最低適合度</span>
+        <select id="defaultMinScore"><option value="0">全部</option><option value="50">50+</option><option value="55">55+</option><option value="60">60+</option><option value="70">70+</option><option value="80">80+</option></select>
+      </label>
+      <label><span>新職缺天數</span>
+        <select id="newDays"><option value="3">3 天</option><option value="7">7 天</option><option value="14">14 天</option></select>
+      </label>
+    </div>
+
+    <div class="settings-actions">
+      <button type="button" id="restoreDefaults" class="btn ghost">恢復預設</button>
+      <div><button class="btn ghost" value="cancel">取消</button><button type="button" id="saveSettings" class="btn primary">儲存設定</button></div>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="applicationDialog">
+  <form method="dialog" class="settings-panel">
+    <div class="settings-head">
+      <div>
+        <p class="eyebrow">APPLICATION TRACKER</p>
+        <h2 id="applicationDialogTitle">管理申請</h2>
+        <p id="applicationDialogOrg"></p>
+      </div>
+      <button class="icon-btn" value="cancel">✕</button>
+    </div>
+
+    <div class="settings-section two-col">
+      <label><span>申請狀態</span>
+        <select id="applicationStatus">
+          <option value="Applied">Applied</option>
+          <option value="HR screening">HR screening</option>
+          <option value="Interview">Interview</option>
+          <option value="Final interview">Final interview</option>
+          <option value="Offer">Offer</option>
+          <option value="Rejected">Rejected</option>
+          <option value="Withdrawn">Withdrawn</option>
+        </select>
+      </label>
+      <label><span>申請日期</span><input id="appliedDate" type="date"></label>
+      <label><span>Deadline</span><input id="deadline" type="date"></label>
+      <label><span>下一次面試</span><input id="interviewDate" type="datetime-local"></label>
+    </div>
+
+    <div class="settings-section">
+      <label><span>備註</span><textarea id="applicationNotes" rows="5" placeholder="例如：已通知 reference、等待 committee、salary range…"></textarea></label>
+    </div>
+
+    <div class="settings-actions">
+      <button type="button" id="moveBackSaved" class="btn ghost">移回收藏</button>
+      <div><button class="btn ghost" value="cancel">取消</button><button type="button" id="saveApplication" class="btn primary">儲存</button></div>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="syncDialog">
+  <form method="dialog" class="settings-panel">
+    <div class="settings-head">
+      <div>
+        <p class="eyebrow">GITHUB SYNC</p>
+        <h2>☁ 同步求職進度</h2>
+        <p>同步收藏、已申請、狀態、日期與備註。建議使用獨立的 Private repository。</p>
+      </div>
+      <button class="icon-btn" value="cancel">✕</button>
+    </div>
+
+    <div class="privacy-warning">
+      <strong>🔐 建議</strong>
+      <p>Repository 建議填 private 的 <code>plant-science-job-radar-data</code>。不要把 token 貼到聊天室，也不要 commit 到公開 repository。</p>
+    </div>
+
+    <div class="settings-section sync-grid">
+      <label><span>GitHub owner</span><input id="githubOwner" type="text" value="disawe-r00633013"></label>
+      <label><span>Repository</span><input id="githubRepo" type="text" value="plant-science-job-radar-data"></label>
+      <label><span>Branch</span><input id="githubBranch" type="text" value="main"></label>
+      <label><span>進度檔案路徑</span><input id="githubPath" type="text" value="data/application-progress.json"></label>
+    </div>
+
+    <div class="settings-section">
+      <label><span>Fine-grained Personal Access Token</span><input id="githubToken" type="password" autocomplete="off" placeholder="github_pat_…"></label>
+      <div class="token-options">
+        <label class="check compact"><input id="rememberToken" type="checkbox"> 記住 token 在這台裝置</label>
+        <button type="button" id="forgetToken" class="btn ghost small">清除 token</button>
+      </div>
+      <p class="hint">Token 只需要該 private repository 的 <strong>Contents: Read and write</strong>。</p>
+    </div>
+
+    <div class="sync-summary">
+      <div><span>本機進度</span><strong id="localProgressCount">0</strong></div>
+      <div><span>最後同步</span><strong id="lastSyncAt">—</strong></div>
+    </div>
+    <div id="syncMessage" class="sync-message hidden"></div>
+
+    <div class="settings-actions">
+      <button type="button" id="pullFromGitHub" class="btn ghost">↓ 從 GitHub 拉取</button>
+      <div><button class="btn ghost" value="cancel">取消</button><button type="button" id="saveAndSync" class="btn primary">儲存並立即同步</button></div>
+    </div>
+  </form>
+</dialog>
+
+<template id="jobTemplate">
+  <article class="job-card">
+    <div class="job-top">
+      <div class="badges"></div>
+      <div class="score-ring"><span class="score-value">0</span><small>fit</small></div>
+    </div>
+    <h3 class="job-title"></h3>
+    <p class="org"></p>
+    <p class="location"></p>
+    <p class="snippet"></p>
+    <div class="match-row"></div>
+    <div class="job-meta"></div>
+    <div class="job-actions">
+      <a class="btn primary open-link" target="_blank" rel="noopener noreferrer">查看職缺</a>
+      <button class="btn ghost save-btn" type="button">♡ 收藏</button>
+      <button class="btn ghost applied-btn" type="button">✓ 已申請</button>
+      <button class="btn ghost manage-btn hidden" type="button">管理申請</button>
+      <button class="btn ghost hide-btn" type="button">隱藏</button>
+    </div>
+  </article>
+</template>
+
+<script src="app.js"></script>
+</body>
+</html>

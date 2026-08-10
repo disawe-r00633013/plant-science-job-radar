@@ -1,0 +1,255 @@
+{
+  "app": {
+    "title": "US Plant Science Career Radar",
+    "country": "United States",
+    "new_days": 7,
+    "stale_after_days": 21
+  },
+  "default_preferences": {
+    "sectors": [
+      "academia",
+      "industry"
+    ],
+    "roles": [
+      "Assistant Professor",
+      "Associate Professor",
+      "Research Scientist",
+      "Senior Scientist",
+      "Principal Scientist",
+      "Product Development",
+      "Field R&D",
+      "Extension",
+      "Postdoctoral"
+    ],
+    "topics": {
+      "Plant Pathology": "high",
+      "Plant–Microbe": "high",
+      "Biologicals / Biostimulants": "high",
+      "Horticulture": "high",
+      "Crop Science": "medium",
+      "Controlled Environment": "medium",
+      "Postharvest": "high",
+      "Plant Physiology": "medium",
+      "Microbiology": "medium",
+      "Field Development": "medium"
+    },
+    "exclude_keywords": [
+      "animal",
+      "veterinary",
+      "medical",
+      "clinical",
+      "neuroscience",
+      "marine",
+      "human health",
+      "oncology"
+    ],
+    "min_score": 55
+  },
+  "role_keywords": {
+    "Assistant Professor": [
+      "assistant professor"
+    ],
+    "Associate Professor": [
+      "associate professor"
+    ],
+    "Research Scientist": [
+      "research scientist",
+      "researcher",
+      "scientist i",
+      "scientist 1"
+    ],
+    "Senior Scientist": [
+      "senior scientist",
+      "sr scientist",
+      "sr. scientist",
+      "scientist ii",
+      "scientist 2"
+    ],
+    "Principal Scientist": [
+      "principal scientist",
+      "lead scientist"
+    ],
+    "Product Development": [
+      "product development",
+      "development scientist",
+      "product biology"
+    ],
+    "Field R&D": [
+      "field scientist",
+      "field research",
+      "field development",
+      "r&d scientist",
+      "r & d scientist",
+      "field biology"
+    ],
+    "Extension": [
+      "extension specialist",
+      "extension educator",
+      "extension faculty",
+      "extension scientist"
+    ],
+    "Postdoctoral": [
+      "postdoc",
+      "postdoctoral"
+    ]
+  },
+  "topic_keywords": {
+    "Plant Pathology": [
+      "plant pathology",
+      "phytopathology",
+      "plant disease",
+      "fungal disease",
+      "fungicide",
+      "mycology",
+      "pathogen biology"
+    ],
+    "Plant–Microbe": [
+      "plant-microbe",
+      "plant microbe",
+      "microbiome",
+      "rhizosphere",
+      "host-pathogen",
+      "host pathogen",
+      "microbial ecology"
+    ],
+    "Biologicals / Biostimulants": [
+      "biologicals",
+      "biological",
+      "biostimulant",
+      "biopesticide",
+      "biofertilizer",
+      "microbial product"
+    ],
+    "Horticulture": [
+      "horticulture",
+      "horticultural",
+      "fruit crop",
+      "vegetable crop",
+      "specialty crop",
+      "produce"
+    ],
+    "Crop Science": [
+      "crop science",
+      "agronomy",
+      "crop protection",
+      "crop health",
+      "crop production",
+      "agriculture"
+    ],
+    "Controlled Environment": [
+      "controlled environment",
+      "greenhouse",
+      "growth chamber",
+      "indoor agriculture",
+      "cea",
+      "vertical farm"
+    ],
+    "Postharvest": [
+      "postharvest",
+      "post-harvest",
+      "fresh produce",
+      "produce quality",
+      "shelf life",
+      "storage physiology"
+    ],
+    "Plant Physiology": [
+      "plant physiology",
+      "abiotic stress",
+      "plant stress",
+      "plant health",
+      "stress physiology"
+    ],
+    "Microbiology": [
+      "microbiology",
+      "microbial",
+      "bacteria",
+      "fungal",
+      "fungi",
+      "fermentation"
+    ],
+    "Field Development": [
+      "field trial",
+      "field trials",
+      "field development",
+      "product efficacy",
+      "efficacy trial",
+      "field testing"
+    ]
+  },
+  "search_queries": [
+    {
+      "name": "LinkedIn scientists",
+      "sector": "industry",
+      "source_hint": "LinkedIn",
+      "query": "site:linkedin.com/jobs/view (\"research scientist\" OR \"senior scientist\" OR \"principal scientist\" OR \"plant pathologist\") (agriculture OR crop OR horticulture OR plant) (pathology OR biologicals OR microbiology OR greenhouse OR postharvest) \"United States\""
+    },
+    {
+      "name": "LinkedIn product development",
+      "sector": "industry",
+      "source_hint": "LinkedIn",
+      "query": "site:linkedin.com/jobs/view (\"product development\" OR \"field development\" OR \"R&D Scientist\" OR \"product biology\") (\"crop protection\" OR biologicals OR biostimulant OR agriculture) \"United States\""
+    },
+    {
+      "name": "LinkedIn plant health",
+      "sector": "industry",
+      "source_hint": "LinkedIn",
+      "query": "site:linkedin.com/jobs/view (\"plant health scientist\" OR \"controlled environment scientist\" OR \"postharvest scientist\" OR \"microbiology scientist\") agriculture \"United States\""
+    },
+    {
+      "name": "Indeed scientists",
+      "sector": "industry",
+      "source_hint": "Indeed",
+      "query": "site:indeed.com/viewjob (\"research scientist\" OR \"senior scientist\" OR \"plant pathologist\") (agriculture OR crop OR horticulture) (biologicals OR pathology OR greenhouse OR microbiology) \"United States\""
+    },
+    {
+      "name": "Indeed product development",
+      "sector": "industry",
+      "source_hint": "Indeed",
+      "query": "site:indeed.com/viewjob (\"product development\" OR \"field development\" OR \"R&D scientist\") (\"crop protection\" OR biostimulant OR biologicals OR agriculture) \"United States\""
+    },
+    {
+      "name": "Company career sites",
+      "sector": "industry",
+      "source_hint": "Official / ATS",
+      "query": "(\"research scientist\" OR \"senior scientist\" OR \"principal scientist\" OR \"plant pathologist\") (\"crop protection\" OR biologicals OR horticulture OR \"plant pathology\") (\"Syngenta\" OR Corteva OR Bayer OR BASF OR FMC OR Valent OR UPL OR \"Pivot Bio\" OR Indigo) jobs \"United States\" -linkedin -indeed"
+    },
+    {
+      "name": "Agriculture R&D general",
+      "sector": "industry",
+      "source_hint": "Official / ATS",
+      "query": "(\"plant pathologist\" OR \"plant health scientist\" OR \"postharvest scientist\" OR \"controlled environment scientist\" OR \"biologicals scientist\") jobs \"United States\" -linkedin -indeed"
+    },
+    {
+      "name": "Crop R&D general",
+      "sector": "industry",
+      "source_hint": "Official / ATS",
+      "query": "(\"field scientist\" OR \"field development scientist\" OR \"product biology scientist\") (\"crop protection\" OR agriculture OR biologicals) jobs \"United States\" -linkedin -indeed"
+    },
+    {
+      "name": "HigherEdJobs faculty",
+      "sector": "academia",
+      "source_hint": "HigherEdJobs",
+      "query": "site:higheredjobs.com (\"assistant professor\" OR \"associate professor\") (\"plant pathology\" OR horticulture OR \"crop science\" OR \"plant microbiome\")"
+    },
+    {
+      "name": "AcademicJobsOnline",
+      "sector": "academia",
+      "source_hint": "AcademicJobsOnline",
+      "query": "site:academicjobsonline.org/ajo/jobs (\"plant pathology\" OR horticulture OR \"plant microbiome\" OR \"crop science\" OR agronomy)"
+    },
+    {
+      "name": "University extension research",
+      "sector": "academia",
+      "source_hint": "University / Academic Board",
+      "query": "(\"extension specialist\" OR \"research scientist\" OR \"assistant professor\") (horticulture OR \"plant pathology\" OR \"controlled environment\" OR postharvest OR biologicals) university \"United States\""
+    },
+    {
+      "name": "University plant microbe",
+      "sector": "academia",
+      "source_hint": "University / Academic Board",
+      "query": "(\"assistant professor\" OR \"faculty\") (\"plant microbe\" OR microbiome OR \"plant health\") agriculture university \"United States\""
+    }
+  ],
+  "manual_greenhouse_boards": [],
+  "manual_lever_sites": []
+}
