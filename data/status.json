@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10T01:40:16.366135+00:00",
+  "last_updated": "2026-08-10T03:23:16.869064+00:00",
   "job_count": 1,
   "counts": {
     "Company / University site": 1
@@ -57,7 +57,7 @@
     },
     {
       "source": "University extension research",
-      "count": 1,
+      "count": 0,
       "ok": true
     },
     {
