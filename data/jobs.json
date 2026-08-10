@@ -1,3 +1,21 @@
 {
-  "jobs": []
+  "jobs": [
+    {
+      "title": "Chrome Web Store",
+      "url": "https://chromewebstore.google.com/",
+      "snippet": "Supercharge your browser with extensions and themes for Chrome. Discover the standout AI extensions that made our year. Plant trees, shop sustainably, and more. Easily remove backgrounds,...",
+      "organization": "Chromewebstore",
+      "location": "United States",
+      "sector": "academia",
+      "source": "Company / University site",
+      "source_group": "Official / ATS",
+      "domain": "chromewebstore.google.com",
+      "posted_date": "Sun, 09 Aug 2026 16:13:00 GMT",
+      "us_only": true,
+      "query_name": "University extension research",
+      "id": "a76e063b370e58ec0f",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    }
+  ]
 }

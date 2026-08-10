@@ -1,9 +1,70 @@
 {
-  "last_updated": null,
-  "job_count": 0,
-  "counts": {},
-  "sources": [],
-  "errors": [
-    "尚未執行第一次搜尋。"
-  ]
+  "last_updated": "2026-08-10T01:40:16.366135+00:00",
+  "job_count": 1,
+  "counts": {
+    "Company / University site": 1
+  },
+  "sources": [
+    {
+      "source": "LinkedIn scientists",
+      "count": 0,
+      "ok": true
+    },
+    {
+      "source": "LinkedIn product development",
+      "count": 0,
+      "ok": true
+    },
+    {
+      "source": "LinkedIn plant health",
+      "count": 0,
+      "ok": true
+    },
+    {
+      "source": "Indeed scientists",
+      "count": 0,
+      "ok": true
+    },
+    {
+      "source": "Indeed product development",
+      "count": 0,
+      "ok": true
+    },
+    {
+      "source": "Company career sites",
+      "count": 0,
+      "ok": true
+    },
+    {
+      "source": "Agriculture R&D general",
+      "count": 0,
+      "ok": true
+    },
+    {
+      "source": "Crop R&D general",
+      "count": 0,
+      "ok": true
+    },
+    {
+      "source": "HigherEdJobs faculty",
+      "count": 0,
+      "ok": true
+    },
+    {
+      "source": "AcademicJobsOnline",
+      "count": 0,
+      "ok": true
+    },
+    {
+      "source": "University extension research",
+      "count": 1,
+      "ok": true
+    },
+    {
+      "source": "University plant microbe",
+      "count": 0,
+      "ok": true
+    }
+  ],
+  "errors": []
 }
