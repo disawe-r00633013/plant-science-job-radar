@@ -42,3 +42,6 @@ dialog{width:min(900px,calc(100% - 28px));border:0;border-radius:28px;padding:0;
 .health-item.ok b{color:#1e674e}.health-item.bad{background:#fff6f4;border-color:#edc8c0}.health-item.bad b{color:#9b382d}
 @media(max-width:900px){.source-health-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:600px){.source-health-grid{grid-template-columns:1fr}}
+
+.validation-summary{margin-top:12px;padding:11px 13px;border-radius:14px;background:#f0f4f0;border:1px solid var(--line);font-size:13px;color:#4c5c56}
+.validation-summary strong{color:var(--green)}

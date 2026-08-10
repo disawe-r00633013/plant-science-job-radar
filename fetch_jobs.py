@@ -17,6 +17,72 @@ PLANT_TERMS=['plant','crop','hortic','agric','patholog','fung','microb','biologi
 ROLE_TERMS=['scientist','professor','research','extension','postdoc','faculty','development','pathologist','agronomist','specialist']
 SOURCE_PRIORITY={'University Official':0,'Company Official':0,'Greenhouse':0,'Lever':0,'SmartRecruiters':0,'HigherEdJobs':1,'APS Job Board':1,'AcademicJobsOnline':1,'LinkedIn':2,'Indeed':3,'Web Search':4}
 
+VALIDATION=CONFIG.get('validation',{})
+BLOCKED_DOMAINS=set(VALIDATION.get('blocked_domains',[]))
+TRUSTED_JOB_DOMAINS=VALIDATION.get('trusted_job_domains',[])
+JOB_URL_TERMS=VALIDATION.get('job_url_terms',[])
+STRONG_TITLE_TERMS=VALIDATION.get('strong_title_terms',[])
+NON_JOB_TITLE_TERMS=VALIDATION.get('non_job_title_terms',[])
+
+def _domain_match(d,p):
+    d=(d or '').lower();p=(p or '').lower()
+    return d==p or d.endswith('.'+p)
+
+def is_blocked_domain(url):
+    d=domain(url)
+    return any(_domain_match(d,p) for p in BLOCKED_DOMAINS)
+
+def is_trusted_job_domain(url):
+    d=domain(url)
+    return any(_domain_match(d,p) for p in TRUSTED_JOB_DOMAINS)
+
+def url_looks_like_job(url):
+    u=(url or '').lower()
+    return is_trusted_job_domain(url) or any(term.lower() in u for term in JOB_URL_TERMS)
+
+def title_looks_like_job(title):
+    t=stable_text(title)
+    if not t:return False
+    if any(stable_text(x) in t for x in NON_JOB_TITLE_TERMS):return False
+    return any(stable_text(x) in t for x in STRONG_TITLE_TERMS)
+
+def has_jobposting_schema(url):
+    try:
+        r=requests.get(url,headers=HEADERS,timeout=12,allow_redirects=True)
+        r.raise_for_status()
+        soup=BeautifulSoup(r.text,'html.parser')
+        for tag in soup.find_all('script',attrs={'type':'application/ld+json'}):
+            raw=tag.string or tag.get_text() or ''
+            if 'JobPosting' in raw:return True
+    except Exception:
+        pass
+    return False
+
+def validate_job_candidate(j,verify_page=False):
+    title=clean(j.get('title',''));url=j.get('url','') or ''
+    if not title:return False,'missing title'
+    if not url:return False,'missing url'
+    if is_blocked_domain(url):return False,f'blocked domain: {domain(url)}'
+    if not title_looks_like_job(title):return False,'title does not look like a job'
+    if is_trusted_job_domain(url):return True,'trusted job domain'
+    if url_looks_like_job(url):return True,'job-like URL'
+    if verify_page and has_jobposting_schema(url):return True,'JobPosting schema'
+    return False,'page is not verifiably a job posting'
+
+def validate_rows(rows):
+    kept=[];rejected=[]
+    for j in rows:
+        ok,reason=validate_job_candidate(j,verify_page=False)
+        if ok:kept.append(j)
+        else:
+            rejected.append({
+                'title':j.get('title',''),
+                'domain':domain(j.get('url','')),
+                'source':j.get('source',''),
+                'reason':reason
+            })
+    return kept,rejected
+
 def clean(x): return BeautifulSoup(x or '','html.parser').get_text(' ',strip=True)
 def domain(url):
     try:return urlparse(url).netloc.lower().replace('www.','')
@@ -126,7 +192,7 @@ def linkedin_public(keyword):
         if not a:continue
         te=card.select_one('.base-search-card__title') or card.select_one('h3'); oe=card.select_one('.base-search-card__subtitle') or card.select_one('h4'); le=card.select_one('.job-search-card__location'); ti=card.select_one('time')
         title=clean(te.get_text() if te else a.get_text()); org=clean(oe.get_text() if oe else ''); loc=clean(le.get_text() if le else 'United States')
-        if not title or not is_relevant(title+' '+org+' '+keyword) or clearly_foreign(loc):continue
+        if not title or not is_relevant(title+' '+org+' '+keyword) or clearly_foreign(loc) or not title_looks_like_job(title):continue
         rows.append({'title':title,'organization':org,'location':normalize_location(loc),'sector':'industry','source':'LinkedIn','source_group':'Public Search','url':urljoin(url,a.get('href','')),'snippet':'','posted_date':ti.get('datetime','') if ti else '','deadline':'','domain':'linkedin.com','us_only':True})
     return rows
 
@@ -135,17 +201,23 @@ def indeed_public(keyword):
     r=requests.get(url,headers=HEADERS,timeout=25);r.raise_for_status();s=BeautifulSoup(r.text,'html.parser');rows=[]
     for a in s.select("a.jcs-JobTitle, a[data-jk], a[href*='/viewjob']"):
         title=clean(a.get_text());
-        if not title or not is_relevant(title+' '+keyword):continue
+        if not title or not is_relevant(title+' '+keyword) or not title_looks_like_job(title):continue
         card=a.find_parent(['div','li']); text=clean(card.get_text(' ',strip=True)) if card else title
         rows.append({'title':title,'organization':'','location':infer_location(text),'sector':'industry','source':'Indeed','source_group':'Public Search','url':urljoin('https://www.indeed.com',a.get('href','')),'snippet':text[:700],'posted_date':'','deadline':'','domain':'indeed.com','us_only':True})
     return rows
 
 def bing_rss(query,sector,source_hint=None):
     url='https://www.bing.com/search?format=rss&count=50&q='+urllib.parse.quote(query)
-    r=requests.get(url,headers=HEADERS,timeout=25);r.raise_for_status();root=ET.fromstring(r.text);rows=[]
+    r=requests.get(url,headers=HEADERS,timeout=25);r.raise_for_status()
+    root=ET.fromstring(r.text);rows=[]
     for it in root.findall('.//item'):
-        title=clean(it.findtext('title',''));link=(it.findtext('link','') or '').strip();desc=clean(it.findtext('description',''));pub=it.findtext('pubDate','');text=f'{title} {desc}'
-        if not link or not is_relevant(text) or clearly_foreign(text):continue
+        title=clean(it.findtext('title',''));link=(it.findtext('link','') or '').strip()
+        desc=clean(it.findtext('description',''));pub=it.findtext('pubDate','')
+        text=f'{title} {desc}'
+        if not link or clearly_foreign(text):continue
+        if not is_relevant(text) or not title_looks_like_job(title):continue
+        if is_blocked_domain(link):continue
+
         d=domain(link)
         if 'linkedin.com' in d:src,grp='LinkedIn','Indexed Search'
         elif 'indeed.com' in d:src,grp='Indeed','Indexed Search'
@@ -153,7 +225,14 @@ def bing_rss(query,sector,source_hint=None):
         elif 'academicjobsonline.org' in d:src,grp='AcademicJobsOnline','Academic Board'
         elif 'higheredjobs.com' in d:src,grp='HigherEdJobs','Academic Board'
         else:src,grp=(source_hint or 'Web Search'),('Official / Search' if source_hint else 'Web Search')
-        rows.append({'title':title[:240],'organization':'','location':infer_location(text),'sector':sector,'source':src,'source_group':grp,'url':link,'snippet':desc[:800],'posted_date':pub,'deadline':'','domain':d,'us_only':True})
+
+        candidate={'title':title[:240],'organization':'','location':infer_location(text),
+                   'sector':sector,'source':src,'source_group':grp,'url':link,
+                   'snippet':desc[:800],'posted_date':pub,'deadline':'',
+                   'domain':d,'us_only':True}
+
+        if is_trusted_job_domain(link) or url_looks_like_job(link) or has_jobposting_schema(link):
+            rows.append(candidate)
     return rows
 
 def company_search(company,career_domain):
@@ -270,13 +349,24 @@ def main():
         try:got=fetch_smartrecruiters(company);rows.extend(got);total+=len(got);ok+=1
         except Exception as e:errors.append(f'SmartRecruiters {company}: {type(e).__name__}')
     reports.append(source_report('SmartRecruiters ATS',total,ok>0 if CONFIG.get('smartrecruiters_companies') else True))
+    rows,rejected_current=validate_rows(rows)
     live=merge_duplicates(rows);merged={}
     for j in live:
         j['id']=job_id(j);j['legacy_ids']=list(dict.fromkeys([legacy_url_id(j.get('url',''))]+(j.get('legacy_ids') or [])));prev=old_map.get(j['id'],{});j['first_seen']=prev.get('first_seen',j.get('first_seen',today_s));j['last_seen']=today_s
         if prev.get('deadline') and not j.get('deadline'):j['deadline']=prev['deadline']
         merged[j['id']]=j
     retain=int(CONFIG.get('app',{}).get('retain_old_days',90))
+    rejected_old=[]
     for j in old:
+        ok_job,reason=validate_job_candidate(j,verify_page=False)
+        if not ok_job:
+            rejected_old.append({
+                'title':j.get('title',''),
+                'domain':domain(j.get('url','')),
+                'source':j.get('source',''),
+                'reason':reason
+            })
+            continue
         jid=j.get('id') or job_id(j);j['id']=jid
         if jid in merged:continue
         dl=parse_date(j.get('deadline',''));last=parse_date(j.get('last_seen','') or j.get('first_seen',''))
@@ -288,6 +378,21 @@ def main():
         except:pass
     sc={};sec={'industry':0,'academia':0}
     for j in jobs:sc[j.get('source','Unknown')]=sc.get(j.get('source','Unknown'),0)+1;sec[j.get('sector','industry')]=sec.get(j.get('sector','industry'),0)+1
-    JOBS_PATH.write_text(json.dumps({'jobs':jobs},ensure_ascii=False,indent=2),encoding='utf-8');STATUS_PATH.write_text(json.dumps({'version':7,'last_updated':datetime.now(timezone.utc).isoformat(),'job_count':len(jobs),'sector_counts':sec,'source_counts':sc,'sources':reports,'errors':errors},ensure_ascii=False,indent=2),encoding='utf-8')
-    print(f'v7 saved {len(jobs)} jobs: {sec}. Sources: {sc}. Non-fatal errors: {len(errors)}')
+    JOBS_PATH.write_text(json.dumps({'jobs':jobs},ensure_ascii=False,indent=2),encoding='utf-8')
+    STATUS_PATH.write_text(json.dumps({
+        'version':8,
+        'last_updated':datetime.now(timezone.utc).isoformat(),
+        'job_count':len(jobs),
+        'sector_counts':sec,
+        'source_counts':sc,
+        'sources':reports,
+        'validation':{
+            'rejected_current_count':len(rejected_current),
+            'rejected_old_count':len(rejected_old),
+            'recent_rejections':(rejected_current+rejected_old)[:25]
+        },
+        'errors':errors
+    },ensure_ascii=False,indent=2),encoding='utf-8')
+    print(f'v8 saved {len(jobs)} jobs: {sec}. Sources: {sc}. Non-fatal errors: {len(errors)}')
+    print(f'Validation rejected current={len(rejected_current)}, old={len(rejected_old)}')
 if __name__=='__main__':main()

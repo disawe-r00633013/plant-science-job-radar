@@ -1,10 +1,10 @@
 
-const PREF_KEY="plantScienceCareerRadarPrefsV7";
-const STATE_KEY="plantScienceCareerRadarJobStateV7";
-const LEGACY_KEYS=["plantScienceCareerRadarJobStateV6","plantScienceCareerRadarJobStateV5","plantScienceCareerRadarJobStateV4","plantScienceCareerRadarJobStateV3"];
-const SYNC_CONFIG_KEY="plantScienceCareerRadarGithubSyncV7";
-const SYNC_TOKEN_KEY="plantScienceCareerRadarGithubTokenV7";
-const SYNC_TOKEN_SESSION_KEY="plantScienceCareerRadarGithubTokenSessionV7";
+const PREF_KEY="plantScienceCareerRadarPrefsV8";
+const STATE_KEY="plantScienceCareerRadarJobStateV8";
+const LEGACY_KEYS=["plantScienceCareerRadarJobStateV7","plantScienceCareerRadarJobStateV6","plantScienceCareerRadarJobStateV5","plantScienceCareerRadarJobStateV4","plantScienceCareerRadarJobStateV3"];
+const SYNC_CONFIG_KEY="plantScienceCareerRadarGithubSyncV8";
+const SYNC_TOKEN_KEY="plantScienceCareerRadarGithubTokenV8";
+const SYNC_TOKEN_SESSION_KEY="plantScienceCareerRadarGithubTokenSessionV8";
 
 let CONFIG=null,JOBS=[],STATUS={},prefs=null,stage="new",quickTopic="all",editingJobId=null,syncTimer=null,syncInFlight=false;
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
@@ -137,6 +137,11 @@ function renderStatus(){
   $("#lastUpdated").textContent=STATUS.last_updated?new Date(STATUS.last_updated).toLocaleString("zh-TW",{month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"}):"尚未更新";
   const errs=STATUS.errors||[];
   if(errs.length){$("#sourceAlert").classList.remove("hidden");$("#sourceAlert").innerHTML=`<strong>部分來源未成功：</strong> ${esc(errs.slice(0,5).join("；"))}${errs.length>5?`；另 ${errs.length-5} 個來源錯誤`:""}。其他來源與舊資料仍會保留。`}else $("#sourceAlert").classList.add("hidden");
+  const vs=$("#validationSummary");
+  if(vs){
+    const v=STATUS.validation||{}, current=Number(v.rejected_current_count||0), old=Number(v.rejected_old_count||0);
+    vs.innerHTML=`品質檢查：本輪排除 <strong>${current}</strong> 筆非職缺${old?`，並從舊資料庫清除 <strong>${old}</strong> 筆誤判`:""}。`;
+  }
   const health=$("#sourceHealth");if(health){health.innerHTML="";(STATUS.sources||[]).forEach(s=>{const d=document.createElement("div");d.className=`health-item ${s.ok?"ok":"bad"}`;d.innerHTML=`<div class="health-top"><strong>${esc(s.name||"Source")}</strong><b>${Number(s.count||0)} 筆</b></div><small>${esc(s.note||(s.ok?"已完成":"本次失敗"))}</small>`;health.appendChild(d)})}
 }
 function filtered(){

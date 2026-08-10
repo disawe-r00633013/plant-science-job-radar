@@ -5,7 +5,7 @@
     "new_days": 7,
     "stale_after_days": 45,
     "retain_old_days": 90,
-    "version": 7
+    "version": 8
   },
   "default_preferences": {
     "sectors": [
@@ -368,5 +368,94 @@
       "source_hint": "Indeed",
       "query": "site:indeed.com/viewjob biologicals scientist agriculture United States"
     }
-  ]
+  ],
+  "validation": {
+    "blocked_domains": [
+      "chromewebstore.google.com",
+      "youtube.com",
+      "youtu.be",
+      "wikipedia.org",
+      "amazon.com",
+      "facebook.com",
+      "instagram.com",
+      "reddit.com",
+      "medium.com",
+      "pinterest.com",
+      "x.com",
+      "twitter.com",
+      "tiktok.com",
+      "quora.com",
+      "github.com",
+      "docs.google.com"
+    ],
+    "trusted_job_domains": [
+      "linkedin.com",
+      "indeed.com",
+      "higheredjobs.com",
+      "jobs.apsnet.org",
+      "academicjobsonline.org",
+      "greenhouse.io",
+      "lever.co",
+      "smartrecruiters.com",
+      "myworkdayjobs.com",
+      "workdayjobs.com"
+    ],
+    "job_url_terms": [
+      "/job",
+      "/jobs",
+      "/career",
+      "/careers",
+      "/position",
+      "/positions",
+      "/posting",
+      "/postings",
+      "jobid=",
+      "jobcode=",
+      "requisition"
+    ],
+    "strong_title_terms": [
+      "scientist",
+      "professor",
+      "researcher",
+      "research associate",
+      "research specialist",
+      "extension specialist",
+      "extension educator",
+      "postdoctoral",
+      "postdoc",
+      "agronomist",
+      "pathologist",
+      "horticulturist",
+      "microbiologist",
+      "physiologist",
+      "product development",
+      "field development",
+      "field scientist",
+      "principal scientist",
+      "senior scientist",
+      "r&d scientist",
+      "research scientist",
+      "assistant professor",
+      "associate professor"
+    ],
+    "non_job_title_terms": [
+      "chrome web store",
+      "web store",
+      "home page",
+      "homepage",
+      "news",
+      "article",
+      "blog",
+      "research paper",
+      "journal",
+      "conference",
+      "webinar",
+      "course",
+      "program overview",
+      "department of",
+      "school of",
+      "extension publication",
+      "pdf"
+    ]
+  }
 }
