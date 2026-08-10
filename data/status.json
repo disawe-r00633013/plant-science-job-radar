@@ -1,70 +1,242 @@
 {
-  "last_updated": "2026-08-10T03:52:00.087602+00:00",
-  "job_count": 1,
-  "counts": {
-    "Company / University site": 1
+  "version": 8,
+  "last_updated": "2026-08-10T05:03:45.365983+00:00",
+  "job_count": 136,
+  "sector_counts": {
+    "industry": 125,
+    "academia": 11
+  },
+  "source_counts": {
+    "University of Florida": 1,
+    "SmartRecruiters": 6,
+    "LinkedIn": 119,
+    "HigherEdJobs": 9,
+    "AcademicJobsOnline": 1
   },
   "sources": [
     {
-      "source": "LinkedIn scientists",
-      "count": 0,
-      "ok": true
+      "name": "Recovery seed",
+      "count": 3,
+      "ok": true,
+      "note": "Known current jobs used only as a safety net"
     },
     {
-      "source": "LinkedIn product development",
-      "count": 0,
-      "ok": true
+      "name": "HigherEdJobs direct",
+      "count": 10,
+      "ok": true,
+      "note": ""
     },
     {
-      "source": "LinkedIn plant health",
+      "name": "APS Job Board direct",
       "count": 0,
-      "ok": true
+      "ok": true,
+      "note": ""
     },
     {
-      "source": "Indeed scientists",
-      "count": 0,
-      "ok": true
+      "name": "LinkedIn public search",
+      "count": 295,
+      "ok": true,
+      "note": "10/10 searches responded"
     },
     {
-      "source": "Indeed product development",
+      "name": "Indeed public search",
       "count": 0,
-      "ok": true
+      "ok": false,
+      "note": "0/6 searches responded"
     },
     {
-      "source": "Company career sites",
+      "name": "Company career searches",
       "count": 0,
-      "ok": true
+      "ok": true,
+      "note": "13/13 companies queried"
     },
     {
-      "source": "Agriculture R&D general",
+      "name": "Indexed fallback searches",
       "count": 0,
-      "ok": true
+      "ok": true,
+      "note": "6/6 searches responded"
     },
     {
-      "source": "Crop R&D general",
+      "name": "Greenhouse ATS",
       "count": 0,
-      "ok": true
+      "ok": true,
+      "note": "0 boards discovered"
     },
     {
-      "source": "HigherEdJobs faculty",
+      "name": "Lever ATS",
       "count": 0,
-      "ok": true
+      "ok": true,
+      "note": "0 sites discovered"
     },
     {
-      "source": "AcademicJobsOnline",
-      "count": 0,
-      "ok": true
-    },
-    {
-      "source": "University extension research",
-      "count": 0,
-      "ok": true
-    },
-    {
-      "source": "University plant microbe",
-      "count": 0,
-      "ok": true
+      "name": "SmartRecruiters ATS",
+      "count": 117,
+      "ok": true,
+      "note": ""
     }
   ],
-  "errors": []
+  "validation": {
+    "rejected_current_count": 113,
+    "rejected_old_count": 1,
+    "recent_rejections": [
+      {
+        "title": "Teaching Specialist (# 375269)",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Teaching Specialist (# 375288)",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Quality Control Technician",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Area Sales Manager",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Regulated and Stewardship Specialist",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Regulated and Stewardship Specialist",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Regulated and Stewardship Specialist",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Operations Manager",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Area Sales Manager",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Area Sales Manager",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Data Partnerships Lead",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Operation Specialist - Field",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Operations Specialist - Data & Quality",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Production Technician 1",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Production Technician 1",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Production Technician 1",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Production Technician 1",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Production Technician 1",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Production Technician",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Production Technician",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Production Technician",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Production Technician",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Production Technician",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "NK Sales Representative",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Golden Harvest Sales Representative",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      }
+    ]
+  },
+  "errors": [
+    "Indeed 'plant pathology scientist': HTTPError",
+    "Indeed 'biologicals scientist agriculture': HTTPError",
+    "Indeed 'crop protection research scientist': HTTPError",
+    "Indeed 'horticulture scientist': HTTPError",
+    "Indeed 'postharvest scientist': HTTPError",
+    "Indeed 'field development scientist agriculture': HTTPError"
+  ]
 }

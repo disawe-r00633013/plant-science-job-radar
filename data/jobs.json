@@ -1,19 +1,3014 @@
 {
   "jobs": [
     {
-      "title": "Chrome Web Store",
-      "url": "https://chromewebstore.google.com/",
-      "snippet": "Supercharge your browser with extensions and themes for Chrome. Discover the standout AI extensions that made our year. Plant trees, shop sustainably, and more. Easily remove backgrounds,...",
-      "organization": "Chromewebstore",
-      "location": "United States",
+      "title": "Assistant or Associate Professor of Phytopathology in Controlled and Space Environments",
+      "organization": "University of Florida",
+      "location": "Orange, FL",
       "sector": "academia",
-      "source": "Company / University site",
-      "source_group": "Official / ATS",
-      "domain": "chromewebstore.google.com",
-      "posted_date": "Sun, 09 Aug 2026 16:13:00 GMT",
+      "source": "University of Florida",
+      "source_group": "University Official",
+      "url": "https://explore.jobs.ufl.edu/en-us/job/539777/assistant-or-associate-professor-of-phytopathology-in-controlled-and-space-environments",
+      "snippet": "Tenure-track faculty position in pathogen biology with emphasis on controlled environments and space environments.",
+      "posted_date": "2026-05-04",
+      "deadline": "",
       "us_only": true,
-      "query_name": "University extension research",
-      "id": "a76e063b370e58ec0f",
+      "seed": true,
+      "id": "d03626c89aa70a0700",
+      "legacy_ids": [
+        "cb2dcfe2e5f34f0e97"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Scientist ll",
+      "organization": "SyngentaGroup",
+      "location": "Malta, ILLINOIS, us",
+      "sector": "industry",
+      "source": "SmartRecruiters",
+      "source_group": "Official ATS",
+      "url": "https://jobs.smartrecruiters.com/SyngentaGroup/744000141973979",
+      "snippet": "",
+      "posted_date": "2026-08-06T17:27:06.740Z",
+      "deadline": "",
+      "domain": "jobs.smartrecruiters.com",
+      "us_only": true,
+      "id": "840b55b954cdd3fd6a",
+      "legacy_ids": [
+        "9ed299233e0117350a"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Environmental Fate and Exposure Scientist",
+      "organization": "SyngentaGroup",
+      "location": "Greensboro, North Carolina, us",
+      "sector": "industry",
+      "source": "SmartRecruiters",
+      "source_group": "Official ATS",
+      "url": "https://jobs.smartrecruiters.com/SyngentaGroup/744000140209870",
+      "snippet": "",
+      "posted_date": "2026-07-28T11:08:04.751Z",
+      "deadline": "",
+      "domain": "jobs.smartrecruiters.com",
+      "us_only": true,
+      "id": "87d2b4c961186ec446",
+      "legacy_ids": [
+        "c9d48a59386aa76c54"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Product Placement Scientist",
+      "organization": "SyngentaGroup",
+      "location": "Philadelphia, PENNSYLVANIA, us",
+      "sector": "industry",
+      "source": "SmartRecruiters",
+      "source_group": "Official ATS",
+      "url": "https://jobs.smartrecruiters.com/SyngentaGroup/744000140078579",
+      "snippet": "",
+      "posted_date": "2026-07-27T19:16:19.891Z",
+      "deadline": "",
+      "domain": "jobs.smartrecruiters.com",
+      "us_only": true,
+      "id": "f72b1ba36308d98418",
+      "legacy_ids": [
+        "dd69929317ec0cfd40"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Genotyping Chemistry Scientist",
+      "organization": "SyngentaGroup",
+      "location": "Malta, ILLINOIS, us",
+      "sector": "industry",
+      "source": "SmartRecruiters",
+      "source_group": "Official ATS",
+      "url": "https://jobs.smartrecruiters.com/SyngentaGroup/744000137148044",
+      "snippet": "",
+      "posted_date": "2026-07-10T14:14:57.835Z",
+      "deadline": "",
+      "domain": "jobs.smartrecruiters.com",
+      "us_only": true,
+      "id": "af83cb128c3349f7bf",
+      "legacy_ids": [
+        "0751b3c2f4136369f3"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Applied Double Haploid Scientist",
+      "organization": "SyngentaGroup",
+      "location": "Nampa, Idaho, us",
+      "sector": "industry",
+      "source": "SmartRecruiters",
+      "source_group": "Official ATS",
+      "url": "https://jobs.smartrecruiters.com/SyngentaGroup/744000135035665",
+      "snippet": "",
+      "posted_date": "2026-06-30T14:25:49.592Z",
+      "deadline": "",
+      "domain": "jobs.smartrecruiters.com",
+      "us_only": true,
+      "id": "f6efc70904a3cf0f0c",
+      "legacy_ids": [
+        "7fed805247a7755ecd"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Scientist NA SPR Field Technology",
+      "organization": "SyngentaGroup",
+      "location": "Waterloo, NE, us",
+      "sector": "industry",
+      "source": "SmartRecruiters",
+      "source_group": "Official ATS",
+      "url": "https://jobs.smartrecruiters.com/SyngentaGroup/744000126312346",
+      "snippet": "",
+      "posted_date": "2026-05-13T13:20:26.968Z",
+      "deadline": "",
+      "domain": "jobs.smartrecruiters.com",
+      "us_only": true,
+      "id": "79fc1db2ed691319c3",
+      "legacy_ids": [
+        "aa4104008d867a10cf"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Research Scientist",
+      "organization": "Vylor",
+      "location": "Des Moines, IA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/research-scientist-at-vylor-4450391122?position=1&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=2Om6YaIloRrY%2F67L%2Fs%2FkCQ%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-07",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/research-scientist-at-vylor-4450391122?position=3&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=mhEuardFihLcyui0qXkSIA%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-scientist-at-vylor-4450391122?position=5&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=AcMRnjcMfv7NygY5RqvuWQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-scientist-at-vylor-4450391122?position=37&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=GKbcIzd336XCjRQJWGqPdQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-scientist-at-vylor-4450391122?position=7&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=p4ddHXoGFRr%2BWvGm0Pgn2A%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-scientist-at-vylor-4450391122?position=28&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=fQ%2BTYeuMIjIJwa8cBFTAEQ%3D%3D"
+      ],
+      "id": "d921d76817a2541a2b",
+      "legacy_ids": [
+        "4e64769e934cb2c174"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Research Associate",
+      "organization": "North Carolina State University",
+      "location": "Mills River, NC",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/research-associate-at-north-carolina-state-university-4446420212?position=2&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=HZGgDUa72iJ1WG7mgLga%2Fw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-29",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/research-associate-at-north-carolina-state-university-4446420212?position=2&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=ButuRRWGxKGX1%2FWSpxIJsg%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-associate-at-north-carolina-state-university-4446420212?position=32&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=BssYa7%2BoNeYWDW%2BgQp9TdQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-associate-at-north-carolina-state-university-4446420212?position=26&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=hAlAAggVuiwoh74HfSA4wg%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-associate-at-north-carolina-state-university-4446420212?position=19&pageNum=0&refId=kNY6Y9NkkcufqkAmEB5T1g%3D%3D&trackingId=3v5cYFzwnnGE7AlQqhUj0Q%3D%3D"
+      ],
+      "id": "8e0866048fdb0a691e",
+      "legacy_ids": [
+        "2c59ed3c70ee571a6a"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Scientist - Plant Pathology / Disease Phenotyping",
+      "organization": "Radiant Systems Inc",
+      "location": "Johnston, IA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/scientist-plant-pathology-disease-phenotyping-at-radiant-systems-inc-4444382631?position=3&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=t9icMVjpqOm1NAEoP%2FEwoA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-07",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/scientist-plant-pathology-disease-phenotyping-at-radiant-systems-inc-4444382631?position=13&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=c%2Fv0Y4GVcVYU4KWOfl1u5Q%3D%3D",
+        "https://www.linkedin.com/jobs/view/scientist-plant-pathology-disease-phenotyping-at-radiant-systems-inc-4444382631?position=55&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=hswS%2B1u3%2FhyTlkdZnrCiEQ%3D%3D"
+      ],
+      "id": "b8f823f45e65af5074",
+      "legacy_ids": [
+        "22746e857dd19ca9a6"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Research Scientist- Plant Health, Biologicals & Crop Protection",
+      "organization": "Exacto",
+      "location": "Madison, WI",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/research-scientist-plant-health-biologicals-crop-protection-at-exacto-4449769405?position=4&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=fj6NwsLAt8PI6uQhMp1LEQ%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-06",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/research-scientist-plant-health-biologicals-crop-protection-at-exacto-4449769405?position=1&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=OV%2BiDouNYkx0JbEgEjkvRw%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-scientist-plant-health-biologicals-crop-protection-at-exacto-4449769405?position=34&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=nshEX0Xc7RE69fQXxq1ddw%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-scientist-plant-health-biologicals-crop-protection-at-exacto-4449769405?position=48&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=jBNt2gZhgnRemPzrstKUiQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-scientist-plant-health-biologicals-crop-protection-at-exacto-4449769405?position=10&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=wckAwQPR%2Bjzec97%2F1Bfbyg%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-scientist-plant-health-biologicals-crop-protection-at-exacto-4449769405?position=21&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=%2FW8607oSXbo5eIp8xKPj2A%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-scientist-plant-health-biologicals-crop-protection-at-exacto-4449769405?position=39&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=NhZxG7bf2vZ7E3Q2jTcuDw%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-scientist-plant-health-biologicals-crop-protection-at-exacto-4449769405?position=49&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=%2BCDwITvQm5OdSKhSvRzr%2Bg%3D%3D"
+      ],
+      "id": "1c0ed8437283246598",
+      "legacy_ids": [
+        "11e4b9334e62a2a910"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Assistant/Associate Professor of Plant Disease Resistance",
+      "organization": "University of Florida - Chemical Engineering Masters Program",
+      "location": "Gainesville, FL",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/assistant-associate-professor-of-plant-disease-resistance-at-university-of-florida-chemical-engineering-masters-program-4447094682?position=5&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=BWN6dRHTJ9NUBo5bDAytAQ%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-30",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/assistant-associate-professor-of-plant-disease-resistance-at-university-of-florida-chemical-engineering-masters-program-4447094682?position=16&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=jbRT%2Fk6PLnWPbu%2BbREZv6w%3D%3D"
+      ],
+      "id": "6904542acdf7789c17",
+      "legacy_ids": [
+        "0cf889ae9542facb58"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Global Nursery Pest and Disease Prevention and Management Scientist",
+      "organization": "Driscoll Strawberry Assoc Inc",
+      "location": "Watsonville, CA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/global-nursery-pest-and-disease-prevention-and-management-scientist-at-driscoll-strawberry-assoc-inc-4451089188?position=6&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=6bi2qqp3JzXTLX%2FiYrN5Yg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-08",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/global-nursery-pest-and-disease-prevention-and-management-scientist-at-driscoll-strawberry-assoc-inc-4451089188?position=21&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=4RQJoo97%2B2a4On4ppAK3HA%3D%3D",
+        "https://www.linkedin.com/jobs/view/global-nursery-pest-and-disease-prevention-and-management-scientist-at-driscoll-strawberry-assoc-inc-4451089188?position=11&pageNum=0&refId=kNY6Y9NkkcufqkAmEB5T1g%3D%3D&trackingId=05OPUD3ROEdItegV0GQrNA%3D%3D"
+      ],
+      "id": "59e65a7cfbf3ad303a",
+      "legacy_ids": [
+        "a78a2c8fc1c8b3ce0d"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Research Assistant Scientist",
+      "organization": "University of Florida - Chemical Engineering Masters Program",
+      "location": "Gainesville, FL",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/research-assistant-scientist-at-university-of-florida-chemical-engineering-masters-program-4441450006?position=8&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=XOzpPXEtCeiQKZ%2Fm71Cupg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-16",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/research-assistant-scientist-at-university-of-florida-chemical-engineering-masters-program-4441450006?position=32&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=grHdb0MHiH6Xt510yYmi4w%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-assistant-scientist-at-university-of-florida-chemical-engineering-masters-program-4441450006?position=24&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=qWrELyjHxOBw6JPI8ET51A%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-assistant-scientist-at-university-of-florida-chemical-engineering-masters-program-4441450006?position=44&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=dw0l%2FpKst2%2FesvQGtxXHJg%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-assistant-scientist-at-university-of-florida-chemical-engineering-masters-program-4441450006?position=8&pageNum=0&refId=kNY6Y9NkkcufqkAmEB5T1g%3D%3D&trackingId=iTxHpv%2BcufmmLQ5KmrfT1w%3D%3D"
+      ],
+      "id": "e90f515605dde89a8a",
+      "legacy_ids": [
+        "3bbc8ad569b0a01838"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Research Associate-Plant Pathology",
+      "organization": "UGA College of Agricultural and Environmental Sciences",
+      "location": "Athens, GA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/research-associate-plant-pathology-at-uga-college-of-agricultural-and-environmental-sciences-4447810024?position=10&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=8bfsuahRqP9WJbZCA3nU6w%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-01",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "6a86e7058dfcf4735c",
+      "legacy_ids": [
+        "dd42481a58cad78483"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Associate Scientist",
+      "organization": "Pivot Bio",
+      "location": "Hazelwood, MO",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/associate-scientist-at-pivot-bio-4439271622?position=11&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=%2Btmo0tnvn7AGzA8p2Z6ZXQ%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-08",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/associate-scientist-at-pivot-bio-4439271622?position=20&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=JAuvJAiE8YNV9epDyPWTdg%3D%3D",
+        "https://www.linkedin.com/jobs/view/associate-scientist-at-pivot-bio-4439271622?position=2&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=yOPyB8U97dlfdb8t0dmMmg%3D%3D",
+        "https://www.linkedin.com/jobs/view/associate-scientist-at-pivot-bio-4439271622?position=7&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=TtHMqnV5BviIa5EorGF77w%3D%3D",
+        "https://www.linkedin.com/jobs/view/associate-scientist-at-pivot-bio-4439271622?position=6&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=i08EGjNAVTwfo9UFh16fcg%3D%3D",
+        "https://www.linkedin.com/jobs/view/associate-scientist-at-pivot-bio-4439271622?position=44&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=ZnCLX75NL9DX2%2FbEAUunlw%3D%3D",
+        "https://www.linkedin.com/jobs/view/associate-scientist-at-pivot-bio-4439271622?position=17&pageNum=0&refId=Gbds4Xq9asqPfme5CTozxQ%3D%3D&trackingId=d%2Br%2BTMZhSfnzsj66Jz9Kkg%3D%3D",
+        "https://www.linkedin.com/jobs/view/associate-scientist-at-pivot-bio-4439271622?position=6&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=pFgYsqAnw8NrRtF2mgr2sw%3D%3D",
+        "https://www.linkedin.com/jobs/view/associate-scientist-at-pivot-bio-4439271622?position=6&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=SkCYvFrMezPOPtMJ5wCLRQ%3D%3D"
+      ],
+      "id": "ccdda9bd2b7c4abc10",
+      "legacy_ids": [
+        "0919537b8a8462c76f"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Research Scientist",
+      "organization": "Michigan Sugar Company",
+      "location": "Michigan, United States",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/research-scientist-at-michigan-sugar-company-4417191806?position=15&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=C1KjO0mLzFmgUdr7a2O1KA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-26",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/research-scientist-at-michigan-sugar-company-4417191806?position=4&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=kmiEAMBnUjAGvljjqBWYAg%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-scientist-at-michigan-sugar-company-4417191806?position=25&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=U3coBv8dnbdmj%2F%2FTgu4m4w%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-scientist-at-michigan-sugar-company-4417191806?position=4&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=lC5eoA0q6IUmEtpRPqjOrw%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-scientist-at-michigan-sugar-company-4417191806?position=5&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=5N%2BhVeMqs1qd1Rkdbze5UA%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-scientist-at-michigan-sugar-company-4417191806?position=10&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=OmXcWy9nZIiFmqST4C1%2Few%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-scientist-at-michigan-sugar-company-4417191806?position=9&pageNum=0&refId=kNY6Y9NkkcufqkAmEB5T1g%3D%3D&trackingId=HCgu56u11kkk%2FD9OStpDeQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-scientist-at-michigan-sugar-company-4417191806?position=39&pageNum=0&refId=Gbds4Xq9asqPfme5CTozxQ%3D%3D&trackingId=8uzKwQkace76k29Oh7hFPg%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-scientist-at-michigan-sugar-company-4417191806?position=17&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=mEYNKXnK64K32QxP2Vs%2BMQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-scientist-at-michigan-sugar-company-4417191806?position=2&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=F%2Bko%2FrnRTvlquBoiH0ebdQ%3D%3D"
+      ],
+      "id": "331b6fa9f15678afeb",
+      "legacy_ids": [
+        "5f000a4b7831e86439"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Technical Agronomist III",
+      "organization": "Bayer",
+      "location": "Nebraska, United States",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/technical-agronomist-iii-at-bayer-4433382521?position=16&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=u9VMdPxRY7CuKcpEVt18yA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-22",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/technical-agronomist-iii-at-bayer-4433382521?position=22&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=EEduzsptYeY8SZNCB2ZgiQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/technical-agronomist-iii-at-bayer-4433382521?position=41&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=qFyLuB2mCtb7mJ0nC4OJsA%3D%3D"
+      ],
+      "id": "3b8ce4ea48ee0f152c",
+      "legacy_ids": [
+        "2250ccbadd7219908d"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Senior Scientist / Engineer (Agricultural Chemistry / Plant Toxicology)",
+      "organization": "ECS",
+      "location": "Greater Richmond Region",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/senior-scientist-engineer-agricultural-chemistry-plant-toxicology-at-ecs-4442773795?position=21&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=ouopY5Btdk%2Fiw7%2Fqq4jodg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-20",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/senior-scientist-engineer-agricultural-chemistry-plant-toxicology-at-ecs-4442773795?position=7&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=mtg9%2F8bli8p%2Bib3%2Ffu86Cw%3D%3D",
+        "https://www.linkedin.com/jobs/view/senior-scientist-engineer-agricultural-chemistry-plant-toxicology-at-ecs-4442773795?position=1&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=fURIm2LUCbdEncckmaPIuw%3D%3D",
+        "https://www.linkedin.com/jobs/view/senior-scientist-engineer-agricultural-chemistry-plant-toxicology-at-ecs-4442773795?position=1&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=x3T7GfUhzl4gj7EiR%2FnSHA%3D%3D",
+        "https://www.linkedin.com/jobs/view/senior-scientist-engineer-agricultural-chemistry-plant-toxicology-at-ecs-4442773795?position=2&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=IKwxdvya0gT4vcJut1W8cQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/senior-scientist-engineer-agricultural-chemistry-plant-toxicology-at-ecs-4442773795?position=58&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=cpHDj38GCJ68mSMiygDcFg%3D%3D",
+        "https://www.linkedin.com/jobs/view/senior-scientist-engineer-agricultural-chemistry-plant-toxicology-at-ecs-4442773795?position=24&pageNum=0&refId=kNY6Y9NkkcufqkAmEB5T1g%3D%3D&trackingId=iu9iBj2vgKKGxbZnfaoL8A%3D%3D",
+        "https://www.linkedin.com/jobs/view/senior-scientist-engineer-agricultural-chemistry-plant-toxicology-at-ecs-4442773795?position=13&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=8QN9ZdUTg7K65S0FLsYm1A%3D%3D",
+        "https://www.linkedin.com/jobs/view/senior-scientist-engineer-agricultural-chemistry-plant-toxicology-at-ecs-4442773795?position=1&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=0sV2%2F5c9SZd%2BaoOTNFOY9Q%3D%3D"
+      ],
+      "id": "54011f788d5eeb2c37",
+      "legacy_ids": [
+        "02b47cff0bb99a2b2b"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Plant Scientists",
+      "organization": "JobsPeopleDo.com",
+      "location": "Plant City, FL",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/plant-scientists-at-jobspeopledo-com-4449486777?position=22&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=rZtwh1RLZt7BTcKwQ2OOdw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-05",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/plant-scientists-at-jobspeopledo-com-4449486777?position=27&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=4Pg98KzCN5eYWHidahnwlw%3D%3D",
+        "https://www.linkedin.com/jobs/view/plant-scientists-at-jobspeopledo-com-4449486777?position=52&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=xlVTsh2nIuhor0bSMDZW7g%3D%3D",
+        "https://www.linkedin.com/jobs/view/plant-scientists-at-jobspeopledo-com-4449486777?position=5&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=yJD%2FzYki42ueYpI1qQcZKw%3D%3D",
+        "https://www.linkedin.com/jobs/view/plant-scientists-at-jobspeopledo-com-4449486777?position=19&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=p04ujrnUIN8i7t%2B5Lk%2BnNg%3D%3D"
+      ],
+      "id": "ab581cd66f5f9d1542",
+      "legacy_ids": [
+        "08c74ba8f6ecb2d1a7"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Research Associate",
+      "organization": "Tennessee State University",
+      "location": "Nashville, TN",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/research-associate-at-tennessee-state-university-4447084717?position=23&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=%2BTBAc%2Fmpzu2gIC5ycpXuSw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-30",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/research-associate-at-tennessee-state-university-4447084717?position=37&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=Uas6Md6GM%2FBR4c3O4LPNLA%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-associate-at-tennessee-state-university-4447084717?position=41&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=ISikJS2Rk4y5mE%2Fa79NtzQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-associate-at-tennessee-state-university-4447084717?position=41&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=zRu0qxjkBE%2BwrJFrHysjYw%3D%3D"
+      ],
+      "id": "d33243f24255c8554b",
+      "legacy_ids": [
+        "7225ea814058898a09"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Agronomist - Plant Biology",
+      "organization": "Plantible",
+      "location": "Eldorado, TX",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/agronomist-plant-biology-at-plantible-4439539337?position=26&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=gIZDCYRV1pHgkxza%2F6h%2BeA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-11",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/agronomist-plant-biology-at-plantible-4439539337?position=47&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=NN6wJxdCwDv9VffkCj7Xhw%3D%3D",
+        "https://www.linkedin.com/jobs/view/agronomist-plant-biology-at-plantible-4439539337?position=22&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=XTfF70%2B4%2B5bi4H7SBMPr0g%3D%3D",
+        "https://www.linkedin.com/jobs/view/agronomist-plant-biology-at-plantible-4439539337?position=27&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=0w4BkhfUfanaqWnVEu5vVg%3D%3D",
+        "https://www.linkedin.com/jobs/view/agronomist-plant-biology-at-plantible-4439539337?position=27&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=yL08BcvyQX46daAHCGxHww%3D%3D",
+        "https://www.linkedin.com/jobs/view/agronomist-plant-biology-at-plantible-4439539337?position=9&pageNum=0&refId=Gbds4Xq9asqPfme5CTozxQ%3D%3D&trackingId=meRFJTLkadlXogFK3bL1fQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/agronomist-plant-biology-at-plantible-4439539337?position=26&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=dYx50vUwZt7s0bsxRrLGOQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/agronomist-plant-biology-at-plantible-4439539337?position=37&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=4tl10G5nk1MfGW%2BoKFeZWw%3D%3D"
+      ],
+      "id": "b2d646adc9cfaffa3d",
+      "legacy_ids": [
+        "302095a65f64df5a36"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Product Placement Scientist",
+      "organization": "Syngenta",
+      "location": "Philadelphia, PA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/product-placement-scientist-at-syngenta-4446151469?position=27&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=UMeAJV9xrH%2BbQA7rowkoUw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-03",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/product-placement-scientist-at-syngenta-4446151469?position=12&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=19tRbnfVRMLzp6%2Fph4VE9g%3D%3D",
+        "https://www.linkedin.com/jobs/view/product-placement-scientist-at-syngenta-4446151469?position=39&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=qT56PUEbQUmYdmVkUX1sNA%3D%3D",
+        "https://www.linkedin.com/jobs/view/product-placement-scientist-at-syngenta-4446151469?position=14&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=WFCzmc0Q8ZRdZwUyU6rO6Q%3D%3D",
+        "https://www.linkedin.com/jobs/view/product-placement-scientist-at-syngenta-4446151469?position=4&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=EnLu3gYaT6AUHz5qia2vXg%3D%3D",
+        "https://www.linkedin.com/jobs/view/product-placement-scientist-at-syngenta-4446151469?position=6&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=RLt9YrxWa0tvcJxOxkiqlg%3D%3D",
+        "https://www.linkedin.com/jobs/view/product-placement-scientist-at-syngenta-4446151469?position=7&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=9uDrq9eLUEIUfpMNR%2Fw%2BzQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/product-placement-scientist-at-syngenta-4446151469?position=4&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=JHKapob6KVWlCVXzNIYI%2FA%3D%3D"
+      ],
+      "id": "f01a8b3a5745c7e68b",
+      "legacy_ids": [
+        "7935c4b43752ec8fe1"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "USDA-ARS Postdoctoral Opportunity in Molecular Plant Pathogen Research",
+      "organization": "Oak Ridge Institute for Science and Education",
+      "location": "New Orleans, LA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/usda-ars-postdoctoral-opportunity-in-molecular-plant-pathogen-research-at-oak-ridge-institute-for-science-and-education-4450793711?position=29&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=R2zdWB%2B01%2FHB0ukIl8cndA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-08",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "bdb4a1e80f37a7927a",
+      "legacy_ids": [
+        "b3645c1d0afe49f645"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Weed Scientist",
+      "organization": "The Scotts Miracle-Gro Company",
+      "location": "Marysville, OH",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/weed-scientist-at-the-scotts-miracle-gro-company-4437279505?position=30&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=4qgj54sLeVuH2hyp5hnRbA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-21",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/weed-scientist-at-the-scotts-miracle-gro-company-4437279505?position=18&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=kyRK9Io3lXDVYuN3kpKorQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/weed-scientist-at-the-scotts-miracle-gro-company-4437279505?position=48&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=fyvq3xE7DsrszQZ2La8JxA%3D%3D",
+        "https://www.linkedin.com/jobs/view/weed-scientist-at-the-scotts-miracle-gro-company-4437279505?position=10&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=V0l0GTY966jclRBoecg9ng%3D%3D",
+        "https://www.linkedin.com/jobs/view/weed-scientist-at-the-scotts-miracle-gro-company-4437279505?position=14&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=5%2Fpf1uEEXWA%2BpoAChGfcFA%3D%3D",
+        "https://www.linkedin.com/jobs/view/weed-scientist-at-the-scotts-miracle-gro-company-4437279505?position=11&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=mohLo3HNOqEwmQwGgsfWbw%3D%3D",
+        "https://www.linkedin.com/jobs/view/weed-scientist-at-the-scotts-miracle-gro-company-4437279505?position=29&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=ujKwixsglJcwVSUdPmE%2BdQ%3D%3D"
+      ],
+      "id": "1bf1765e18a587f90a",
+      "legacy_ids": [
+        "18f84ca2d700d16295"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Agronomist",
+      "organization": "Kimberly-Clark",
+      "location": "Arizona, United States",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/agronomist-at-kimberly-clark-4450254831?position=31&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=LIRtRmsdoJSFHALCm0qGVA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-06",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/agronomist-at-kimberly-clark-4450254831?position=29&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=c%2F2DNVkhIcDReuwlQFtDqQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/agronomist-at-kimberly-clark-4450254831?position=51&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=CXrD159A9IO7PftTM%2BRICQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/agronomist-at-kimberly-clark-4450254831?position=20&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=zbnr4jHPcal19mkgCJy%2BTg%3D%3D"
+      ],
+      "id": "249def1dcb09c0c3ea",
+      "legacy_ids": [
+        "1c005945f3c3e8496b"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Sr. Scientist - Agricultural Chemistry/Plant Toxicology (REMOTE)",
+      "organization": "Columbus Technologies and Services",
+      "location": "New York, NY",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/sr-scientist-agricultural-chemistry-plant-toxicology-remote-at-columbus-technologies-and-services-4442218281?position=32&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=yXkPelgfXuD6JAThxDHQEg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-20",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/sr-scientist-agricultural-chemistry-plant-toxicology-remote-at-columbus-technologies-and-services-4442218281?position=17&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=W97EPiqU7P%2B3hWxRN5RVdg%3D%3D",
+        "https://www.linkedin.com/jobs/view/sr-scientist-agricultural-chemistry-plant-toxicology-remote-at-columbus-technologies-and-services-4442218281?position=18&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=T0k1MVGvYN%2FTefx8D%2BzUzg%3D%3D",
+        "https://www.linkedin.com/jobs/view/sr-scientist-agricultural-chemistry-plant-toxicology-remote-at-columbus-technologies-and-services-4442218281?position=3&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=EwlnAv%2FjI1tFX9AthQ6Gfw%3D%3D",
+        "https://www.linkedin.com/jobs/view/sr-scientist-agricultural-chemistry-plant-toxicology-remote-at-columbus-technologies-and-services-4442218281?position=3&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=flbIcH8C%2Bz5zcPlJ5sb6VA%3D%3D",
+        "https://www.linkedin.com/jobs/view/sr-scientist-agricultural-chemistry-plant-toxicology-remote-at-columbus-technologies-and-services-4442218281?position=48&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=hzRnU5mxLnCmmJ5ghzHbJg%3D%3D",
+        "https://www.linkedin.com/jobs/view/sr-scientist-agricultural-chemistry-plant-toxicology-remote-at-columbus-technologies-and-services-4442218281?position=12&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=QP0Ch%2Bycq2ZSNxaCdNF%2BbA%3D%3D"
+      ],
+      "id": "838b223adebbee1775",
+      "legacy_ids": [
+        "38eaa475a49f27589b"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Junior Scientist - Plant Biology",
+      "organization": "Plantible",
+      "location": "Eldorado, TX",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/junior-scientist-plant-biology-at-plantible-4439540288?position=34&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=zNEIaE8RRQ4S5asgLBTvfg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-11",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/junior-scientist-plant-biology-at-plantible-4439540288?position=45&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=A7PFj6ToNCu9f7GoAvK5Zw%3D%3D",
+        "https://www.linkedin.com/jobs/view/junior-scientist-plant-biology-at-plantible-4439540288?position=28&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=luKVdjUpBNDf9hI4%2BhrRbw%3D%3D",
+        "https://www.linkedin.com/jobs/view/junior-scientist-plant-biology-at-plantible-4439540288?position=30&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=m6f3N8mowzce8TZLi5FJfw%3D%3D",
+        "https://www.linkedin.com/jobs/view/junior-scientist-plant-biology-at-plantible-4439540288?position=52&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=pTw7LOzGF15RUrLZTuX39w%3D%3D",
+        "https://www.linkedin.com/jobs/view/junior-scientist-plant-biology-at-plantible-4439540288?position=20&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=EnEJE6A86ZToPLxUIG2E5g%3D%3D",
+        "https://www.linkedin.com/jobs/view/junior-scientist-plant-biology-at-plantible-4439540288?position=3&pageNum=0&refId=Gbds4Xq9asqPfme5CTozxQ%3D%3D&trackingId=9GON5soQ1ydqJFowjulgsg%3D%3D",
+        "https://www.linkedin.com/jobs/view/junior-scientist-plant-biology-at-plantible-4439540288?position=36&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=Hup1c0WJxPieZkIBmCRe5g%3D%3D",
+        "https://www.linkedin.com/jobs/view/junior-scientist-plant-biology-at-plantible-4439540288?position=30&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=%2BDc7jpUC3qQrj4fLwsqO7A%3D%3D"
+      ],
+      "id": "ffef10fb52891f781a",
+      "legacy_ids": [
+        "fbbacc63e1ab4aae94"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "R&D Technical Services Researcher",
+      "organization": "Wonderful Orchards",
+      "location": "Lost Hills, CA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/r-d-technical-services-researcher-at-wonderful-orchards-4400668219?position=36&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=aSfzmL%2FzlN5fgshdi%2B5YJA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-27",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/r-d-technical-services-researcher-at-wonderful-orchards-4400668219?position=9&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=uU97j4nm7pjCnefp5UG5Qg%3D%3D",
+        "https://www.linkedin.com/jobs/view/r-d-technical-services-researcher-at-wonderful-orchards-4400668219?position=28&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=%2Fgn7BDsa5UGOp7dcvjFlgw%3D%3D",
+        "https://www.linkedin.com/jobs/view/r-d-technical-services-researcher-at-wonderful-orchards-4400668219?position=26&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=v2A%2B5QtcU1oE90YQNOlodA%3D%3D",
+        "https://www.linkedin.com/jobs/view/r-d-technical-services-researcher-at-wonderful-orchards-4400668219?position=7&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=bZWJNAPjZBi6oH7NIPjCJw%3D%3D",
+        "https://www.linkedin.com/jobs/view/r-d-technical-services-researcher-at-wonderful-orchards-4400668219?position=10&pageNum=0&refId=kNY6Y9NkkcufqkAmEB5T1g%3D%3D&trackingId=AV7nqo1Lhbl4sdWdyJdejg%3D%3D",
+        "https://www.linkedin.com/jobs/view/r-d-technical-services-researcher-at-wonderful-orchards-4400668219?position=4&pageNum=0&refId=Gbds4Xq9asqPfme5CTozxQ%3D%3D&trackingId=y%2FtKsx0jLVCent5DlHA6wA%3D%3D",
+        "https://www.linkedin.com/jobs/view/r-d-technical-services-researcher-at-wonderful-orchards-4400668219?position=23&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=6DVg%2FIjoIKjanb2gQ%2BURQQ%3D%3D"
+      ],
+      "id": "38039d7b0b87159f86",
+      "legacy_ids": [
+        "6cdc928b118f8de176"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "R&D Scientist (CCA)",
+      "organization": "Wonderful Orchards",
+      "location": "Lost Hills, CA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/r-d-scientist-cca-at-wonderful-orchards-4441237305?position=37&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=9Mq7HCC%2FVNoavQnDoLQdcg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-06",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/r-d-scientist-cca-at-wonderful-orchards-4441237305?position=6&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=cYHtEKEkJVgG4YRfgM3qJg%3D%3D",
+        "https://www.linkedin.com/jobs/view/r-d-scientist-cca-at-wonderful-orchards-4441237305?position=18&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=LB8jEjeHInsTz0gKMiQHMw%3D%3D",
+        "https://www.linkedin.com/jobs/view/r-d-scientist-cca-at-wonderful-orchards-4441237305?position=12&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=j0CEtwk9owId%2B5m4YdQYaQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/r-d-scientist-cca-at-wonderful-orchards-4441237305?position=1&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=Rrj%2FqvZOpdR2fEnmYSsIxQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/r-d-scientist-cca-at-wonderful-orchards-4441237305?position=6&pageNum=0&refId=kNY6Y9NkkcufqkAmEB5T1g%3D%3D&trackingId=tTcZJQlRwR2Eo%2BRpFpiU3w%3D%3D",
+        "https://www.linkedin.com/jobs/view/r-d-scientist-cca-at-wonderful-orchards-4441237305?position=7&pageNum=0&refId=Gbds4Xq9asqPfme5CTozxQ%3D%3D&trackingId=KbgUqRLVDQsHsdlLKjblAg%3D%3D",
+        "https://www.linkedin.com/jobs/view/r-d-scientist-cca-at-wonderful-orchards-4441237305?position=34&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=qSRVHdhtzLnDairVxekRkQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/r-d-scientist-cca-at-wonderful-orchards-4441237305?position=9&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=vx9mZlBSaI4qOP1q65v16A%3D%3D"
+      ],
+      "id": "d58c8252c13a5d2b78",
+      "legacy_ids": [
+        "ca01eb0bcd79a5145c"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Tobacco Extension Agronomist",
+      "organization": "North Carolina State University",
+      "location": "Raleigh-Durham-Chapel Hill Area",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/tobacco-extension-agronomist-at-north-carolina-state-university-4445770913?position=38&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=2wJ6ZvOLZrKun4xsOMVwSA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-28",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/tobacco-extension-agronomist-at-north-carolina-state-university-4445770913?position=34&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=A9JQwz%2FRpY7R44elPDXvFQ%3D%3D"
+      ],
+      "id": "d4e5968695cd96265f",
+      "legacy_ids": [
+        "bacc17d635d0facca4"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Regional Agronomist",
+      "organization": "Plant Grow Harvest",
+      "location": "Willcox, AZ",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/regional-agronomist-at-plant-grow-harvest-4445737843?position=39&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=cNWfbQzdK4jBe2iNhUSwUQ%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-28",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/regional-agronomist-at-plant-grow-harvest-4445737843?position=39&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=8awXmT6v%2F857NSpBxTQ%2BfA%3D%3D",
+        "https://www.linkedin.com/jobs/view/regional-agronomist-at-plant-grow-harvest-4445737843?position=37&pageNum=0&refId=Gbds4Xq9asqPfme5CTozxQ%3D%3D&trackingId=NHANf5l%2BtkGk3bY1Ufbhgw%3D%3D"
+      ],
+      "id": "3a5acdbfaf44f205e1",
+      "legacy_ids": [
+        "3a8f5b229a6db778ff"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Product Development Scientist - Agriculture",
+      "organization": "AMVAC U.S.",
+      "location": "United States",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/product-development-scientist-agriculture-at-amvac-u-s-4427968040?position=40&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=7eGmEG0G1y%2BnsAN3p7TfMw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-24",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/product-development-scientist-agriculture-at-amvac-u-s-4427968040?position=60&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=83zYYJRM1LHZcTo1X7ebiQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/product-development-scientist-agriculture-at-amvac-u-s-4427968040?position=12&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=rV7fXYfV4XKg5mOFRIHBiQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/product-development-scientist-agriculture-at-amvac-u-s-4427968040?position=28&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=PQze0k6ebGFX5ZDSn60BZA%3D%3D",
+        "https://www.linkedin.com/jobs/view/product-development-scientist-agriculture-at-amvac-u-s-4427968040?position=44&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=3RHWkbTZJV%2BxfP8yyZar5g%3D%3D",
+        "https://www.linkedin.com/jobs/view/product-development-scientist-agriculture-at-amvac-u-s-4427968040?position=44&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=L6PYqcW72c1uoVl%2BLnQR7Q%3D%3D"
+      ],
+      "id": "8dc1d518cd9d6c0a85",
+      "legacy_ids": [
+        "e2fcb8b235cef77e0a"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Research Assistant Professor/Research Associate Professor(Horticulture/Pomologist)",
+      "organization": "Prairie View A&M University",
+      "location": "Prairie View, TX",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/research-assistant-professor-research-associate-professor-horticulture-pomologist-at-prairie-view-a-m-university-4447992316?position=44&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=Le8cOinlGi7PRfDu4n1aqg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-03",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/research-assistant-professor-research-associate-professor-horticulture-pomologist-at-prairie-view-a-m-university-4447992316?position=50&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=fiuvxlahDccuP4ajRcWmCA%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-assistant-professor-research-associate-professor-horticulture-pomologist-at-prairie-view-a-m-university-4447992316?position=15&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=IbhtSQyQkfWJCPwWnExfyA%3D%3D"
+      ],
+      "id": "b4c0269dbbba7a6366",
+      "legacy_ids": [
+        "ece66cd5af25b4c8a7"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Lead Research Scientist-Crop Protection",
+      "organization": "Croda",
+      "location": "New Castle, DE",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/lead-research-scientist-crop-protection-at-croda-4431961443?position=45&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=NHQul1dWa40D6dWZl7J0xw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-22",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/lead-research-scientist-crop-protection-at-croda-4431961443?position=28&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=nFXO%2FJIcphbQDpU4QrlELA%3D%3D",
+        "https://www.linkedin.com/jobs/view/lead-research-scientist-crop-protection-at-croda-4431961443?position=15&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=tFVSGuzCiKlYBxMxQ3atzg%3D%3D",
+        "https://www.linkedin.com/jobs/view/lead-research-scientist-crop-protection-at-croda-4431961443?position=6&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=5P0TDI4oLSEQo%2FR5pqpABg%3D%3D",
+        "https://www.linkedin.com/jobs/view/lead-research-scientist-crop-protection-at-croda-4431961443?position=1&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=R1XUbDA%2FaZ0jnJZqTwBpEw%3D%3D",
+        "https://www.linkedin.com/jobs/view/lead-research-scientist-crop-protection-at-croda-4431961443?position=27&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=H7KXufLeEMxuzTkbzl9X4A%3D%3D",
+        "https://www.linkedin.com/jobs/view/lead-research-scientist-crop-protection-at-croda-4431961443?position=5&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=1%2FtVZp31DCiWc5gaWASvKA%3D%3D"
+      ],
+      "id": "0c2fce86918ae9ddb7",
+      "legacy_ids": [
+        "5bdcf7c70ae60bd99b"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Turfgrass Research Scientist",
+      "organization": "Iowa State University",
+      "location": "Des Moines Metropolitan Area",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/turfgrass-research-scientist-at-iowa-state-university-4443914015?position=56&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=y8CjjjqjefRBcHdGs%2F5Z9g%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-22",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/turfgrass-research-scientist-at-iowa-state-university-4443914015?position=14&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=sl0cbiHTgyuJvRdeSsu4GQ%3D%3D"
+      ],
+      "id": "6f7296377ae03e92ca",
+      "legacy_ids": [
+        "e76d85fe7ed4262bd4"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Agronomist",
+      "organization": "Agrological Solutions Inc.",
+      "location": "Havre, MT",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/agronomist-at-agrological-solutions-inc-4450990631?position=57&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=TMQISerOwfbCxMe9GSOcjg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-09",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/agronomist-at-agrological-solutions-inc-4450990631?position=42&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=0lr4h4GpawumMnYb5vs3dA%3D%3D"
+      ],
+      "id": "f4026c715bea939fd7",
+      "legacy_ids": [
+        "500486c4163dc8651d"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Senior Research Specialist",
+      "organization": "Tulane University",
+      "location": "New Orleans, LA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/senior-research-specialist-at-tulane-university-4450345881?position=59&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=sgBqhk0uJBIbVDKg0zS5jg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-07",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/senior-research-specialist-at-tulane-university-4450345881?position=58&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=32c4a73Yiq8prMWULHV%2F8g%3D%3D"
+      ],
+      "id": "975291013f9f92b875",
+      "legacy_ids": [
+        "a41a207f4ae0c0bd2a"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Agriculture Research Specialist Sr",
+      "organization": "University of Kentucky",
+      "location": "Greater Lexington Area",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/agriculture-research-specialist-sr-at-university-of-kentucky-4449003575?position=48&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=8%2BO7fP6H9CA3T8LRtd1wqA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-04",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/agriculture-research-specialist-sr-at-university-of-kentucky-4449003575?position=49&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=ftGc07743NA4QG0Cf8yNuw%3D%3D",
+        "https://www.linkedin.com/jobs/view/agriculture-research-specialist-sr-at-university-of-kentucky-4449003575?position=19&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=0jfhPV4W9%2F0vkIfchtK4HA%3D%3D"
+      ],
+      "id": "431314cf5a5ec2f0bd",
+      "legacy_ids": [
+        "05b5190df6b8fa47f3"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Assistant, Associate, or Full Research Professor and State Extension Specialist",
+      "organization": "University of Missouri-Columbia",
+      "location": "Columbia, MO",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/assistant-associate-or-full-research-professor-and-state-extension-specialist-at-university-of-missouri-columbia-4441330384?position=49&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=E3IF9VR8g8wtw9bYJlip4A%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-08",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/assistant-associate-or-full-research-professor-and-state-extension-specialist-at-university-of-missouri-columbia-4441330384?position=30&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=fuSUtFuKQWgwxdywiWB1IQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/assistant-associate-or-full-research-professor-and-state-extension-specialist-at-university-of-missouri-columbia-4441330384?position=43&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=sHqszF6tglGRD5ifzv2WYQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/assistant-associate-or-full-research-professor-and-state-extension-specialist-at-university-of-missouri-columbia-4441330384?position=11&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=SKqMH1qtcWL3Wp5krM3y8g%3D%3D",
+        "https://www.linkedin.com/jobs/view/assistant-associate-or-full-research-professor-and-state-extension-specialist-at-university-of-missouri-columbia-4441330384?position=55&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=8HLVnME53l970a94ZqNc7A%3D%3D"
+      ],
+      "id": "5f4ddca209a201703f",
+      "legacy_ids": [
+        "78b3d2e4975838e530"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Scientist I",
+      "organization": "Kula Bio",
+      "location": "Natick, MA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/scientist-i-at-kula-bio-4443333164?position=3&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=uzAKOI3PKEAibV6xaZCJrg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-21",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/scientist-i-at-kula-bio-4443333164?position=13&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=gFxQQal%2FzNkxxLEGLKFVsA%3D%3D",
+        "https://www.linkedin.com/jobs/view/scientist-i-at-kula-bio-4443333164?position=21&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=aSbuZb56OTp0Kh1JZcqUOA%3D%3D",
+        "https://www.linkedin.com/jobs/view/scientist-i-at-kula-bio-4443333164?position=53&pageNum=0&refId=kNY6Y9NkkcufqkAmEB5T1g%3D%3D&trackingId=mp6Cqw9YPV0RSLBC43otXA%3D%3D",
+        "https://www.linkedin.com/jobs/view/scientist-i-at-kula-bio-4443333164?position=10&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=lydLWBaZZpaM%2BA0NmsmAtA%3D%3D"
+      ],
+      "id": "00378cd9e7022ee7b7",
+      "legacy_ids": [
+        "9537865e89fdc48127"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Bio Process Scientist",
+      "organization": "Elanco",
+      "location": "Fort Dodge, IA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/bio-process-scientist-at-elanco-4438778766?position=4&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=caFdmPrcnOqrQKAjbiThmA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-07",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "f5d4f7d004323ba680",
+      "legacy_ids": [
+        "22ac924a24afcb4def"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Research Scientist - Analytical Development",
+      "organization": "Elanco",
+      "location": "Fort Dodge, IA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/research-scientist-analytical-development-at-elanco-4445552224?position=6&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=tzgkxQL7MaGoODUzBDN7cg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-31",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "61abbd12a522557f3c",
+      "legacy_ids": [
+        "74e0e0c05ec912d9eb"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Process Development & Improvement Scientist",
+      "organization": "Medgene",
+      "location": "Brookings, SD",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/process-development-improvement-scientist-at-medgene-4451325393?position=10&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=mihofRGD5XZ%2Bo5S%2BRNyp%2Bw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-07",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "6a55b63e839d9fc898",
+      "legacy_ids": [
+        "b688096039d1e949e0"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Lab Scientist/Sr. Lab Scientist - Feed & Seed Lab",
+      "organization": "State of Missouri",
+      "location": "Jefferson City, MO",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/lab-scientist-sr-lab-scientist-feed-seed-lab-at-state-of-missouri-4445461581?position=12&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=tPg5r3QraeMQrpCh5FHWbA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-28",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/lab-scientist-sr-lab-scientist-feed-seed-lab-at-state-of-missouri-4445461581?position=59&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=RoLZPjjZ%2BVeBKBiNY3FAiw%3D%3D"
+      ],
+      "id": "45b05eab881910b6c1",
+      "legacy_ids": [
+        "42742f7530618587f6"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Scientist",
+      "organization": "Syensqo",
+      "location": "Bristol, PA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/scientist-at-syensqo-4432516108?position=13&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=zDuTIifA2vcqS3TPDNDEpg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-05",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/scientist-at-syensqo-4432516108?position=44&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=T1BrgXpKUiSDGDB6q30gkg%3D%3D",
+        "https://www.linkedin.com/jobs/view/scientist-at-syensqo-4432516108?position=17&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=Q1KtnQql391Ad%2Fl4nS2TUA%3D%3D",
+        "https://www.linkedin.com/jobs/view/scientist-at-syensqo-4432516108?position=31&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=0ev0sHwH1nGStRNwduzhSg%3D%3D"
+      ],
+      "id": "636d3a7a24e69b7965",
+      "legacy_ids": [
+        "c5c64ce818a4999b19"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Bioassay Scientist",
+      "organization": "Eurofins",
+      "location": "Columbia, MO",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/bioassay-scientist-at-eurofins-4442743785?position=14&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=oOWYp%2Be9bZmBlNXT%2BodIUw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-20",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "1affa04476cd5ad0b8",
+      "legacy_ids": [
+        "a78b781708b821318c"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Production Scientist",
+      "organization": "Bimeda",
+      "location": "San Angelo, TX",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/production-scientist-at-bimeda-4428877405?position=19&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=L3U2GvE0iVbuLChwIoRRng%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-28",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "3d0822a810928ddf40",
+      "legacy_ids": [
+        "edad46c0b42b64f8a4"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "> Research Associates",
+      "organization": "Bolder BioTechnology",
+      "location": "Oregon, United States",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/research-associates-at-bolder-biotechnology-4451390142?position=24&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=95aVg5qThWtUSjjWhRFyEg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-10",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "8af7901d35598b8342",
+      "legacy_ids": [
+        "d85c4464c8b2154f0a"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "R&D Senior Scientist",
+      "organization": "Bimeda",
+      "location": "Omaha, NE",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/r-d-senior-scientist-at-bimeda-4446490575?position=26&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=A9RWia6SlRcTTm2rj7IhWg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-30",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "3425c0f2a9471dbdc7",
+      "legacy_ids": [
+        "72676ec45aa66c7244"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Bioassay Scientist",
+      "organization": "Eurofins BioPharma Product Testing North America",
+      "location": "Columbia, MO",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/bioassay-scientist-at-eurofins-biopharma-product-testing-north-america-4442707662?position=27&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=%2BLW3S0GSK7EnhLC8as6%2FdA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-20",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "fd240cb68154c0a8a5",
+      "legacy_ids": [
+        "7638ab6460c4c22960"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Global Scientist",
+      "organization": "Agropur",
+      "location": "Eden Prairie, MN",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/global-scientist-at-agropur-4442193683?position=30&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=k6C2yHpV6wjkQKCfvgEJ0A%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-08",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/global-scientist-at-agropur-4442193683?position=49&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=qS3SaBIoktvC6KlnwxwyXQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/global-scientist-at-agropur-4442193683?position=40&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=Ibx7SF5EbCSeSBOwJQVR%2FA%3D%3D",
+        "https://www.linkedin.com/jobs/view/global-scientist-at-agropur-4442193683?position=58&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=L33%2F4x7VscqXIPYnhxDCiw%3D%3D",
+        "https://www.linkedin.com/jobs/view/global-scientist-at-agropur-4442193683?position=7&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=yZFugaiYFQAreJxNrWEdzg%3D%3D"
+      ],
+      "id": "9642dbef8f4cff80d4",
+      "legacy_ids": [
+        "69c450da92097ac3b5"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "R&D Research- Associate Scientist",
+      "organization": "Medgene",
+      "location": "Brookings, SD",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/r-d-research-associate-scientist-at-medgene-4451327230?position=33&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=pWBLcIaqwS%2FT%2FJq93O9GTQ%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-07",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "0f4ef66929898d7844",
+      "legacy_ids": [
+        "1eea2a822d39ca620b"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Production Scientist",
+      "organization": "MilliporeSigma",
+      "location": "Sheboygan Falls, WI",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/production-scientist-at-milliporesigma-4416591446?position=35&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=sofqJZQkwmyLScqPdPQyvw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-24",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "8be8485af694a67798",
+      "legacy_ids": [
+        "fed3f107127e1e4f2a"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "🧬 Biotech Researcher",
+      "organization": "Tutopiya",
+      "location": "Early, TX",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/%F0%9F%A7%AC-biotech-researcher-at-tutopiya-4448759076?position=37&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=3tRHU1%2F%2F6wQFs%2BuVBJhebQ%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-07",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "daee87753bff01dfb8",
+      "legacy_ids": [
+        "77b9df2f2d6721d562"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Manufacturing Science & Technology (MS&T) Scientist",
+      "organization": "Argenta",
+      "location": "Shawnee, KS",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/manufacturing-science-technology-ms-t-scientist-at-argenta-4441276800?position=38&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=bCXPQf5r%2FuAtM%2FS8em6%2BBw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-15",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "49928d9556eedd2447",
+      "legacy_ids": [
+        "9b569477e60ca59f73"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Advisor/Sr. Advisor - Bioconjugation Scientist",
+      "organization": "Eli Lilly and Company",
+      "location": "Lebanon, IN",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/advisor-sr-advisor-bioconjugation-scientist-at-eli-lilly-and-company-4440891437?position=40&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=N3b6%2BRRGCYkc2ZP2le8Dnw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-05",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "e4a8ce8ad10ea36ee6",
+      "legacy_ids": [
+        "6b81f6ba0b0a875edf"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Senior R&D Scientist – Novel Biologics Delivery",
+      "organization": "Lonza",
+      "location": "Bend, OR",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/senior-r-d-scientist-%E2%80%93-novel-biologics-delivery-at-lonza-4443466362?position=42&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=gtkM817duJ%2F617cCth3gRQ%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-23",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "0b6ce0369efc441db7",
+      "legacy_ids": [
+        "a51d9a44857bf4c88e"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Scientist I, RNA",
+      "organization": "Aldevron",
+      "location": "Fargo, ND",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/scientist-i-rna-at-aldevron-4438017416?position=43&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=2amg3eqOLIJaiIW1k3%2BUKA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-05",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "d0ccf41426c0c94df8",
+      "legacy_ids": [
+        "abd8cabe41b03445df"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Laboratory Research Specialist",
+      "organization": "Axiota Animal Health",
+      "location": "Wamego, KS",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/laboratory-research-specialist-at-axiota-animal-health-4446751606?position=44&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=AKb5frcB9R114b5Sgvw93w%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-30",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "636c21efafce57ab83",
+      "legacy_ids": [
+        "4f7b7f046262209ff6"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Product Development Specialist",
+      "organization": "Addison Group",
+      "location": "Sardis, MS",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/product-development-specialist-at-addison-group-4450659728?position=46&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=YJL4urDA60GxbyRA7C%2BGBA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-06",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/product-development-specialist-at-addison-group-4450659728?position=60&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=cRojTuqqmG%2FOiglniLHE3w%3D%3D"
+      ],
+      "id": "f6b7feb554cdb6e3d3",
+      "legacy_ids": [
+        "cc595f95b2d06dfedd"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Business Development Agronomist (Key Accounts)",
+      "organization": "Verdesian Life Sciences",
+      "location": "South Dakota, United States",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/business-development-agronomist-key-accounts-at-verdesian-life-sciences-4449035398?position=50&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=ZWZyvEAmO1YpY8E1RnYCFA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-04",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/business-development-agronomist-key-accounts-at-verdesian-life-sciences-4449035398?position=22&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=qHSHfnqmiir08cXCS8DA7Q%3D%3D",
+        "https://www.linkedin.com/jobs/view/business-development-agronomist-key-accounts-at-verdesian-life-sciences-4449035398?position=18&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=P0knOhK1U5MLcbHtosDHFw%3D%3D"
+      ],
+      "id": "bc2d3b75ca084ebdd6",
+      "legacy_ids": [
+        "874a4a9c6398c6b90f"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Ingredient Technical Support Scientist",
+      "organization": "Agropur",
+      "location": "Eden Prairie, MN",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/ingredient-technical-support-scientist-at-agropur-4443980122?position=51&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=u%2FvEi7aGejD0emELNWg0tA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-05",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "a15f392a47e1ca483f",
+      "legacy_ids": [
+        "4e4d5f9299ae4f1718"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Application Scientist",
+      "organization": "IFF",
+      "location": "Madison, WI",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/application-scientist-at-iff-4443161242?position=55&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=7AK9PFIIGlL0GVQzwtCoMQ%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-22",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/application-scientist-at-iff-4443161242?position=50&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=fKastwIoEei%2FhXUQ0ILs%2Bw%3D%3D"
+      ],
+      "id": "d9c15d4cd5d997b038",
+      "legacy_ids": [
+        "e5d19e2e6c75b82231"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Formulation & Process Development Scientist",
+      "organization": "Virbac",
+      "location": "Bridgeton, MO",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/formulation-process-development-scientist-at-virbac-4440237480?position=56&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=d7rrOKlDfL6bVC9U0tQvIg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-15",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "c9b37ab1632369a979",
+      "legacy_ids": [
+        "63c0089daf3e43309f"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Genotyping Chemistry Scientist",
+      "organization": "Syngenta",
+      "location": "Malta, IL",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/genotyping-chemistry-scientist-at-syngenta-4439316914?position=57&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=DHdQvq9ifvVq52KWbmdkAg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-20",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "b65744409d8d1861fa",
+      "legacy_ids": [
+        "083e31a0bb0598c4de"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Commercial Agronomist",
+      "organization": "Pivot Bio",
+      "location": "Albany, GA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/commercial-agronomist-at-pivot-bio-4417348021?position=59&pageNum=0&refId=vwhN6QbYOB2hFhx%2F%2B%2B1y2w%3D%3D&trackingId=9o4mmK7DV47YMuFWrMw7XA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-30",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/commercial-agronomist-at-pivot-bio-4417348021?position=11&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=AknCn0OI%2B82CTkll2%2Fno1Q%3D%3D"
+      ],
+      "id": "524400c73e46075096",
+      "legacy_ids": [
+        "01f5171d03b00ddcb3"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "MANAGER, PRODUCT DEVELOPMENT",
+      "organization": "Avesta CropScience Inc.",
+      "location": "Cary, NC",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/manager-product-development-at-avesta-cropscience-inc-4446102168?position=19&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=wjaE09OwJKPyQVBlN0pcwg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-27",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/manager-product-development-at-avesta-cropscience-inc-4446102168?position=27&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=oHj7qDcjkZtwPoBhGKTcGA%3D%3D",
+        "https://www.linkedin.com/jobs/view/manager-product-development-at-avesta-cropscience-inc-4446102168?position=11&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=7VD4zkWiK5urafbRPqmreg%3D%3D"
+      ],
+      "id": "17e7f5634b4b01c0aa",
+      "legacy_ids": [
+        "f978adb730672d0ec1"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Environmental Fate and Exposure Scientist",
+      "organization": "Syngenta",
+      "location": "Greensboro, NC",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/environmental-fate-and-exposure-scientist-at-syngenta-4445702645?position=20&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=%2FQtZAWAb5%2BBVKXeuYJC7rw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-04",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/environmental-fate-and-exposure-scientist-at-syngenta-4445702645?position=16&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=zBiW2bKLAu2oXltVf6zMFg%3D%3D"
+      ],
+      "id": "6bf6efbf648c77bd81",
+      "legacy_ids": [
+        "1596b2e762ec415ed8"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Assistant/Associate Professor - Postharvest Physiologist",
+      "organization": "University of Florida - Chemical Engineering Masters Program",
+      "location": "Gainesville, FL",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/assistant-associate-professor-postharvest-physiologist-at-university-of-florida-chemical-engineering-masters-program-4447094719?position=21&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=LEPfoGnMkWo3RQL%2BWfXTzA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-30",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/assistant-associate-professor-postharvest-physiologist-at-university-of-florida-chemical-engineering-masters-program-4447094719?position=1&pageNum=0&refId=kNY6Y9NkkcufqkAmEB5T1g%3D%3D&trackingId=xJCjaZb9qDY%2BoIgVRsJa3g%3D%3D"
+      ],
+      "id": "88a1a69adfe8b9e90e",
+      "legacy_ids": [
+        "484e84d8d9a7b6bad5"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Business Development Agronomist (Key Accounts)",
+      "organization": "Verdesian Life Sciences",
+      "location": "Minnesota, United States",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/business-development-agronomist-key-accounts-at-verdesian-life-sciences-4449033393?position=23&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=Y%2FO6rNFipY%2Fgx922Q9afmg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-04",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "00625c59c3982bbdfc",
+      "legacy_ids": [
+        "6142437a6c0acdee92"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Scientist II to Director: Microbiome Discovery & Colonization",
+      "organization": "Astanor",
+      "location": "California, United States",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/scientist-ii-to-director-microbiome-discovery-colonization-at-astanor-4450914084?position=25&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=%2Fmz1y1fXZmN8ukxpMEtXuA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-08",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/scientist-ii-to-director-microbiome-discovery-colonization-at-astanor-4450914084?position=31&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=NgGa7hhk2ojE%2Bwuu8Y4VWQ%3D%3D"
+      ],
+      "id": "4d9530274ca41dcaad",
+      "legacy_ids": [
+        "abc0318adf17af807d"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "External Innovation, Principle Scientist",
+      "organization": "Haleon",
+      "location": "Shanghai, VA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/external-innovation-principle-scientist-at-haleon-4439983409?position=26&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=74Dc9io5XwnBrtOwnKa2%2FA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-05",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "9be4bcc0bf99cb2945",
+      "legacy_ids": [
+        "1599ddf7cb5f717e6f"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Open Rank - Assistant, Associate or Full Professor",
+      "organization": "The University of Georgia",
+      "location": "Athens, GA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/open-rank-assistant-associate-or-full-professor-at-the-university-of-georgia-4447315245?position=31&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=U14RYBweFdDPsKx5jlFHSg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-05",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "1cd1c0ffb332ceb107",
+      "legacy_ids": [
+        "8fe270f72d6adf202a"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Managing Scientist- Water Resources, Agricultural, or Nutrient Management (Ph.D.)",
+      "organization": "Exponent",
+      "location": "Alexandria, VA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/managing-scientist-water-resources-agricultural-or-nutrient-management-ph-d-at-exponent-4391883722?position=32&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=BDQANoaBsU%2F7PGM8YB4%2Fkg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-06",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "3112c85c4f9b45f720",
+      "legacy_ids": [
+        "af23158cdd1680bf4f"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Scientist II to Director: Microbiome Discovery & Colonization",
+      "organization": "Switch Bioworks",
+      "location": "San Francisco, CA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/scientist-ii-to-director-microbiome-discovery-colonization-at-switch-bioworks-4450995883?position=35&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=zBDn3o4OMLO7kLYWwuoovQ%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-10",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/scientist-ii-to-director-microbiome-discovery-colonization-at-switch-bioworks-4450995883?position=33&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=dtCASqlyFKSTIpwIu%2Bp%2BXw%3D%3D"
+      ],
+      "id": "a4fa062643aa810fe1",
+      "legacy_ids": [
+        "f140d0c127bd04d786"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Staff Scientist - Environmental Fate",
+      "organization": "Eurofins",
+      "location": "Easton, MD",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/staff-scientist-environmental-fate-at-eurofins-4447741978?position=36&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=ik%2BZJZlF%2BwgRbr4ObzNv1A%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-01",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/staff-scientist-environmental-fate-at-eurofins-4447741978?position=39&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=kJQU90Jf38Ig5llMxfRPug%3D%3D"
+      ],
+      "id": "3de406ebaca0c5fb8f",
+      "legacy_ids": [
+        "bf850a543600edd277"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Staff Scientist - Environmental Fate",
+      "organization": "Eurofins Agroscience Services",
+      "location": "Easton, MD",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/staff-scientist-environmental-fate-at-eurofins-agroscience-services-4447730732?position=39&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=721vXmU6ICphmRSlPMlmzQ%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-01",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/staff-scientist-environmental-fate-at-eurofins-agroscience-services-4447730732?position=37&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=bUlYLaUj%2B9%2FxBKf%2BpE3Bkg%3D%3D"
+      ],
+      "id": "02532a5b19d817739f",
+      "legacy_ids": [
+        "1fbc011e6dc1d3b49e"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Managing Scientist- Water Resources, Agricultural, or Nutrient Management (Ph.D.)",
+      "organization": "Exponent",
+      "location": "Washington, DC",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/managing-scientist-water-resources-agricultural-or-nutrient-management-ph-d-at-exponent-4391896518?position=42&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=65zerW5ELt81FHc63djcTg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-06",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "9a48b3d1af0cdca1e4",
+      "legacy_ids": [
+        "c1c4cb95b1ff06ed32"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Analytical Assay Development Scientist",
+      "organization": "Oath Biome",
+      "location": "Vacaville, CA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/analytical-assay-development-scientist-at-oath-biome-4450647414?position=50&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=2SQGaSMN%2BwJ1%2F3MEo9lOZA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-06",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/analytical-assay-development-scientist-at-oath-biome-4450647414?position=42&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=3vHtaUldTJUE2oPBhCU6vw%3D%3D"
+      ],
+      "id": "563c589c211374d6e5",
+      "legacy_ids": [
+        "4dad296aba1f985d94"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Research Scientist",
+      "organization": "North Carolina Agricultural and Technical State University",
+      "location": "Greensboro, NC",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/research-scientist-at-north-carolina-agricultural-and-technical-state-university-4447248357?position=51&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=wGJ758R1H6RQLSsI0Jss%2FA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-30",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/research-scientist-at-north-carolina-agricultural-and-technical-state-university-4447248357?position=60&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=SwwZR2NA4iYnTNbUIfWRAA%3D%3D"
+      ],
+      "id": "872b3d8201413c2731",
+      "legacy_ids": [
+        "f1114c8ea0e1f44a39"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Research and Innovation Scientist III (Remote in USA)",
+      "organization": "PetLabCo.",
+      "location": "Washington, DC",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/research-and-innovation-scientist-iii-remote-in-usa-at-petlabco-4451354723?position=54&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=3VnsXaom%2F6sOtHxHPFhHkQ%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-09",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/research-and-innovation-scientist-iii-remote-in-usa-at-petlabco-4451354723?position=45&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=FwGhux2Uh1H9%2FW5UiBpCcw%3D%3D"
+      ],
+      "id": "4213b53191a5cb3424",
+      "legacy_ids": [
+        "ee74a9d239c9d70b46"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Senior Scientist, Formulation and Process Development",
+      "organization": "VitaKey Inc.",
+      "location": "Raleigh-Durham-Chapel Hill Area",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/senior-scientist-formulation-and-process-development-at-vitakey-inc-4447719697?position=55&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=YrsBwK7XRmlZT2geGNyQ4w%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-01",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "cf7e5329900e1b8d96",
+      "legacy_ids": [
+        "6496a8aa058bf26269"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Senior Scientist, Product Development",
+      "organization": "Corbion",
+      "location": "South San Francisco, CA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/senior-scientist-product-development-at-corbion-4444615002?position=57&pageNum=0&refId=ybSwtyDoujlQzLsdUcWNPA%3D%3D&trackingId=hvdL%2FqVo%2Fb%2BnVXCa7wMjOQ%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-04",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/senior-scientist-product-development-at-corbion-4444615002?position=22&pageNum=0&refId=kNY6Y9NkkcufqkAmEB5T1g%3D%3D&trackingId=6dnIrpAtn6z6xIvrmR9YpQ%3D%3D",
+        "https://www.linkedin.com/jobs/view/senior-scientist-product-development-at-corbion-4444615002?position=38&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=7ddPDXVqOmuIKBLOFPLHdg%3D%3D"
+      ],
+      "id": "3b17802abdbae1167d",
+      "legacy_ids": [
+        "0119c0b29165d28828"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Senior Research Associate – Plant Transformation",
+      "organization": "Vylor",
+      "location": "Des Moines, IA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/senior-research-associate-%E2%80%93-plant-transformation-at-vylor-4448575572?position=20&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=M0FcvM%2Bm79J%2BA6J7fL0jSw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-04",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "78759236b85046731c",
+      "legacy_ids": [
+        "d24c16042a05dbcb8c"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Research Associate",
+      "organization": "Beck's Hybrids",
+      "location": "Colfax, IA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/research-associate-at-beck-s-hybrids-4442750583?position=23&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=W3yNcclZGhwpybpAej7EFw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-20",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/research-associate-at-beck-s-hybrids-4442750583?position=25&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=8b2a96CMYBFUl%2F7hw7%2BcyA%3D%3D",
+        "https://www.linkedin.com/jobs/view/research-associate-at-beck-s-hybrids-4442750583?position=8&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=e0lLAnFfg1in2seT5EzulQ%3D%3D"
+      ],
+      "id": "7810dab94f479039d0",
+      "legacy_ids": [
+        "ed7ce2f39f3ade9b86"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Research Associate",
+      "organization": "North Carolina State University",
+      "location": "Raleigh-Durham-Chapel Hill Area",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/research-associate-at-north-carolina-state-university-4445153047?position=29&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=9eSMpubrQ3mso%2FArUvH7Kw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-27",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/research-associate-at-north-carolina-state-university-4445153047?position=13&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=xwViIjxAavrAoqsK9t4Nsw%3D%3D"
+      ],
+      "id": "a298fc966f98f8202f",
+      "legacy_ids": [
+        "ddd9f413fc4adcc44f"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Associate Researcher",
+      "organization": "Net2Source (N2S)",
+      "location": "Johnston, IA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/associate-researcher-at-net2source-n2s-4447580100?position=43&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=tI2Pe6GgPKagwVUqNhbWJA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-31",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/associate-researcher-at-net2source-n2s-4447580100?position=31&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=Nc4%2FTfu%2FFWFC9M3UQRDxXA%3D%3D"
+      ],
+      "id": "96d986c879d7b3cfa3",
+      "legacy_ids": [
+        "d0d9234115907f8294"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Assistant/Associate Professor – Improvement of Flavor Profiles of Specialty Crops",
+      "organization": "University of Florida - Chemical Engineering Masters Program",
+      "location": "Gainesville, FL",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/assistant-associate-professor-%E2%80%93-improvement-of-flavor-profiles-of-specialty-crops-at-university-of-florida-chemical-engineering-masters-program-4447094710?position=53&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=I4txo2%2FAJyMdm0rWEeQe1Q%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-30",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/assistant-associate-professor-%E2%80%93-improvement-of-flavor-profiles-of-specialty-crops-at-university-of-florida-chemical-engineering-masters-program-4447094710?position=39&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=N96rW9eGJ6yMiHumoLX%2FUg%3D%3D"
+      ],
+      "id": "fdce4e92a6cfeee228",
+      "legacy_ids": [
+        "6c5f117bcaa179cd3a"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Senior Scientist, Biochemistry & Research Applications",
+      "organization": "IFF",
+      "location": "Palo Alto, CA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/senior-scientist-biochemistry-research-applications-at-iff-4444985166?position=54&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=HGsfVNePrak45kbFM%2FVItA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-24",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "35c31bc488fa3fc975",
+      "legacy_ids": [
+        "ad37ced4e621abd298"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Postdoctoral Research Associate",
+      "organization": "Nebraska Institute of Agriculture and Natural Resources",
+      "location": "Scottsbluff, NE",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/postdoctoral-research-associate-at-nebraska-institute-of-agriculture-and-natural-resources-4447350139?position=55&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=EOh3U6fky6HkBky6DCqqbg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-05",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "43230c31c7c3874715",
+      "legacy_ids": [
+        "1321bf848ea0ee8aac"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Environmental Fate Staff Scientist",
+      "organization": "Eurofins Agroscience Services",
+      "location": "Easton, MD",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/environmental-fate-staff-scientist-at-eurofins-agroscience-services-4447425490?position=57&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=J2iLCxopRjSkQdf%2B569L7Q%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-01",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "33f2192dcab2506f10",
+      "legacy_ids": [
+        "e545e572e5df02387d"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Biogeochemistry Research Specialist - Agroecosystem Sustainability Center",
+      "organization": "University of Illinois Urbana-Champaign",
+      "location": "Urbana, IL",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/biogeochemistry-research-specialist-agroecosystem-sustainability-center-at-university-of-illinois-urbana-champaign-4450732590?position=58&pageNum=0&refId=6kRKJwuhrqQTAa7%2F4gXTQQ%3D%3D&trackingId=Rwwp1lz%2Bba%2Buo0fJfy5waw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-07",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "154431c10d066aa990",
+      "legacy_ids": [
+        "c5ce7d3eb80a751005"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Research Associate (Horticulture)",
+      "organization": "Research Compliance Office at the Texas A&M University System",
+      "location": "Prairie View, TX",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/research-associate-horticulture-at-research-compliance-office-at-the-texas-a-m-university-system-4450571655?position=2&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=Nbf%2BwCfuGx%2BgGuBUW2XhMA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-08",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "5cc14f3ef5c9d3cb2d",
+      "legacy_ids": [
+        "c71e971d0da7ef6437"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Assistant Scientist - Cell Biology",
+      "organization": "Ball Horticultural Company",
+      "location": "West Chicago, IL",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/assistant-scientist-cell-biology-at-ball-horticultural-company-4445559300?position=18&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=l7gCyrO%2FJAceJK%2B5SqLMjg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-31",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "4650d62a59c1e59d47",
+      "legacy_ids": [
+        "fae8cb07da5c7d0fb5"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Horticulturist (9723C), UC Botanical Garden #87447",
+      "organization": "University of California, Berkeley",
+      "location": "Berkeley, CA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/horticulturist-9723c-uc-botanical-garden-%2387447-at-university-of-california-berkeley-4441402854?position=28&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=4v%2Bqh97VZaOCdznpv0yfpw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-16",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "3c7fda5c689ee10523",
+      "legacy_ids": [
+        "54d6dacb6999d856ab"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Horticulturist and Lead Curator",
+      "organization": "Jordan Valley Water Conservancy District",
+      "location": "West Jordan, UT",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/horticulturist-and-lead-curator-at-jordan-valley-water-conservancy-district-4447492834?position=45&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=XmoShvhi3q6x73j%2FJVq%2Fig%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-01",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "e47c022bbcbfc0ed9f",
+      "legacy_ids": [
+        "e388bbc8fe89b2a4e9"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Horticulturist & Lead Curator",
+      "organization": "Jordan Valley Water Conservancy District",
+      "location": "West Jordan, UT",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/horticulturist-lead-curator-at-jordan-valley-water-conservancy-district-4444170307?position=48&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=7s7HqZatNsE4ex2pfIcnSA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-29",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "3cf79cd117906ff7c5",
+      "legacy_ids": [
+        "9c6debee55ab1fac40"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Assistant Horticulturist",
+      "organization": "University of North Florida",
+      "location": "Jacksonville, FL",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/assistant-horticulturist-at-university-of-north-florida-4438994572?position=49&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=A9OWAgNBBnRbR%2FsItc%2BnHw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-12",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "a64169786b6cbd382d",
+      "legacy_ids": [
+        "ffdcbd983cc835ff9a"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Horticulturist - Full Time - San Diego Zoo Safari Park",
+      "organization": "San Diego Zoo Safari Park",
+      "location": "Escondido, CA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/horticulturist-full-time-san-diego-zoo-safari-park-at-san-diego-zoo-safari-park-4447844120?position=60&pageNum=0&refId=wx76bnOw%2BzZ%2FXTWbajmOeA%3D%3D&trackingId=LeQqotpOcDslr0WrUThZcw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-01",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "ed9f8488f7b0f9283b",
+      "legacy_ids": [
+        "5095650e8859d9e201"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "BIOLOGICAL SCIENTIST III - 42003483 (FOR INTERNAL AGENCY EMPLOYEES ONLY)",
+      "organization": "State of Florida",
+      "location": "Tallahassee, FL",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/biological-scientist-iii-42003483-for-internal-agency-employees-only-at-state-of-florida-4450759927?position=12&pageNum=0&refId=kNY6Y9NkkcufqkAmEB5T1g%3D%3D&trackingId=5NEJMmUNn7ckreo9CxFp%2BA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-07",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "42fac019c50913e408",
+      "legacy_ids": [
+        "d335ee5d80e0194900"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Tissue Culture Lab Research Associate II - Research and Breeding Greenhouse",
+      "organization": "Driscoll Strawberry Assoc Inc",
+      "location": "Watsonville, CA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/tissue-culture-lab-research-associate-ii-research-and-breeding-greenhouse-at-driscoll-strawberry-assoc-inc-4451079547?position=15&pageNum=0&refId=kNY6Y9NkkcufqkAmEB5T1g%3D%3D&trackingId=2%2FfYAwWVe4IByvKfY2ThIQ%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-08",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "e3e3699c3ec968ccf1",
+      "legacy_ids": [
+        "a301f7dcc30b637f37"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Senior Food Scientist",
+      "organization": "Monterey Mushrooms, LLC",
+      "location": "Royal Oaks, CA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/senior-food-scientist-at-monterey-mushrooms-llc-4446124365?position=18&pageNum=0&refId=kNY6Y9NkkcufqkAmEB5T1g%3D%3D&trackingId=TCHTAK6wO0T%2B0VNaVPDphw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-27",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/senior-food-scientist-at-monterey-mushrooms-llc-4446124365?position=41&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=hjMkoIeHhaUa7SARvH%2F9Wg%3D%3D"
+      ],
+      "id": "58b70200062c2dbf85",
+      "legacy_ids": [
+        "583ed1e6af9b7a1dee"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Applied Varietal Research Agronomist Technician",
+      "organization": "Sun World International",
+      "location": "Wasco, CA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/applied-varietal-research-agronomist-technician-at-sun-world-international-4435353299?position=23&pageNum=0&refId=kNY6Y9NkkcufqkAmEB5T1g%3D%3D&trackingId=G9KL8WByqru%2FTzxvlTSkdg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-14",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "58fa29e4301b42eded",
+      "legacy_ids": [
+        "a9616297b8665be72d"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Food Scientist",
+      "organization": "REFRESH'D",
+      "location": "Salt Lake City, UT",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/food-scientist-at-refresh-d-4448587135?position=35&pageNum=0&refId=kNY6Y9NkkcufqkAmEB5T1g%3D%3D&trackingId=pBuw%2FaXnasQot1twtloWpA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-04",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "bbd2c08aec2eaca19c",
+      "legacy_ids": [
+        "202c0b4a92acab61ca"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "High Throughput Phenotyping Research Associate – Strawberry Breeding",
+      "organization": "Driscoll's",
+      "location": "Watsonville, CA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/high-throughput-phenotyping-research-associate-%E2%80%93-strawberry-breeding-at-driscoll-s-4421330035?position=43&pageNum=0&refId=kNY6Y9NkkcufqkAmEB5T1g%3D%3D&trackingId=vTq68aFRhHuzuJPaofIa2A%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-02",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "053d5274bd24d642e6",
+      "legacy_ids": [
+        "56c2c26d29a10b32c7"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Research Scientist",
+      "organization": "Smoore Labs",
+      "location": "Manassas, VA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/research-scientist-4441792367?position=44&pageNum=0&refId=kNY6Y9NkkcufqkAmEB5T1g%3D%3D&trackingId=445dpVcyoFTPtPNzgnqySg%3D%3D&trk=public_jobs_jserp-result_search-card",
+      "snippet": "",
+      "posted_date": "2026-07-19",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "b6430c94b54cc79aaf",
+      "legacy_ids": [
+        "f678654974c25f0bd1"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Product Development Scientist",
+      "organization": "Ocean Spray Cranberries",
+      "location": "Lakeville, MA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/product-development-scientist-at-ocean-spray-cranberries-4444976267?position=48&pageNum=0&refId=kNY6Y9NkkcufqkAmEB5T1g%3D%3D&trackingId=vxk3wwaTUye%2F5hkkLztLCg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-24",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "4cdb96e074818ce499",
+      "legacy_ids": [
+        "0de041b0fab33c4822"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Packaging Scientist",
+      "organization": "Hormel Foods",
+      "location": "Rochester-Austin, Minnesota Area",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/packaging-scientist-at-hormel-foods-4445732988?position=49&pageNum=0&refId=kNY6Y9NkkcufqkAmEB5T1g%3D%3D&trackingId=8xJ7z4Q9txvpRcAzfWC8PA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-28",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "859b60d0f8768702cf",
+      "legacy_ids": [
+        "a7fe8a5e8f1c23188e"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Scientist- Research Development & Applications",
+      "organization": "Kerry",
+      "location": "Beloit, WI",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/scientist-research-development-applications-at-kerry-4449922580?position=57&pageNum=0&refId=kNY6Y9NkkcufqkAmEB5T1g%3D%3D&trackingId=7D3Ng6fwGakjY3hF1WH0Wg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-05",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "d60e97dae9dfa9ff5d",
+      "legacy_ids": [
+        "27303f54a8411b47b2"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Digital Agronomist I",
+      "organization": "aerialPLOT",
+      "location": "Fargo, ND",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/digital-agronomist-i-at-aerialplot-4441368174?position=13&pageNum=0&refId=Gbds4Xq9asqPfme5CTozxQ%3D%3D&trackingId=EfzxadmElxf68Shf6iNFAA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-17",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/digital-agronomist-i-at-aerialplot-4441368174?position=19&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=k%2BmB%2B2yaE6or42%2FHs6h6pA%3D%3D"
+      ],
+      "id": "2a20f64f9d4ffcde8a",
+      "legacy_ids": [
+        "8c85aab718332bca63"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Research Scientist II, Step 1-4",
+      "organization": "UAH College of Business",
+      "location": "Alabama, United States",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/research-scientist-ii-step-1-4-at-uah-college-of-business-4445801881?position=41&pageNum=0&refId=Gbds4Xq9asqPfme5CTozxQ%3D%3D&trackingId=HFDA809H3Rf9u%2F5uMyzsMg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-01",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "9379346dce19371f86",
+      "legacy_ids": [
+        "2c0b6b7df1726009bd"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Senior Digital Agronomist",
+      "organization": "aerialPLOT",
+      "location": "Fargo, ND",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/senior-digital-agronomist-at-aerialplot-4439419554?position=56&pageNum=0&refId=Gbds4Xq9asqPfme5CTozxQ%3D%3D&trackingId=04tBHn3QSRVB%2FEGdAr8UXA%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-13",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/senior-digital-agronomist-at-aerialplot-4439419554?position=10&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=BcKVMoAoCW8RCr4UWZq6Zw%3D%3D"
+      ],
+      "id": "287242cc2f97a7bf10",
+      "legacy_ids": [
+        "3219df9e3bc9fa34a2"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Business Development Agronomist (Key Accounts)",
+      "organization": "Verdesian Life Sciences",
+      "location": "Omaha, NE",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/business-development-agronomist-key-accounts-at-verdesian-life-sciences-4449026899?position=29&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=nPK2L%2Fb035jm1wZFyCiLCg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-04",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "ac704981cfe1ed223b",
+      "legacy_ids": [
+        "10deb0d79f3836328a"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Assistant Professor, Cropping System Agronomist *Havre, MT*",
+      "organization": "Montana State University - Office of Student Engagement",
+      "location": "Bozeman, MT",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/assistant-professor-cropping-system-agronomist-havre-mt-at-montana-state-university-office-of-student-engagement-4445242093?position=33&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=r5itslqjEEeVUMFnqU37og%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-24",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "c646aee340beffb545",
+      "legacy_ids": [
+        "015cc30c980e722095"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Research Associate – Precision Agriculture **Havre, MT**",
+      "organization": "Montana State University - Office of Student Engagement",
+      "location": "Bozeman, MT",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/research-associate-%E2%80%93-precision-agriculture-havre-mt-at-montana-state-university-office-of-student-engagement-4443571165?position=43&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=nbqTntZ7ntSG0jJPhXSRSw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-21",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "ae11a14a1ce6ecdb46",
+      "legacy_ids": [
+        "142d2e207b20d5c536"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Field Sales Agronomist",
+      "organization": "Beck's Hybrids",
+      "location": "Spencer, IA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/field-sales-agronomist-at-beck-s-hybrids-4447536798?position=45&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=eM7ZP42tZvj%2BsL6O0v1Naw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-31",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "6acba99f584cf09854",
+      "legacy_ids": [
+        "74a91380651d205989"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Assistant/Associate/Full Professor - Crop Design",
+      "organization": "The University of Georgia",
+      "location": "Athens, GA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/assistant-associate-full-professor-crop-design-at-the-university-of-georgia-4445851313?position=49&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=A0S3EwHQEFbRJZHFRwhiUQ%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-02",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "46e5d4f63a0633855a",
+      "legacy_ids": [
+        "ec432b8022fa714e17"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "AGRIntelligence Agronomist - Candidates must be located in ID, MT, WY, ND, SD",
+      "organization": "Helena Agri-Enterprises, LLC",
+      "location": "Sugar City, ID",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/agrintelligence-agronomist-candidates-must-be-located-in-id-mt-wy-nd-sd-at-helena-agri-enterprises-llc-4448398728?position=59&pageNum=0&refId=5r7qjEERpuDg5EO%2BDwCYeg%3D%3D&trackingId=njeaY26DlQhx0JqfcGyO8Q%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-03",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "15ea313087022c0402",
+      "legacy_ids": [
+        "27727591d07d55e5fa"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Product Development Lead",
+      "organization": "Van Drunen Farms",
+      "location": "Momence, IL",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/product-development-lead-at-van-drunen-farms-4443554176?position=14&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=cAWOx3BojInd4f8mylGUZw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-21",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "97220ec30a2c2cf7c4",
+      "legacy_ids": [
+        "d8e499b549c148e291"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Product Development Lead",
+      "organization": "Van Drunen Farms",
+      "location": "Chicago, IL",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/product-development-lead-at-van-drunen-farms-4446857363?position=15&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=xB3oXzrFEniT4GPdAfJ%2FdQ%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-29",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "9ffbfb25bbd13b388d",
+      "legacy_ids": [
+        "e0dce9888e438cb91b"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "New Product Development and Innovation Manager",
+      "organization": "Keogh's Farm",
+      "location": "Albuquerque, NM",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/new-product-development-and-innovation-manager-at-keogh-s-farm-4450054583?position=22&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=6lcmPdTYDwTENRWhjXIOXg%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-07",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "76a68a044d8cdf2468",
+      "legacy_ids": [
+        "dabb2ed6b1be6e63f1"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Principal Scientist, Breakthrough Innovation",
+      "organization": "Ocean Spray Cranberries",
+      "location": "Lakeville, MA",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/principal-scientist-breakthrough-innovation-at-ocean-spray-cranberries-4318296087?position=33&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=Hah8E7AK0l7d3y0GRS7hKw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-31",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "fabf606a4153ad027e",
+      "legacy_ids": [
+        "470861cd7e9b94e4a9"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Senior R&D Scientist",
+      "organization": "Bel",
+      "location": "Traverse City, MI",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/senior-r-d-scientist-at-bel-4441870819?position=42&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=Z5Zz13v4G8ec4UIS%2BjjIEw%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-07-25",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "07d52f76670c9349cb",
+      "legacy_ids": [
+        "f71dcc6f9a6e3a5f64"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Principal Scientist",
+      "organization": "Schreiber Foods",
+      "location": "Green Bay, WI",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/principal-scientist-at-schreiber-foods-4269567465?position=43&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=TCUWpuLRtAW8fwl7cJ8lnQ%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-09",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "7adef8464c63b5f6ec",
+      "legacy_ids": [
+        "8e443d60c54dce82cc"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Research and Innovation Scientist II (Remote in the USA)",
+      "organization": "PetLabCo.",
+      "location": "Washington, DC",
+      "sector": "industry",
+      "source": "LinkedIn",
+      "source_group": "Public Search",
+      "url": "https://www.linkedin.com/jobs/view/research-and-innovation-scientist-ii-remote-in-the-usa-at-petlabco-4451362481?position=58&pageNum=0&refId=NWiOTXb8d2OfbNiBQgWjfg%3D%3D&trackingId=mJHd2U52DWbs8JBdnbLZow%3D%3D",
+      "snippet": "",
+      "posted_date": "2026-08-09",
+      "deadline": "",
+      "domain": "linkedin.com",
+      "us_only": true,
+      "id": "3ef1298ead89711a31",
+      "legacy_ids": [
+        "1db666f43627623386"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Assistant Professor - Plant Health & Microbe Interactions",
+      "organization": "University of Massachusetts Amherst",
+      "location": "Amherst, MA",
+      "sector": "academia",
+      "source": "HigherEdJobs",
+      "source_group": "Academic Board",
+      "url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179516194",
+      "snippet": "Tenure-track plant health and microbe interactions position in the Stockbridge School of Agriculture.",
+      "posted_date": "2026-08-03",
+      "deadline": "2026-09-01",
+      "us_only": true,
+      "seed": true,
+      "alternate_urls": [
+        "https://www.linkedin.com/jobs/view/assistant-professor-plant-health-microbe-interactions-at-university-of-massachusetts-amherst-4447226750?position=9&pageNum=0&refId=fH5h4Q6Bxh3AQcF81bqm5g%3D%3D&trackingId=CMGS0Ff54ijpmuhIDTPAIg%3D%3D",
+        "https://www.linkedin.com/jobs/view/assistant-professor-plant-health-microbe-interactions-at-university-of-massachusetts-amherst-4447226750?position=8&pageNum=0&refId=TEpR5MooO71IWEJZl3%2FQFA%3D%3D&trackingId=38trhSNTRIatDuU44N2qEg%3D%3D"
+      ],
+      "id": "6cb1ddf817a19b88c7",
+      "legacy_ids": [
+        "f4ac27b45dcae6068d"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Associate/Professor of Weed Science",
+      "organization": "New Mexico State University",
+      "location": "Las Cruces, NM, US",
+      "sector": "academia",
+      "source": "HigherEdJobs",
+      "source_group": "Academic Board",
+      "url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179519867&Title=Associate%2FProfessor%20of%20Weed%20Science",
+      "snippet": "<strong>Department Contact:</strong> Erik Lenhoff, 575-646-2328, <A HREF=\"mailto:lehnhoff@nmsu.edu\">lehnhoff@nmsu.edu</A> <br><br><strong>Internal or External Search: </strong>External - Open to all applicants<br><br><strong>Advertising Summary: </strong>New Mexico State University's Agricultural Experiment Station (AES) seeks a 12-month Associate Professor or Professor faculty member to be stationed at the Clovis Agricultural Science Center located in Clovis, New Mexico.<br><br><strong><strong>Position Details</strong></strong> <br><br><strong>Position Title:</strong> Associate/Professor of Weed Science <br><br><strong>College/Division:</strong> Agricultural Experiment Station <br><br><strong>Department:</strong> 317600-AG SCIENCE CTR AT CLOVIS <br><br><strong>Location: </strong>NMSU satellite location <br><br><strong>Offsite Location (if applicable):</strong> Agricultural Science Center at Clovis <br><br><strong>Target Hourly/Salary Rate:</strong> Commensurate with qualifications <br",
+      "posted_date": "2026-08-05 16:03:31.77",
+      "deadline": "2028-01-27 23:59:59.9",
+      "domain": "higheredjobs.com",
+      "us_only": true,
+      "id": "d06b36968ddd9fe26f",
+      "legacy_ids": [
+        "f4ac27b45dcae6068d"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "DRIVES Research Associate",
+      "organization": "North Carolina State University",
+      "location": "Raleigh, NC, US",
+      "sector": "academia",
+      "source": "HigherEdJobs",
+      "source_group": "Academic Board",
+      "url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179522068&Title=DRIVES%20Research%20Associate",
+      "snippet": "<p>Join the Pack! A community with nearly 8,000 faculty and staff, and 30,000 students. NC State is one of the largest employers in North Carolina, offering a large range of career opportunities. Visit us at <A HREF=\"https://jobs.hr.ncsu.edu/\" TARGET=\"_blank\">https://jobs.hr.ncsu.edu/</A>.</p> <p><strong>Location:</strong> Beltsville, MD</p> <p><strong>Essential Job Duties:</strong><br>The DRIVES Agroecology Research Associate will work under the supervision of the Agroecology Professor to support the growth of the Agroecology Lab's research program about the impacts of crop diversification. Key responsibilities will include organizing and maintaining the Diverse Rotation Improve Valuable Ecosystem Services (DRIVES) database (drives-network.org) and conducting synthesis research on crop diversification across a range of environmental conditions.<br><br>The DRIVES database is a network of data from long-term cropping systems experiments. The Associate will be responsible for database ex",
+      "posted_date": "2026-08-07 11:02:43.62",
+      "deadline": "2028-01-29 23:59:59.9",
+      "domain": "higheredjobs.com",
+      "us_only": true,
+      "id": "a781edc38a7269411f",
+      "legacy_ids": [
+        "f4ac27b45dcae6068d"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Assistant Professor of Nematology",
+      "organization": "New Mexico State University",
+      "location": "Las Cruces, NM, US",
+      "sector": "academia",
+      "source": "HigherEdJobs",
+      "source_group": "Academic Board",
+      "url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179519866&Title=Assistant%20Professor%20of%20Nematology",
+      "snippet": "<strong>Department Contact:</strong> Jennifer Randall, 575-646-2920, <A HREF=\"mailto:jrandall@nmsu.edu\">jrandall@nmsu.edu</A> <br><br><strong>Internal or External Search: </strong>External - Open to all applicants<br><br><strong>Advertising Summary: </strong>The Department of Entomology, Plant Pathology, and Weed Science seeks to hire an Assistant Professor to develop an innovative, fundamental, and applied research program in nematology related to integrated pest management in the semi-arid west and teach courses needed by the Department and the College<br><br><strong><strong>Position Details</strong></strong> <br><br><strong>Position Title:</strong> Assistant Professor of Nematology <br><br><strong>College/Division:</strong> Agricultural,Consumer & Env Sci Col <br><br><strong>Department:</strong> 303000-ENTOMOLOGY PLANT PATH AND WEED SCI <br><br><strong>Location: </strong>Las Cruces <br><br><strong>Offsite Location (if applicable):</strong> <br><br><strong>Target Hourly/Salary Rate:<",
+      "posted_date": "2026-08-05 16:03:25.267",
+      "deadline": "2028-01-27 23:59:59.9",
+      "domain": "higheredjobs.com",
+      "us_only": true,
+      "id": "60e02d0e2e28ccca91",
+      "legacy_ids": [
+        "f4ac27b45dcae6068d"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Postdoctoral Research Scholar",
+      "organization": "North Carolina State University",
+      "location": "Raleigh, NC, US",
+      "sector": "academia",
+      "source": "HigherEdJobs",
+      "source_group": "Academic Board",
+      "url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179519854&Title=Postdoctoral%20Research%20Scholar",
+      "snippet": "<p>Join the Pack! A community with nearly 8,000 faculty and staff, and 30,000 students. NC State is one of the largest employers in North Carolina, offering a large range of career opportunities. Visit us at <A HREF=\"https://jobs.hr.ncsu.edu/\" TARGET=\"_blank\">https://jobs.hr.ncsu.edu/</A>.</p> <p><strong>Position Number:</strong> 00111863</p> <p><strong>Essential Job Duties:</strong> <br><span>The Department of Crop and Soil Sciences encompasses varied disciplines in research, extension, and teaching. The department's mission is to develop future leaders in crop, soil and environmental sciences, improve crop plants and products, devise effective and sustainable crop production systems, devise effective and sustainable soil management techniques in both agriculture and urban settings; and disseminate crop, soil, and environmental science, knowledge for the benefit of producers of food, feed, turf, biofuels and fiber in North Carolina.<br><br><strong>Duties and Responsibilities:</strong>",
+      "posted_date": "2026-08-05 16:02:32.853",
+      "deadline": "2028-01-27 23:59:59.9",
+      "domain": "higheredjobs.com",
+      "us_only": true,
+      "id": "4e09b2a9d728949fae",
+      "legacy_ids": [
+        "f4ac27b45dcae6068d"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Assistant Professor - Plant Health &amp; Microbe Interactions",
+      "organization": "University of Massachusetts - Amherst",
+      "location": "Amherst, MA, US",
+      "sector": "academia",
+      "source": "HigherEdJobs",
+      "source_group": "Academic Board",
+      "url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179516194&Title=Assistant%20Professor%20%2D%20Plant%20Health%20%26amp%3B%20Microbe%20Interactions",
+      "snippet": "<p><strong>Title:</strong> Assistant Professor - Plant Health & Microbe Interactions</p> <p><strong>Executive Area:</strong> Academic Affairs</p> <p><strong>College/School/MBU:</strong> College of Natural Sciences</p> <p><strong>Department:</strong> Stockbridge Sch of Agriculture</p> <p><strong>Work Location:</strong> Amherst</p> <p><strong>Schedule: </strong>Full Time</p> <p><strong>Work Arrangement:</strong> Onsite</p> <p><strong>Job Summary</strong></p> <p>The Stockbridge School of Agriculture (SSA) at the University of Massachusetts Amherst is seeking applications for a 9-month, full time, tenure-track Assistant Professor in Plant Health and Plant-Microbe Interactions, with a focus on innovative and sustainable approaches to managing plant diseases. We are seeking talented applicants qualified for an assistant professor position. Under exceptional circumstances, highly qualified candidates at other ranks may receive consideration.<br><br>The Stockbridge School of Agriculture (SSA) ",
+      "posted_date": "2026-08-03 11:02:48.98",
+      "deadline": "2028-01-25 23:59:59.9",
+      "domain": "higheredjobs.com",
+      "us_only": true,
+      "id": "0a8ffdbe263bbc7db6",
+      "legacy_ids": [
+        "f4ac27b45dcae6068d"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Postdoctoral Researcher (Sustainable Agricultural Systems & Wastewater Management)",
+      "organization": "",
+      "location": "M University in Prairie View, TX",
+      "sector": "academia",
+      "source": "HigherEdJobs",
+      "source_group": "Academic Board",
+      "url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179517232&Title=Postdoctoral%20Researcher%20%28Sustainable%20Agricultural%20Systems%20%26amp%3B%20Wastewater%20Management%29",
+      "snippet": "Postdoctoral Researcher (Sustainable Agricultural Systems & Wastewater Management) - HigherEdJobs Skip to main content Sign Up | Log In Job Search By Category Administrative Faculty Executive By Location Metro/Region State/Province Country Online/Remote By School Four-Year Institutions Two-Year Institutions All Institutions Institutional Profiles By Type Dual Career Today's Jobs Adjunct/Part-Time Inclusive Workplace Military-Friendly Advanced Search My Account Account Home Job Alerts Resume/CV Other Documents My Jobs Organizer Profile Account Settings Log In Sign Up News & Resources News Advice & News Higher Ed Careers Author in Residence Ask the Expert Newsletters HigherEdJobs Podcast Resources Career Resources Job Search Tips Resume/CV Writing Service Workplace Inclusion Search Firms Employers Employer Home Employer Login Create Account Job Postings Post a Single Job Job Packs Unlimite",
+      "posted_date": "",
+      "deadline": "",
+      "domain": "higheredjobs.com",
+      "us_only": true,
+      "id": "ff48601b6039637d1a",
+      "legacy_ids": [
+        "f4ac27b45dcae6068d"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Post Doctoral Research Associate - Agricultural Remote Sensing",
+      "organization": "",
+      "location": "CV Writing Service Workplace Inclusion Search Firms Employers Employer Home Employer Login Create Account Job Postings Post a Single Job Job Packs Unlimited Postings VIP Positions Automated Postings Other Products Digital Advertising Resume Database Institutional Profile Interim Search View All Products Posting Upgrades Inclusive Workplace Upgrade Inclusive Workplace Spotlight Priority Job Upgrade Military Upgrade Social Media Upgrade Featured Executive Position More Info Our Audience Testimonials Pay Your Invoice Contact Us Home Jobs Faculty Job Listings Job Detail Post Doctoral Research Associate - Agricultural Remote Sensing Texas Tech University in Lubbock, TX",
+      "sector": "academia",
+      "source": "HigherEdJobs",
+      "source_group": "Academic Board",
+      "url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179520489&Title=Post%20Doctoral%20Research%20Associate%20%2D%20Agricultural%20Remote%20Sensing",
+      "snippet": "Post Doctoral Research Associate - Agricultural Remote Sensing - HigherEdJobs Skip to main content Sign Up | Log In Job Search By Category Administrative Faculty Executive By Location Metro/Region State/Province Country Online/Remote By School Four-Year Institutions Two-Year Institutions All Institutions Institutional Profiles By Type Dual Career Today's Jobs Adjunct/Part-Time Inclusive Workplace Military-Friendly Advanced Search My Account Account Home Job Alerts Resume/CV Other Documents My Jobs Organizer Profile Account Settings Log In Sign Up News & Resources News Advice & News Higher Ed Careers Author in Residence Ask the Expert Newsletters HigherEdJobs Podcast Resources Career Resources Job Search Tips Resume/CV Writing Service Workplace Inclusion Search Firms Employers Employer Home Employer Login Create Account Job Postings Post a Single Job Job Packs Unlimited Postings VIP Posit",
+      "posted_date": "",
+      "deadline": "",
+      "domain": "higheredjobs.com",
+      "us_only": true,
+      "id": "6ed2765d11e3c72822",
+      "legacy_ids": [
+        "f4ac27b45dcae6068d"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Tobacco Extension Agronomist",
+      "organization": "North Carolina State University",
+      "location": "Raleigh, NC, US",
+      "sector": "academia",
+      "source": "HigherEdJobs",
+      "source_group": "Academic Board",
+      "url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179512765&Title=Tobacco%20Extension%20Agronomist",
+      "snippet": "<p>Join the Pack! A community with nearly 8,000 faculty and staff, and 30,000 students. NC State is one of the largest employers in North Carolina, offering a large range of career opportunities. Visit us at <A HREF=\"https://jobs.hr.ncsu.edu/\" TARGET=\"_blank\">https://jobs.hr.ncsu.edu/</A>.</p> <p><strong>Location:</strong> Raleigh, NC</p> <p><strong>Essential Job Duties:</strong> <br><span>The Department of Crop and Soil Sciences at NC State University invites applications for an Assistant Professor and Crop Production Management Specialist. Supported through the Collins Endowment Distinguished Fellowship, this position will provide statewide leadership in applied tobacco agronomy through an integrated program of Extension, research, and teaching focused on improving the sustainability, productivity, and profitability of North Carolina's flue-cured and burley tobacco industries.</span> <br><br><span>In this role, you will work alongside growers, industry partners, county Extension agen",
+      "posted_date": "2026-07-29 14:16:00.867",
+      "deadline": "2028-01-20 23:59:59.9",
+      "domain": "higheredjobs.com",
+      "us_only": true,
+      "id": "446e91d28d77e4b10c",
+      "legacy_ids": [
+        "f4ac27b45dcae6068d"
+      ],
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10"
+    },
+    {
+      "title": "Assistant Professor - Controlled Environment Agriculture Crop Physiology",
+      "organization": "Cornell University, School of Integrative Plant Science",
+      "location": "Ithaca, NY",
+      "sector": "academia",
+      "source": "AcademicJobsOnline",
+      "source_group": "Academic Board",
+      "url": "https://academicjobsonline.org/ajo/Cornell/SIPS/CEACP",
+      "snippet": "Tenure-track assistant professor in controlled environment agriculture crop physiology.",
+      "posted_date": "2026-06-05",
+      "deadline": "2026-09-10",
+      "us_only": true,
+      "seed": true,
+      "id": "560c3a21bc54e3ab65",
+      "legacy_ids": [
+        "e50db42a5fe5cf3ea4"
+      ],
       "first_seen": "2026-08-10",
       "last_seen": "2026-08-10"
     }
