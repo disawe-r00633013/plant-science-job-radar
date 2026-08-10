@@ -1,10 +1,10 @@
 
-const PREF_KEY="plantScienceCareerRadarPrefsV6";
-const STATE_KEY="plantScienceCareerRadarJobStateV6";
-const LEGACY_KEYS=["plantScienceCareerRadarJobStateV5","plantScienceCareerRadarJobStateV4","plantScienceCareerRadarJobStateV3"];
-const SYNC_CONFIG_KEY="plantScienceCareerRadarGithubSyncV6";
-const SYNC_TOKEN_KEY="plantScienceCareerRadarGithubTokenV6";
-const SYNC_TOKEN_SESSION_KEY="plantScienceCareerRadarGithubTokenSessionV6";
+const PREF_KEY="plantScienceCareerRadarPrefsV7";
+const STATE_KEY="plantScienceCareerRadarJobStateV7";
+const LEGACY_KEYS=["plantScienceCareerRadarJobStateV6","plantScienceCareerRadarJobStateV5","plantScienceCareerRadarJobStateV4","plantScienceCareerRadarJobStateV3"];
+const SYNC_CONFIG_KEY="plantScienceCareerRadarGithubSyncV7";
+const SYNC_TOKEN_KEY="plantScienceCareerRadarGithubTokenV7";
+const SYNC_TOKEN_SESSION_KEY="plantScienceCareerRadarGithubTokenSessionV7";
 
 let CONFIG=null,JOBS=[],STATUS={},prefs=null,stage="new",quickTopic="all",editingJobId=null,syncTimer=null,syncInFlight=false;
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
@@ -27,7 +27,7 @@ function migrateLegacy(){
   }
 }
 function loadState(){try{return JSON.parse(localStorage.getItem(STATE_KEY))||{}}catch(e){return{}}}
-function getState(id){return loadState()[id]||{}}
+function getState(id,aliases=[]){const st=loadState();if(st[id])return st[id];for(const a of aliases||[]){if(st[a])return st[a]}return {}}
 function setState(id,patch){
   const s=loadState(); s[id]={...(s[id]||{}),...patch,updatedAt:new Date().toISOString()};
   localStorage.setItem(STATE_KEY,JSON.stringify(s)); refreshSyncSummary(); scheduleGithubSync();
@@ -61,7 +61,7 @@ function scoreJob(j){
   return Math.max(0,Math.min(100,score))
 }
 function jobStage(j){
-  const s=getState(uid(j));
+  const s=getState(uid(j),j.legacy_ids||[]);
   if(s.hidden)return"hidden";
   if(s.applied)return"applied";
   if(s.saved)return"saved";
@@ -136,7 +136,8 @@ function bindTabs(){
 function renderStatus(){
   $("#lastUpdated").textContent=STATUS.last_updated?new Date(STATUS.last_updated).toLocaleString("zh-TW",{month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"}):"尚未更新";
   const errs=STATUS.errors||[];
-  if(errs.length){$("#sourceAlert").classList.remove("hidden");$("#sourceAlert").innerHTML=`<strong>更新提醒：</strong> ${esc(errs.join("；"))}`}else $("#sourceAlert").classList.add("hidden")
+  if(errs.length){$("#sourceAlert").classList.remove("hidden");$("#sourceAlert").innerHTML=`<strong>部分來源未成功：</strong> ${esc(errs.slice(0,5).join("；"))}${errs.length>5?`；另 ${errs.length-5} 個來源錯誤`:""}。其他來源與舊資料仍會保留。`}else $("#sourceAlert").classList.add("hidden");
+  const health=$("#sourceHealth");if(health){health.innerHTML="";(STATUS.sources||[]).forEach(s=>{const d=document.createElement("div");d.className=`health-item ${s.ok?"ok":"bad"}`;d.innerHTML=`<div class="health-top"><strong>${esc(s.name||"Source")}</strong><b>${Number(s.count||0)} 筆</b></div><small>${esc(s.note||(s.ok?"已完成":"本次失敗"))}</small>`;health.appendChild(d)})}
 }
 function filtered(){
   const q=norm($("#searchInput").value.trim()),sector=$("#sectorFilter").value,source=$("#sourceFilter").value,min=Number($("#scoreFilter").value);
@@ -171,7 +172,7 @@ function render(){
   arr.forEach(j=>renderCard(j));
 }
 function renderCard(j){
-  const node=$("#jobTemplate").content.cloneNode(true),id=uid(j),st=getState(id),badges=node.querySelector(".badges");
+  const node=$("#jobTemplate").content.cloneNode(true),id=uid(j),st=getState(id,j.legacy_ids||[]),badges=node.querySelector(".badges");
   const badge=(t,cls="")=>{const x=document.createElement("span");x.className=`badge ${cls}`;x.textContent=t;badges.appendChild(x)};
   badge(j.sector==="industry"?"Industry":"Academia",j.sector);badge(j.source,"source");
   if(daysSince(j.first_seen)<=Number(prefs.new_days||7))badge("NEW","new");
@@ -184,9 +185,9 @@ function renderCard(j){
   const save=node.querySelector(".save-btn"),applied=node.querySelector(".applied-btn"),manage=node.querySelector(".manage-btn"),hide=node.querySelector(".hide-btn");
   if(st.saved){save.textContent="♥ 已收藏";save.classList.add("saved")}
   if(st.applied){applied.textContent="✓ 已申請";applied.classList.add("applied");manage.classList.remove("hidden")}
-  save.onclick=()=>{setState(id,{saved:!getState(id).saved,hidden:false});render()};
+  save.onclick=()=>{setState(id,{saved:!getState(id,j.legacy_ids||[]).saved,hidden:false});render()};
   applied.onclick=()=>{
-    const now=getState(id);
+    const now=getState(id,j.legacy_ids||[]);
     if(now.applied){openApplication(j);return}
     setState(id,{applied:true,saved:false,hidden:false,applicationStatus:"Applied",appliedDate:today()});render()
   };
@@ -196,7 +197,7 @@ function renderCard(j){
   $("#jobsGrid").appendChild(node)
 }
 function openApplication(j){
-  editingJobId=uid(j);const s=getState(editingJobId);$("#applicationDialogTitle").textContent=j.title||"管理申請";$("#applicationDialogOrg").textContent=j.organization||"";
+  editingJobId=uid(j);const s=getState(editingJobId,j.legacy_ids||[]);$("#applicationDialogTitle").textContent=j.title||"管理申請";$("#applicationDialogOrg").textContent=j.organization||"";
   $("#applicationStatus").value=s.applicationStatus||"Applied";$("#appliedDate").value=s.appliedDate||today();$("#deadline").value=s.deadline||"";$("#interviewDate").value=s.interviewDate||"";$("#applicationNotes").value=s.notes||"";$("#applicationDialog").showModal()
 }
 

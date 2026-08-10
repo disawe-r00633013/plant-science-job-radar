@@ -3,7 +3,9 @@
     "title": "US Plant Science Career Radar",
     "country": "United States",
     "new_days": 7,
-    "stale_after_days": 21
+    "stale_after_days": 45,
+    "retain_old_days": 90,
+    "version": 7
   },
   "default_preferences": {
     "sectors": [
@@ -251,5 +253,120 @@
     }
   ],
   "manual_greenhouse_boards": [],
-  "manual_lever_sites": []
+  "manual_lever_sites": [],
+  "linkedin_public_searches": [
+    "plant pathology scientist",
+    "plant health scientist",
+    "biologicals scientist agriculture",
+    "biostimulant scientist",
+    "crop protection research scientist",
+    "horticulture research scientist",
+    "postharvest scientist",
+    "controlled environment agriculture scientist",
+    "field development scientist agriculture",
+    "product development scientist agriculture"
+  ],
+  "indeed_public_searches": [
+    "plant pathology scientist",
+    "biologicals scientist agriculture",
+    "crop protection research scientist",
+    "horticulture scientist",
+    "postharvest scientist",
+    "field development scientist agriculture"
+  ],
+  "company_searches": [
+    {
+      "company": "Syngenta",
+      "domain": "jobs.syngenta.com"
+    },
+    {
+      "company": "Corteva Agriscience",
+      "domain": "careers.corteva.com"
+    },
+    {
+      "company": "Bayer Crop Science",
+      "domain": "jobs.bayer.com"
+    },
+    {
+      "company": "BASF",
+      "domain": "basf.jobs"
+    },
+    {
+      "company": "FMC",
+      "domain": "jobs.fmc.com"
+    },
+    {
+      "company": "Valent",
+      "domain": "valent.com"
+    },
+    {
+      "company": "UPL",
+      "domain": "upl-ltd.com"
+    },
+    {
+      "company": "Gowan",
+      "domain": "gowanco.com"
+    },
+    {
+      "company": "Certis Biologicals",
+      "domain": "certisbio.com"
+    },
+    {
+      "company": "BioWorks",
+      "domain": "bioworksinc.com"
+    },
+    {
+      "company": "Pivot Bio",
+      "domain": "pivotbio.com"
+    },
+    {
+      "company": "Indigo Ag",
+      "domain": "indigoag.com"
+    },
+    {
+      "company": "Ohalo Genetics",
+      "domain": "ohalo.com"
+    }
+  ],
+  "smartrecruiters_companies": [
+    "SyngentaGroup"
+  ],
+  "backup_queries": [
+    {
+      "name": "APS indexed jobs",
+      "sector": "academia",
+      "source_hint": "APS Job Board",
+      "query": "site:jobs.apsnet.org/jobs plant pathology professor scientist"
+    },
+    {
+      "name": "AcademicJobsOnline plant",
+      "sector": "academia",
+      "source_hint": "AcademicJobsOnline",
+      "query": "site:academicjobsonline.org/ajo plant pathology horticulture crop professor"
+    },
+    {
+      "name": "LinkedIn plant scientist",
+      "sector": "industry",
+      "source_hint": "LinkedIn",
+      "query": "site:linkedin.com/jobs/view plant scientist agriculture United States"
+    },
+    {
+      "name": "LinkedIn crop scientist",
+      "sector": "industry",
+      "source_hint": "LinkedIn",
+      "query": "site:linkedin.com/jobs/view crop protection scientist United States"
+    },
+    {
+      "name": "Indeed plant pathology",
+      "sector": "industry",
+      "source_hint": "Indeed",
+      "query": "site:indeed.com/viewjob plant pathology scientist United States"
+    },
+    {
+      "name": "Indeed biologicals",
+      "sector": "industry",
+      "source_hint": "Indeed",
+      "query": "site:indeed.com/viewjob biologicals scientist agriculture United States"
+    }
+  ]
 }

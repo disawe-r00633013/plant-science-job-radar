@@ -1,0 +1,46 @@
+{
+  "jobs": [
+    {
+      "title": "Assistant Professor - Plant Health & Microbe Interactions",
+      "organization": "University of Massachusetts Amherst",
+      "location": "Amherst, MA",
+      "sector": "academia",
+      "source": "HigherEdJobs",
+      "source_group": "Academic Board",
+      "url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179516194",
+      "snippet": "Tenure-track plant health and microbe interactions position in the Stockbridge School of Agriculture.",
+      "posted_date": "2026-08-03",
+      "deadline": "2026-09-01",
+      "us_only": true,
+      "seed": true
+    },
+    {
+      "title": "Assistant or Associate Professor of Phytopathology in Controlled and Space Environments",
+      "organization": "University of Florida",
+      "location": "Orange, FL",
+      "sector": "academia",
+      "source": "University of Florida",
+      "source_group": "University Official",
+      "url": "https://explore.jobs.ufl.edu/en-us/job/539777/assistant-or-associate-professor-of-phytopathology-in-controlled-and-space-environments",
+      "snippet": "Tenure-track faculty position in pathogen biology with emphasis on controlled environments and space environments.",
+      "posted_date": "2026-05-04",
+      "deadline": "",
+      "us_only": true,
+      "seed": true
+    },
+    {
+      "title": "Assistant Professor - Controlled Environment Agriculture Crop Physiology",
+      "organization": "Cornell University, School of Integrative Plant Science",
+      "location": "Ithaca, NY",
+      "sector": "academia",
+      "source": "AcademicJobsOnline",
+      "source_group": "Academic Board",
+      "url": "https://academicjobsonline.org/ajo/Cornell/SIPS/CEACP",
+      "snippet": "Tenure-track assistant professor in controlled environment agriculture crop physiology.",
+      "posted_date": "2026-06-05",
+      "deadline": "2026-09-10",
+      "us_only": true,
+      "seed": true
+    }
+  ]
+}

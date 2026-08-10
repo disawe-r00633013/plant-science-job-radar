@@ -1,78 +1,63 @@
-# US Plant Science Career Radar v6
+# US Plant Science Career Radar v7 — Data Safe
 
-v6 重做 Industry 資料來源，保留 v5 的 Job Search CRM 與 GitHub Sync。
+v7 修正 v6 會因新版 ZIP 的空 `jobs.json` 把舊資料清掉的問題。
 
-## Industry 資料來源
+## 最重要的改變
 
-1. **LinkedIn**
-   - 不登入、不直接爬 LinkedIn 帳號。
-   - 用 Bing RSS 搜尋公開索引的 `linkedin.com/jobs/view` 頁面。
-   - 點職缺後回 LinkedIn 查看。
+**v7 ZIP 不包含 `data/jobs.json` 與 `data/status.json`。**
 
-2. **Indeed**
-   - 同樣用搜尋引擎公開索引作補充。
-   - 不需要 Indeed API key。
+所以把 v7 上傳到既有 GitHub repository 時：
+- 舊的 `data/jobs.json` 會留在 GitHub。
+- 新版程式每天把「舊資料 + 今天各來源新資料」合併。
+- 單一來源被擋或暫時回傳 0 筆，不會讓其他職缺消失。
+- 無 deadline 的舊職缺預設保留 90 天。
+- 有 deadline 的職缺在 deadline 過後 14 天才會淘汰。
 
-3. **Official / ATS**
-   - 搜尋公司官方 careers。
-   - 如果搜尋結果發現 `boards.greenhouse.io/<company>`，程式會自動解析 board token，再用 Greenhouse 公開 Job Board API 擴大抓取該公司的相關職缺。
-   - 如果發現 `jobs.lever.co/<company>`，會自動用 Lever public postings endpoint 擴大抓取。
+## v7 資料來源
 
-4. **Academia**
-   - HigherEdJobs
-   - AcademicJobsOnline
-   - University / academic board 搜尋
+### Academia
+- HigherEdJobs Plant & Soil Science：直接讀取分類頁與 JobPosting structured data
+- HigherEdJobs Agriculture：直接讀取
+- APS Job Board：直接讀取 + indexed fallback
+- AcademicJobsOnline：indexed fallback
+- University official pages：搜尋與 structured data
+- Recovery seed：UMass / UF / Cornell 三筆目前已知有效職缺，防止升級時再次消失
 
-## 為什麼不是直接 LinkedIn API / Indeed API？
+### Industry
+- LinkedIn public job-search pages：10 組較小關鍵字搜尋
+- Indeed public search：best effort；若 Indeed 擋自動化，不影響其他來源
+- 13 家農業公司逐家公司搜尋
+- Greenhouse 公開 Job Board API：找到 board token 後自動擴充
+- Lever public Postings API：找到 site token 後自動擴充
+- SmartRecruiters：已知 tenant 做 best-effort public postings fetch
+- Bing RSS：只當備援，不再是唯一來源
 
-LinkedIn 官方 Job Posting API 是給經核准的 ATS / partner 發布職缺，不是一般個人 job-search API。
-Indeed 有 Publisher / partner 整合，但需要 Indeed partner access。
+## 公司搜尋
+Syngenta、Corteva Agriscience、Bayer Crop Science、BASF、FMC、Valent、UPL、Gowan、Certis Biologicals、BioWorks、Pivot Bio、Indigo Ag、Ohalo Genetics。
 
-因此 v6 採用：
-**Official careers / public ATS > LinkedIn / Indeed indexed links**。
+## 上傳 v7
 
-## 上傳
+把 ZIP 解壓縮後覆蓋 repository 根目錄。
 
-把 ZIP 解壓後的所有內容直接覆蓋到 `plant-science-job-radar` repository 根目錄。
+`data/` 裡 v7 新增的是：
+- `seed_jobs.json`
 
-根目錄應看到：
+**不要刪除 GitHub 上原本的：**
+- `data/jobs.json`
+- `data/status.json`
 
-- `.github/`
-- `data/`
-- `scripts/`
-- `index.html`
-- `style.css`
-- `app.js`
-- `config.json`
-- `requirements.txt`
+v7 ZIP 本身沒有這兩個檔，所以正常覆蓋不會碰它們。
 
-## 第一次更新
+## Workflow
 
-GitHub:
+你目前 v6 的 `Update US plant science jobs and deploy` 與 v7 相容。
+即使 `.github` 隱藏資料夾這次沒有被瀏覽器上傳，v7 仍可正常跑。
+
+上傳後：
 `Actions → Update US plant science jobs and deploy → Run workflow`
 
-跑完後再重新整理 Pages。
+完成後首頁會新增「來源健康狀態」。即使 LinkedIn / Indeed 本輪抓到 0 筆，也會顯示 0 筆與是否成功，不會整個來源消失。
 
 ## GitHub Sync
 
-右上角 `☁ GitHub 同步`。
-
-建議把進度同步到獨立 private repo：
-`plant-science-job-radar-data`
-
-Fine-grained PAT 僅授權：
-- 該 private repository
-- Contents: Read and write
-
-不要把 token 貼到聊天室或 commit 到 repository。
-
-## 進階：手動指定 Greenhouse / Lever
-
-如果你知道某家公司使用 Greenhouse 或 Lever，可在 `config.json` 填：
-
-```json
-"manual_greenhouse_boards": ["company-token"],
-"manual_lever_sites": ["company-site-token"]
-```
-
-每天更新時會直接掃完整公開 job board，再只留下植物／農業相關職缺。
+CRM 仍支援 private data repo 同步。Fine-grained token 只需要該 private data repo 的 `Contents: Read and write`。
