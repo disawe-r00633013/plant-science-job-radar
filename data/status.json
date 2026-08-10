@@ -1,15 +1,15 @@
 {
   "version": 8,
-  "last_updated": "2026-08-10T05:03:45.365983+00:00",
-  "job_count": 136,
+  "last_updated": "2026-08-10T06:19:52.925803+00:00",
+  "job_count": 137,
   "sector_counts": {
-    "industry": 125,
+    "industry": 126,
     "academia": 11
   },
   "source_counts": {
     "University of Florida": 1,
     "SmartRecruiters": 6,
-    "LinkedIn": 119,
+    "LinkedIn": 120,
     "HigherEdJobs": 9,
     "AcademicJobsOnline": 1
   },
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 10,
+      "count": 8,
       "ok": true,
       "note": ""
     },
@@ -77,16 +77,16 @@
   ],
   "validation": {
     "rejected_current_count": 113,
-    "rejected_old_count": 1,
+    "rejected_old_count": 0,
     "recent_rejections": [
       {
-        "title": "Teaching Specialist (# 375269)",
+        "title": "Teaching Specialist (# 375288)",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Teaching Specialist (# 375288)",
+        "title": "Teaching Specialist (# 375269)",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
