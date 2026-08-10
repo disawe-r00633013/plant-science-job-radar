@@ -1,15 +1,57 @@
 
-const PREF_KEY="plantScienceCareerRadarPrefsV8";
-const STATE_KEY="plantScienceCareerRadarJobStateV8";
-const LEGACY_KEYS=["plantScienceCareerRadarJobStateV7","plantScienceCareerRadarJobStateV6","plantScienceCareerRadarJobStateV5","plantScienceCareerRadarJobStateV4","plantScienceCareerRadarJobStateV3"];
-const SYNC_CONFIG_KEY="plantScienceCareerRadarGithubSyncV8";
-const SYNC_TOKEN_KEY="plantScienceCareerRadarGithubTokenV8";
-const SYNC_TOKEN_SESSION_KEY="plantScienceCareerRadarGithubTokenSessionV8";
+const PREF_KEY="plantScienceCareerRadarPrefsV9";
+const STATE_KEY="plantScienceCareerRadarJobStateV9";
+const LEGACY_KEYS=["plantScienceCareerRadarJobStateV8","plantScienceCareerRadarJobStateV7","plantScienceCareerRadarJobStateV6","plantScienceCareerRadarJobStateV5","plantScienceCareerRadarJobStateV4","plantScienceCareerRadarJobStateV3"];
+const SYNC_CONFIG_KEY="plantScienceCareerRadarGithubSyncV9";
+const SYNC_TOKEN_KEY="plantScienceCareerRadarGithubTokenV9";
+const SYNC_TOKEN_SESSION_KEY="plantScienceCareerRadarGithubTokenSessionV9";
 
 let CONFIG=null,JOBS=[],STATUS={},prefs=null,stage="new",quickTopic="all",editingJobId=null,syncTimer=null,syncInFlight=false;
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 function esc(s=""){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]))}
 function norm(s=""){return String(s).toLowerCase().replace(/[–—]/g,"-")}
+
+function decodeAndStripHtml(value=""){
+  let text=String(value||"");
+  for(let i=0;i<3;i++){
+    const ta=document.createElement("textarea");
+    ta.innerHTML=text;
+    const decoded=ta.value;
+    const div=document.createElement("div");
+    div.innerHTML=decoded;
+    const stripped=(div.textContent||div.innerText||decoded);
+    if(stripped===text)break;
+    text=stripped;
+  }
+  return text.replace(/\s+/g," ").replace(/\s+([,.;:])/g,"$1").trim();
+}
+function makeSummaryBullets(raw,maxItems=5){
+  const text=decodeAndStripHtml(raw);
+  if(!text)return ["原始來源未提供摘要，請點「查看職缺」閱讀完整內容。"];
+
+  const labels=/(Title|Executive Area|College\/School\/MBU|Department|Work Location|Job Type|Position|Responsibilities|Qualifications|About the job|Job Summary|What You(?:’|')?ll Do|Requirements)\s*:\s*/gi;
+  let normalized=text.replace(labels,"\n$1: ");
+  let parts=normalized
+    .split(/\n+|(?<=[.!?])\s+(?=[A-Z0-9])/)
+    .map(x=>x.trim())
+    .filter(Boolean);
+
+  const output=[],seen=new Set();
+  for(let p of parts){
+    p=p.replace(/^[-–—•·]\s*/,"").trim();
+    if(!p||p.length<12)continue;
+    if(p.length>260)p=p.slice(0,257).trim()+"…";
+    const key=p.toLowerCase();
+    if(seen.has(key))continue;
+    seen.add(key);
+    output.push(p);
+    if(output.length>=maxItems)break;
+  }
+  return output.length?output:[text.slice(0,260)+(text.length>260?"…":"")];
+}
+function cleanTitle(value=""){
+  return decodeAndStripHtml(value).replace(/&amp;/gi,"&");
+}
 function clone(o){return JSON.parse(JSON.stringify(o))}
 function uid(j){return j.id||`${j.url}|${j.title}|${j.organization}`}
 function today(){return new Date().toISOString().slice(0,10)}
@@ -182,10 +224,40 @@ function renderCard(j){
   badge(j.sector==="industry"?"Industry":"Academia",j.sector);badge(j.source,"source");
   if(daysSince(j.first_seen)<=Number(prefs.new_days||7))badge("NEW","new");
   if(daysSince(j.last_seen)>Number(CONFIG.app.stale_after_days||21))badge("可能已過期","stale");
-  node.querySelector(".score-value").textContent=j._score;node.querySelector(".job-title").textContent=j.title||"Untitled";
-  node.querySelector(".org").textContent=j.organization||"";node.querySelector(".location").textContent=j.location||"United States";node.querySelector(".snippet").textContent=j.snippet||"";
-  const mr=node.querySelector(".match-row");[...j._topics,...j._roles].slice(0,6).forEach(m=>{const x=document.createElement("span");x.className="match";x.textContent=m;mr.appendChild(x)});
-  node.querySelector(".job-meta").textContent=`來源群組：${j.source_group||"Web"} ｜ 首次發現：${j.first_seen||"—"} ｜ 最近看到：${j.last_seen||"—"}${j.domain?` ｜ ${j.domain}`:""}`;
+  node.querySelector(".score-value").textContent=j._score;
+  node.querySelector(".job-title").textContent=cleanTitle(j.title||"Untitled");
+  node.querySelector(".org").textContent=cleanTitle(j.organization||"");
+  node.querySelector(".location").textContent=cleanTitle(j.location||"United States");
+
+  const list=node.querySelector(".snippet-list");
+  makeSummaryBullets(j.snippet||"",5).forEach(item=>{
+    const li=document.createElement("li");
+    li.textContent=item;
+    list.appendChild(li);
+  });
+
+  const mr=node.querySelector(".match-row");
+  [...j._topics,...j._roles].slice(0,6).forEach(m=>{
+    const x=document.createElement("span");x.className="match";x.textContent=m;mr.appendChild(x)
+  });
+
+  const meta=node.querySelector(".job-meta");
+  meta.innerHTML="";
+  [
+    ["來源",j.source_group||j.source||"Web"],
+    ["首次發現",j.first_seen||"—"],
+    ["最近看到",j.last_seen||"—"],
+    ["網站",j.domain||"—"]
+  ].forEach(([label,value])=>{
+    const d=document.createElement("div");
+    d.className="meta-item";
+    const l=document.createElement("span");
+    l.className="meta-label";
+    l.textContent=label+"：";
+    d.appendChild(l);
+    d.appendChild(document.createTextNode(cleanTitle(value)));
+    meta.appendChild(d);
+  });
   node.querySelector(".open-link").href=j.url;
   const save=node.querySelector(".save-btn"),applied=node.querySelector(".applied-btn"),manage=node.querySelector(".manage-btn"),hide=node.querySelector(".hide-btn");
   if(st.saved){save.textContent="♥ 已收藏";save.classList.add("saved")}

@@ -13,7 +13,7 @@
     <div>
       <p class="eyebrow">UNITED STATES · INDUSTRY + ACADEMIA</p>
       <h1>🌱 US Plant Science Career Radar</h1>
-      <p class="subtitle">v8：先驗證「這真的是職缺」再進資料庫；Chrome Web Store、文章、新聞、課程等誤判會自動排除。</p>
+      <p class="subtitle">v9：職缺卡改成條列式摘要，並自動清理 HTML 標籤與 &amp; 等亂碼。</p>
     </div>
     <div class="hero-actions">
       <button id="syncBtn" class="btn sync-btn">☁ GitHub 同步</button>
@@ -253,7 +253,10 @@
     <h3 class="job-title"></h3>
     <p class="org"></p>
     <p class="location"></p>
-    <p class="snippet"></p>
+    <div class="job-summary">
+      <div class="summary-label">職缺摘要</div>
+      <ul class="snippet-list"></ul>
+    </div>
     <div class="match-row"></div>
     <div class="job-meta"></div>
     <div class="job-actions">

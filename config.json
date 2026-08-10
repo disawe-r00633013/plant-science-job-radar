@@ -5,7 +5,7 @@
     "new_days": 7,
     "stale_after_days": 45,
     "retain_old_days": 90,
-    "version": 8
+    "version": 9
   },
   "default_preferences": {
     "sectors": [
