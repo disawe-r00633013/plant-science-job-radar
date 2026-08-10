@@ -1,10 +1,10 @@
 
-const PREF_KEY="plantScienceCareerRadarPrefsV9";
-const STATE_KEY="plantScienceCareerRadarJobStateV9";
-const LEGACY_KEYS=["plantScienceCareerRadarJobStateV8","plantScienceCareerRadarJobStateV7","plantScienceCareerRadarJobStateV6","plantScienceCareerRadarJobStateV5","plantScienceCareerRadarJobStateV4","plantScienceCareerRadarJobStateV3"];
-const SYNC_CONFIG_KEY="plantScienceCareerRadarGithubSyncV9";
-const SYNC_TOKEN_KEY="plantScienceCareerRadarGithubTokenV9";
-const SYNC_TOKEN_SESSION_KEY="plantScienceCareerRadarGithubTokenSessionV9";
+const PREF_KEY="plantScienceCareerRadarPrefsV10";
+const STATE_KEY="plantScienceCareerRadarJobStateV10";
+const LEGACY_KEYS=["plantScienceCareerRadarJobStateV9","plantScienceCareerRadarJobStateV8","plantScienceCareerRadarJobStateV7","plantScienceCareerRadarJobStateV6","plantScienceCareerRadarJobStateV5","plantScienceCareerRadarJobStateV4","plantScienceCareerRadarJobStateV3"];
+const SYNC_CONFIG_KEY="plantScienceCareerRadarGithubSyncV10";
+const SYNC_TOKEN_KEY="plantScienceCareerRadarGithubTokenV10";
+const SYNC_TOKEN_SESSION_KEY="plantScienceCareerRadarGithubTokenSessionV10";
 
 let CONFIG=null,JOBS=[],STATUS={},prefs=null,stage="new",quickTopic="all",editingJobId=null,syncTimer=null,syncInFlight=false;
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
@@ -219,15 +219,35 @@ function render(){
   arr.forEach(j=>renderCard(j));
 }
 function renderCard(j){
-  const node=$("#jobTemplate").content.cloneNode(true),id=uid(j),st=getState(id,j.legacy_ids||[]),badges=node.querySelector(".badges");
-  const badge=(t,cls="")=>{const x=document.createElement("span");x.className=`badge ${cls}`;x.textContent=t;badges.appendChild(x)};
-  badge(j.sector==="industry"?"Industry":"Academia",j.sector);badge(j.source,"source");
+  const node=$("#jobTemplate").content.cloneNode(true);
+  const id=uid(j),st=getState(id,j.legacy_ids||[]);
+  const badges=node.querySelector(".badges");
+  const badge=(t,cls="")=>{
+    const x=document.createElement("span");
+    x.className=`badge ${cls}`;
+    x.textContent=t;
+    badges.appendChild(x);
+  };
+
   if(daysSince(j.first_seen)<=Number(prefs.new_days||7))badge("NEW","new");
   if(daysSince(j.last_seen)>Number(CONFIG.app.stale_after_days||21))badge("可能已過期","stale");
+  if(st.applied)badge(st.applicationStatus||"Applied");
+  else if(st.saved)badge("收藏");
+
   node.querySelector(".score-value").textContent=j._score;
-  node.querySelector(".job-title").textContent=cleanTitle(j.title||"Untitled");
-  node.querySelector(".org").textContent=cleanTitle(j.organization||"");
+
+  const title=node.querySelector(".job-title");
+  title.textContent=cleanTitle(j.title||"Untitled");
+  title.href=j.url;
+
+  node.querySelector(".org").textContent=cleanTitle(j.organization||"未辨識機構");
   node.querySelector(".location").textContent=cleanTitle(j.location||"United States");
+  node.querySelector(".sector-text").textContent=j.sector==="industry"?"Industry":"Academia";
+  node.querySelector(".source-text").textContent=cleanTitle(j.source||"Unknown");
+
+  const posted=cleanTitle(j.posted_date||"");
+  node.querySelector(".date-primary").textContent=posted?`刊登 ${posted.slice(0,10)}`:`發現 ${j.first_seen||"—"}`;
+  node.querySelector(".date-secondary").textContent=j.deadline?`截止 ${String(j.deadline).slice(0,10)}`:`最近 ${j.last_seen||"—"}`;
 
   const list=node.querySelector(".snippet-list");
   makeSummaryBullets(j.snippet||"",5).forEach(item=>{
@@ -237,14 +257,16 @@ function renderCard(j){
   });
 
   const mr=node.querySelector(".match-row");
-  [...j._topics,...j._roles].slice(0,6).forEach(m=>{
-    const x=document.createElement("span");x.className="match";x.textContent=m;mr.appendChild(x)
+  [...j._topics,...j._roles].slice(0,8).forEach(m=>{
+    const x=document.createElement("span");
+    x.className="match";
+    x.textContent=m;
+    mr.appendChild(x);
   });
 
   const meta=node.querySelector(".job-meta");
-  meta.innerHTML="";
   [
-    ["來源",j.source_group||j.source||"Web"],
+    ["來源群組",j.source_group||"Web"],
     ["首次發現",j.first_seen||"—"],
     ["最近看到",j.last_seen||"—"],
     ["網站",j.domain||"—"]
@@ -258,21 +280,62 @@ function renderCard(j){
     d.appendChild(document.createTextNode(cleanTitle(value)));
     meta.appendChild(d);
   });
+
+  const detail=node.querySelector(".job-details");
+  const expand=node.querySelector(".expand-btn");
+  expand.onclick=()=>{
+    const hidden=detail.classList.toggle("hidden");
+    expand.classList.toggle("open",!hidden);
+    expand.setAttribute("aria-expanded",String(!hidden));
+  };
+
   node.querySelector(".open-link").href=j.url;
-  const save=node.querySelector(".save-btn"),applied=node.querySelector(".applied-btn"),manage=node.querySelector(".manage-btn"),hide=node.querySelector(".hide-btn");
-  if(st.saved){save.textContent="♥ 已收藏";save.classList.add("saved")}
-  if(st.applied){applied.textContent="✓ 已申請";applied.classList.add("applied");manage.classList.remove("hidden")}
-  save.onclick=()=>{setState(id,{saved:!getState(id,j.legacy_ids||[]).saved,hidden:false});render()};
+
+  const save=node.querySelector(".save-btn");
+  const applied=node.querySelector(".applied-btn");
+  const manage=node.querySelector(".manage-btn");
+  const hide=node.querySelector(".hide-btn");
+
+  if(st.saved){
+    save.classList.add("saved");
+    save.textContent="♥";
+    save.title="取消收藏";
+  }
+  if(st.applied){
+    applied.classList.add("applied");
+    manage.classList.remove("hidden");
+  }
+
+  save.onclick=()=>{
+    setState(id,{saved:!getState(id,j.legacy_ids||[]).saved,hidden:false});
+    render();
+  };
+
   applied.onclick=()=>{
     const now=getState(id,j.legacy_ids||[]);
     if(now.applied){openApplication(j);return}
-    setState(id,{applied:true,saved:false,hidden:false,applicationStatus:"Applied",appliedDate:today()});render()
+    setState(id,{applied:true,saved:false,hidden:false,applicationStatus:"Applied",appliedDate:today()});
+    render();
   };
+
   manage.onclick=()=>openApplication(j);
-  hide.onclick=()=>{setState(id,{hidden:true,saved:false});render()};
-  if(stage==="hidden"){hide.textContent="移回新職缺";hide.onclick=()=>{setState(id,{hidden:false});render()}}
-  $("#jobsGrid").appendChild(node)
+  hide.onclick=()=>{
+    setState(id,{hidden:true,saved:false});
+    render();
+  };
+
+  if(stage==="hidden"){
+    hide.textContent="↩";
+    hide.title="移回新職缺";
+    hide.onclick=()=>{
+      setState(id,{hidden:false});
+      render();
+    };
+  }
+
+  $("#jobsGrid").appendChild(node);
 }
+
 function openApplication(j){
   editingJobId=uid(j);const s=getState(editingJobId,j.legacy_ids||[]);$("#applicationDialogTitle").textContent=j.title||"管理申請";$("#applicationDialogOrg").textContent=j.organization||"";
   $("#applicationStatus").value=s.applicationStatus||"Applied";$("#appliedDate").value=s.appliedDate||today();$("#deadline").value=s.deadline||"";$("#interviewDate").value=s.interviewDate||"";$("#applicationNotes").value=s.notes||"";$("#applicationDialog").showModal()

@@ -1,20 +1,15 @@
-# US Plant Science Career Radar v9 — Bullet Cards
+# US Plant Science Career Radar v10 — Compact Job List
 
-v9 保留 v8 的來源與職缺驗證，只改職缺卡閱讀方式。
+v10 把每個職缺從大型卡片改成「一列一筆」的緊湊清單，方便快速掃描大量職缺。
 
-每張職缺改成：
-- 職稱
-- 公司／學校
-- 地點
-- 「職缺摘要」3–5 點
-- Match tags
-- 來源、首次發現、最近看到、網站
-- 查看職缺／收藏／已申請／隱藏
+桌機欄位：
+- 適合度
+- 職缺
+- 公司／學校・地點
+- Industry / Academia・來源
+- 刊登／截止日期
+- 收藏／已申請／管理／隱藏
 
-另外會自動：
-- 解碼 `&amp;`
-- 移除 `<p>`, `<strong>` 等 HTML tags
-- 將長摘要切成最多 5 個條列
-- 太長的單點自動截短
+每列左邊有 ▸，需要時才展開摘要、符合標籤與完整來源資料。
 
-v9 ZIP 仍不包含 live `data/jobs.json` / `data/status.json`，所以直接覆蓋上傳即可，不會清掉資料。
+v10 ZIP 不包含 live jobs.json / status.json / application-progress.json，可直接覆蓋上傳。

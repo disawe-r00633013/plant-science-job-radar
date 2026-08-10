@@ -13,7 +13,7 @@
     <div>
       <p class="eyebrow">UNITED STATES · INDUSTRY + ACADEMIA</p>
       <h1>🌱 US Plant Science Career Radar</h1>
-      <p class="subtitle">v9：職缺卡改成條列式摘要，並自動清理 HTML 標籤與 &amp; 等亂碼。</p>
+      <p class="subtitle">v10：職缺改成一列一筆的緊湊清單；點箭頭再展開摘要，方便快速掃描大量職缺。</p>
     </div>
     <div class="hero-actions">
       <button id="syncBtn" class="btn sync-btn">☁ GitHub 同步</button>
@@ -96,7 +96,17 @@
     <button id="showAllBtn" class="btn small">清除領域篩選</button>
   </section>
 
-  <section id="jobsGrid" class="jobs-grid"></section>
+  <section class="job-list-wrap card">
+    <div class="job-list-head">
+      <div>適合度</div>
+      <div>職缺</div>
+      <div>公司／學校・地點</div>
+      <div>類型／來源</div>
+      <div>日期</div>
+      <div>操作</div>
+    </div>
+    <div id="jobsGrid" class="job-list"></div>
+  </section>
   <section id="emptyState" class="empty card hidden">
     <h3>目前沒有符合條件的職缺</h3>
     <p>可以降低最低適合度、切換 Industry / Academia、換來源，或到「搜尋設定」調整偏好。</p>
@@ -245,26 +255,51 @@
 </dialog>
 
 <template id="jobTemplate">
-  <article class="job-card">
-    <div class="job-top">
-      <div class="badges"></div>
-      <div class="score-ring"><span class="score-value">0</span><small>fit</small></div>
+  <article class="job-row">
+    <div class="job-main-row">
+      <div class="col-fit">
+        <div class="fit-pill"><strong class="score-value">0</strong><span>fit</span></div>
+      </div>
+      <div class="col-job">
+        <button type="button" class="expand-btn" aria-expanded="false" title="展開詳細資料">▸</button>
+        <div class="job-title-wrap">
+          <a class="job-title open-title" target="_blank" rel="noopener noreferrer"></a>
+          <div class="compact-badges badges"></div>
+        </div>
+      </div>
+      <div class="col-org">
+        <strong class="org"></strong>
+        <span class="location"></span>
+      </div>
+      <div class="col-type">
+        <span class="sector-text"></span>
+        <span class="source-text"></span>
+      </div>
+      <div class="col-date">
+        <span class="date-primary"></span>
+        <span class="date-secondary"></span>
+      </div>
+      <div class="col-actions">
+        <button class="icon-action save-btn" type="button" title="收藏">♡</button>
+        <button class="icon-action applied-btn" type="button" title="標記已申請">✓</button>
+        <button class="icon-action manage-btn hidden" type="button" title="管理申請">✎</button>
+        <button class="icon-action hide-btn" type="button" title="隱藏">⊘</button>
+      </div>
     </div>
-    <h3 class="job-title"></h3>
-    <p class="org"></p>
-    <p class="location"></p>
-    <div class="job-summary">
-      <div class="summary-label">職缺摘要</div>
-      <ul class="snippet-list"></ul>
-    </div>
-    <div class="match-row"></div>
-    <div class="job-meta"></div>
-    <div class="job-actions">
-      <a class="btn primary open-link" target="_blank" rel="noopener noreferrer">查看職缺</a>
-      <button class="btn ghost save-btn" type="button">♡ 收藏</button>
-      <button class="btn ghost applied-btn" type="button">✓ 已申請</button>
-      <button class="btn ghost manage-btn hidden" type="button">管理申請</button>
-      <button class="btn ghost hide-btn" type="button">隱藏</button>
+    <div class="job-details hidden">
+      <div class="detail-grid">
+        <div>
+          <h4>職缺摘要</h4>
+          <ul class="snippet-list"></ul>
+        </div>
+        <div>
+          <h4>符合項目</h4>
+          <div class="match-row"></div>
+          <h4>資料</h4>
+          <div class="job-meta"></div>
+          <a class="btn primary open-link" target="_blank" rel="noopener noreferrer">查看完整職缺 ↗</a>
+        </div>
+      </div>
     </div>
   </article>
 </template>
