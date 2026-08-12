@@ -1,16 +1,16 @@
 {
   "version": 8,
-  "last_updated": "2026-08-10T23:51:31.302311+00:00",
-  "job_count": 150,
+  "last_updated": "2026-08-12T00:00:24.730963+00:00",
+  "job_count": 187,
   "sector_counts": {
-    "industry": 139,
-    "academia": 11
+    "industry": 173,
+    "academia": 14
   },
   "source_counts": {
+    "SmartRecruiters": 7,
+    "LinkedIn": 166,
+    "HigherEdJobs": 12,
     "University of Florida": 1,
-    "SmartRecruiters": 6,
-    "LinkedIn": 133,
-    "HigherEdJobs": 9,
     "AcademicJobsOnline": 1
   },
   "sources": [
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 10,
+      "count": 16,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 282,
+      "count": 296,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -76,9 +76,27 @@
     }
   ],
   "validation": {
-    "rejected_current_count": 113,
+    "rejected_current_count": 115,
     "rejected_old_count": 0,
     "recent_rejections": [
+      {
+        "title": "Part-Time Teaching Assistant- Plant Science",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Teaching Specialist (# 375288)",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Genomic Breeding Post Doc - Potato Research - Shannon Lab (# 370007)",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
       {
         "title": "Teaching Specialist (# 375269)",
         "domain": "higheredjobs.com",
@@ -86,7 +104,7 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Teaching Specialist (# 375288)",
+        "title": "Lecturer in Soil Science",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
@@ -207,24 +225,6 @@
       },
       {
         "title": "Production Technician",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Production Technician",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "NK Sales Representative",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Golden Harvest Sales Representative",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
