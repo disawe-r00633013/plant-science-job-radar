@@ -1,15 +1,15 @@
 {
   "version": 8,
-  "last_updated": "2026-08-12T00:00:24.730963+00:00",
-  "job_count": 187,
+  "last_updated": "2026-08-12T23:58:44.236725+00:00",
+  "job_count": 241,
   "sector_counts": {
-    "industry": 173,
-    "academia": 14
+    "industry": 226,
+    "academia": 15
   },
   "source_counts": {
+    "LinkedIn": 219,
+    "HigherEdJobs": 13,
     "SmartRecruiters": 7,
-    "LinkedIn": 166,
-    "HigherEdJobs": 12,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
   },
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 16,
+      "count": 11,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 296,
+      "count": 348,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -70,29 +70,17 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 117,
+      "count": 118,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 115,
+    "rejected_current_count": 113,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
         "title": "Part-Time Teaching Assistant- Plant Science",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Teaching Specialist (# 375288)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Genomic Breeding Post Doc - Potato Research - Shannon Lab (# 370007)",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
@@ -104,9 +92,9 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Lecturer in Soil Science",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Site Operations Manager",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
@@ -225,6 +213,18 @@
       },
       {
         "title": "Production Technician",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Production Technician",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "NK Sales Representative",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
