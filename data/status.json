@@ -1,13 +1,13 @@
 {
   "version": 8,
-  "last_updated": "2026-08-12T23:58:44.236725+00:00",
-  "job_count": 241,
+  "last_updated": "2026-08-13T23:59:35.141752+00:00",
+  "job_count": 265,
   "sector_counts": {
-    "industry": 226,
+    "industry": 250,
     "academia": 15
   },
   "source_counts": {
-    "LinkedIn": 219,
+    "LinkedIn": 243,
     "HigherEdJobs": 13,
     "SmartRecruiters": 7,
     "University of Florida": 1,
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 11,
+      "count": 10,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 348,
+      "count": 300,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -70,15 +70,21 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 118,
+      "count": 120,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 113,
+    "rejected_current_count": 115,
     "rejected_old_count": 0,
     "recent_rejections": [
+      {
+        "title": "Plant Science Instructor - One-Year Full-Time Temp (2026-27)",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
       {
         "title": "Part-Time Teaching Assistant- Plant Science",
         "domain": "higheredjobs.com",
@@ -86,9 +92,45 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Teaching Specialist (# 375269)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Production Technician 1",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Production Technician 2",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Production Technician 2",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Production Technician 2",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Production Technician 2",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Golden Harvest Sales Representative",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Golden Harvest Sales Representative",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
@@ -105,24 +147,6 @@
       },
       {
         "title": "Area Sales Manager",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Regulated and Stewardship Specialist",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Regulated and Stewardship Specialist",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Regulated and Stewardship Specialist",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
@@ -201,30 +225,6 @@
       },
       {
         "title": "Production Technician",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Production Technician",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Production Technician",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Production Technician",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "NK Sales Representative",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
