@@ -1,14 +1,14 @@
 {
   "version": 8,
-  "last_updated": "2026-08-14T23:36:28.109526+00:00",
-  "job_count": 297,
+  "last_updated": "2026-08-15T23:35:19.292240+00:00",
+  "job_count": 310,
   "sector_counts": {
-    "industry": 279,
-    "academia": 18
+    "industry": 291,
+    "academia": 19
   },
   "source_counts": {
-    "LinkedIn": 272,
-    "HigherEdJobs": 16,
+    "LinkedIn": 284,
+    "HigherEdJobs": 17,
     "SmartRecruiters": 7,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 19,
+      "count": 13,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 341,
+      "count": 331,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -76,7 +76,7 @@
     }
   ],
   "validation": {
-    "rejected_current_count": 119,
+    "rejected_current_count": 116,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
@@ -87,24 +87,6 @@
       },
       {
         "title": "Part-Time Teaching Assistant- Plant Science",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Teaching Specialist (# 375269)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Lecturer in Soil Science",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Teaching Specialist (# 375288)",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
@@ -225,6 +207,24 @@
       },
       {
         "title": "Production Technician 1",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Production Technician 1",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Production Technician 1",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Production Technician",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
