@@ -1,14 +1,14 @@
 {
   "version": 8,
-  "last_updated": "2026-08-16T23:34:43.060764+00:00",
-  "job_count": 312,
+  "last_updated": "2026-08-17T23:36:50.771718+00:00",
+  "job_count": 323,
   "sector_counts": {
-    "industry": 293,
-    "academia": 19
+    "industry": 303,
+    "academia": 20
   },
   "source_counts": {
-    "LinkedIn": 286,
-    "HigherEdJobs": 17,
+    "LinkedIn": 296,
+    "HigherEdJobs": 18,
     "SmartRecruiters": 7,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 15,
+      "count": 14,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 293,
+      "count": 292,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -70,21 +70,15 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 121,
+      "count": 122,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 117,
+    "rejected_current_count": 118,
     "rejected_old_count": 0,
     "recent_rejections": [
-      {
-        "title": "Plant Science Instructor - One-Year Full-Time Temp (2026-27)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
       {
         "title": "Part-Time Teaching Assistant- Plant Science",
         "domain": "higheredjobs.com",
@@ -92,9 +86,33 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Teaching Specialist (# 375288)",
+        "title": "Adjunct- Art and Science of Cannabis Extraction",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Test Automation Engineer",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Service Delivery Manager",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Senior Formulation Engineer",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Trialing Specialist",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
@@ -195,24 +213,6 @@
       },
       {
         "title": "Operations Specialist - Data & Quality",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Production Technician 1",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Production Technician 1",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Production Technician 1",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
