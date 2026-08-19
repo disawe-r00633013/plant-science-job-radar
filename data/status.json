@@ -1,13 +1,13 @@
 {
   "version": 8,
-  "last_updated": "2026-08-18T23:36:08.919363+00:00",
-  "job_count": 346,
+  "last_updated": "2026-08-19T23:36:37.207877+00:00",
+  "job_count": 360,
   "sector_counts": {
-    "industry": 323,
+    "industry": 337,
     "academia": 23
   },
   "source_counts": {
-    "LinkedIn": 316,
+    "LinkedIn": 330,
     "HigherEdJobs": 21,
     "SmartRecruiters": 7,
     "University of Florida": 1,
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 10,
+      "count": 12,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 307,
+      "count": 344,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -70,13 +70,13 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 122,
+      "count": 119,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 118,
+    "rejected_current_count": 115,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
@@ -89,6 +89,30 @@
         "title": "Plant Science Instructor (Rural) - One Semester Full Time Temp, Delano Campus (Spring 2026)",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Golden Harvest Strategic Farm Partner",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Golden Harvest Strategic Farm Partner",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Golden Harvest Strategic Farm Partner",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Trialing Specialist",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
@@ -123,12 +147,6 @@
       },
       {
         "title": "Senior Formulation Engineer",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Trialing Specialist",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
@@ -207,24 +225,6 @@
       },
       {
         "title": "Data Partnerships Lead",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Operation Specialist - Field",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Operations Specialist - Data & Quality",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Production Technician 1",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
