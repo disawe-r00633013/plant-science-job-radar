@@ -1,15 +1,15 @@
 {
   "version": 8,
-  "last_updated": "2026-08-19T23:36:37.207877+00:00",
-  "job_count": 360,
+  "last_updated": "2026-08-20T23:41:25.852098+00:00",
+  "job_count": 387,
   "sector_counts": {
-    "industry": 337,
-    "academia": 23
+    "industry": 362,
+    "academia": 25
   },
   "source_counts": {
-    "LinkedIn": 330,
-    "HigherEdJobs": 21,
-    "SmartRecruiters": 7,
+    "SmartRecruiters": 9,
+    "LinkedIn": 353,
+    "HigherEdJobs": 23,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
   },
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 12,
+      "count": 15,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 344,
+      "count": 370,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -70,15 +70,27 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 119,
+      "count": 122,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 115,
+    "rejected_current_count": 118,
     "rejected_old_count": 0,
     "recent_rejections": [
+      {
+        "title": "Plant Science Instructor (Rural) - One Semester Full Time Temp, Delano Campus (Spring 2026)",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Fellow (Post Doc)",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
       {
         "title": "Adjunct- Art and Science of Cannabis Extraction",
         "domain": "higheredjobs.com",
@@ -86,9 +98,33 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Plant Science Instructor (Rural) - One Semester Full Time Temp, Delano Campus (Spring 2026)",
+        "title": "Post Doctoral Research Fellow (Liu/UDA)",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Service Delivery Manager",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Trialing Specialist Technician",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Trialing Specialist Technician",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Trialing Specialist Technician",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
@@ -116,12 +152,6 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "St Gabriel Finance Business Partner",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
         "title": "Marketing Head",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
@@ -135,12 +165,6 @@
       },
       {
         "title": "Area Sales Manager",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Service Delivery Manager",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
@@ -201,30 +225,6 @@
       },
       {
         "title": "Site Operations Manager",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Area Sales Manager",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Operations Manager",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Area Sales Manager",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Data Partnerships Lead",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
