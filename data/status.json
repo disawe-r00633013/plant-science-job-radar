@@ -1,14 +1,14 @@
 {
   "version": 8,
-  "last_updated": "2026-08-20T23:41:25.852098+00:00",
-  "job_count": 387,
+  "last_updated": "2026-08-21T23:39:01.686764+00:00",
+  "job_count": 483,
   "sector_counts": {
-    "industry": 362,
+    "industry": 458,
     "academia": 25
   },
   "source_counts": {
-    "SmartRecruiters": 9,
-    "LinkedIn": 353,
+    "SmartRecruiters": 10,
+    "LinkedIn": 448,
     "HigherEdJobs": 23,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 15,
+      "count": 19,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 370,
+      "count": 404,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -70,7 +70,7 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 122,
+      "count": 123,
       "ok": true,
       "note": ""
     }
@@ -80,13 +80,13 @@
     "rejected_old_count": 0,
     "recent_rejections": [
       {
-        "title": "Plant Science Instructor (Rural) - One Semester Full Time Temp, Delano Campus (Spring 2026)",
+        "title": "Post Doctoral Research Fellow (Liu/UDA)",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Fellow (Post Doc)",
+        "title": "Plant Science Instructor (Rural) - One Semester Full Time Temp, Delano Campus (Spring 2026)",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
@@ -98,9 +98,15 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Post Doctoral Research Fellow (Liu/UDA)",
+        "title": "Fellow (Post Doc)",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "IFSCLCU Operator 3",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
@@ -219,12 +225,6 @@
       },
       {
         "title": "Golden Harvest Sales Representative",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Site Operations Manager",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
