@@ -1,14 +1,14 @@
 {
   "version": 8,
-  "last_updated": "2026-08-21T23:39:01.686764+00:00",
-  "job_count": 483,
+  "last_updated": "2026-08-22T23:35:24.925017+00:00",
+  "job_count": 491,
   "sector_counts": {
-    "industry": 458,
+    "industry": 466,
     "academia": 25
   },
   "source_counts": {
+    "LinkedIn": 456,
     "SmartRecruiters": 10,
-    "LinkedIn": 448,
     "HigherEdJobs": 23,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 404,
+      "count": 353,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -80,13 +80,13 @@
     "rejected_old_count": 0,
     "recent_rejections": [
       {
-        "title": "Post Doctoral Research Fellow (Liu/UDA)",
+        "title": "Fellow (Post Doc)",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Plant Science Instructor (Rural) - One Semester Full Time Temp, Delano Campus (Spring 2026)",
+        "title": "Post Doctoral Research Fellow (Liu/UDA)",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
@@ -98,7 +98,7 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Fellow (Post Doc)",
+        "title": "Plant Science Instructor (Rural) - One Semester Full Time Temp, Delano Campus (Spring 2026)",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
