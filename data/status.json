@@ -1,15 +1,15 @@
 {
   "version": 8,
-  "last_updated": "2026-08-22T23:35:24.925017+00:00",
-  "job_count": 491,
+  "last_updated": "2026-08-23T23:35:42.857418+00:00",
+  "job_count": 501,
   "sector_counts": {
-    "industry": 466,
-    "academia": 25
+    "industry": 475,
+    "academia": 26
   },
   "source_counts": {
-    "LinkedIn": 456,
+    "LinkedIn": 465,
+    "HigherEdJobs": 24,
     "SmartRecruiters": 10,
-    "HigherEdJobs": 23,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
   },
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 19,
+      "count": 8,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 353,
+      "count": 405,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -76,7 +76,7 @@
     }
   ],
   "validation": {
-    "rejected_current_count": 118,
+    "rejected_current_count": 117,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
@@ -87,12 +87,6 @@
       },
       {
         "title": "Post Doctoral Research Fellow (Liu/UDA)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Adjunct- Art and Science of Cannabis Extraction",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
@@ -225,6 +219,12 @@
       },
       {
         "title": "Golden Harvest Sales Representative",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Site Operations Manager",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
