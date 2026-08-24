@@ -1,14 +1,14 @@
 {
   "version": 8,
-  "last_updated": "2026-08-23T23:35:42.857418+00:00",
-  "job_count": 501,
+  "last_updated": "2026-08-24T23:35:41.469949+00:00",
+  "job_count": 517,
   "sector_counts": {
-    "industry": 475,
-    "academia": 26
+    "industry": 490,
+    "academia": 27
   },
   "source_counts": {
-    "LinkedIn": 465,
-    "HigherEdJobs": 24,
+    "LinkedIn": 480,
+    "HigherEdJobs": 25,
     "SmartRecruiters": 10,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 8,
+      "count": 6,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 405,
+      "count": 363,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -76,7 +76,7 @@
     }
   ],
   "validation": {
-    "rejected_current_count": 117,
+    "rejected_current_count": 116,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
@@ -86,15 +86,15 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Post Doctoral Research Fellow (Liu/UDA)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Imports Exports Logistics Specialist",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Plant Science Instructor (Rural) - One Semester Full Time Temp, Delano Campus (Spring 2026)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Financial Process & Technology Business Process Specialist",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
