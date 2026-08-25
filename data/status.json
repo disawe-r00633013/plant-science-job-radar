@@ -1,15 +1,15 @@
 {
   "version": 8,
-  "last_updated": "2026-08-24T23:35:41.469949+00:00",
-  "job_count": 517,
+  "last_updated": "2026-08-25T23:38:41.668631+00:00",
+  "job_count": 536,
   "sector_counts": {
-    "industry": 490,
-    "academia": 27
+    "industry": 508,
+    "academia": 28
   },
   "source_counts": {
-    "LinkedIn": 480,
-    "HigherEdJobs": 25,
-    "SmartRecruiters": 10,
+    "SmartRecruiters": 12,
+    "LinkedIn": 496,
+    "HigherEdJobs": 26,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
   },
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 6,
+      "count": 10,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 363,
+      "count": 379,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -70,19 +70,37 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 123,
+      "count": 124,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 116,
+    "rejected_current_count": 118,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
-        "title": "Fellow (Post Doc)",
+        "title": "Plant Science Instructor (Rural) - One Semester Full Time Temp, Delano Campus (Spring 2026)",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Post Doctoral Research Fellow (Liu/UDA)",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Associate Specialist",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Regional Legal Counsel - Vegetable Seeds - NAJAK (NA Japan Australia and Korea)",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
@@ -207,24 +225,6 @@
       },
       {
         "title": "Production Technician 2",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Golden Harvest Sales Representative",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Golden Harvest Sales Representative",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Site Operations Manager",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
