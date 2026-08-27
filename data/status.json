@@ -1,15 +1,15 @@
 {
   "version": 8,
-  "last_updated": "2026-08-25T23:38:41.668631+00:00",
-  "job_count": 536,
+  "last_updated": "2026-08-27T04:31:49.054760+00:00",
+  "job_count": 559,
   "sector_counts": {
-    "industry": 508,
-    "academia": 28
+    "industry": 530,
+    "academia": 29
   },
   "source_counts": {
+    "LinkedIn": 518,
+    "HigherEdJobs": 27,
     "SmartRecruiters": 12,
-    "LinkedIn": 496,
-    "HigherEdJobs": 26,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
   },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 379,
+      "count": 370,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -70,17 +70,23 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 124,
+      "count": 121,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 118,
+    "rejected_current_count": 116,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
-        "title": "Plant Science Instructor (Rural) - One Semester Full Time Temp, Delano Campus (Spring 2026)",
+        "title": "Precision Agriculture Instructor",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Associate Specialist",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
@@ -92,9 +98,57 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Associate Specialist",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Trialing Specialist Technician",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Crop Protection Sales Representative",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Operations Lead",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Production Technician",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
@@ -171,60 +225,6 @@
       },
       {
         "title": "Marketing Head",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Marketing Head",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Area Sales Manager",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Senior Formulation Engineer",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Principal Process Chemist",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Production Technician 1",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Production Technician 2",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Production Technician 2",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Production Technician 2",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Production Technician 2",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
