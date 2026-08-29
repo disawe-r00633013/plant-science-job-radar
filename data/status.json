@@ -1,15 +1,15 @@
 {
   "version": 8,
-  "last_updated": "2026-08-28T06:56:38.537863+00:00",
-  "job_count": 578,
+  "last_updated": "2026-08-29T04:10:28.425151+00:00",
+  "job_count": 590,
   "sector_counts": {
-    "industry": 547,
-    "academia": 31
+    "industry": 558,
+    "academia": 32
   },
   "source_counts": {
+    "LinkedIn": 545,
+    "HigherEdJobs": 30,
     "SmartRecruiters": 13,
-    "LinkedIn": 534,
-    "HigherEdJobs": 29,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
   },
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 22,
+      "count": 8,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 376,
+      "count": 317,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -70,17 +70,17 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 118,
+      "count": 115,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 115,
+    "rejected_current_count": 111,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
-        "title": "Associate Specialist",
+        "title": "Assistant Professor of Plant Ecology, Department of Biology, Geology, and Environmental Science",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
@@ -98,21 +98,9 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Post Doctoral Research Fellow (Liu/UDA)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Adjunct- Art and Science of Cannabis Extraction",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Plant Science Instructor (Rural) - One Semester Full Time Temp, Delano Campus (Spring 2026)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "P&S Finance Vegetables America",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
@@ -176,12 +164,6 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Imports Exports Logistics Specialist",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
         "title": "Financial Process & Technology Business Process Specialist",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
@@ -225,6 +207,24 @@
       },
       {
         "title": "Golden Harvest Strategic Farm Partner",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Golden Harvest Strategic Farm Partner",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Trialing Specialist",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Marketing Head",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
