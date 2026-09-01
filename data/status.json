@@ -1,14 +1,14 @@
 {
   "version": 8,
-  "last_updated": "2026-08-31T01:23:12.827400+00:00",
-  "job_count": 598,
+  "last_updated": "2026-09-01T01:50:15.079990+00:00",
+  "job_count": 606,
   "sector_counts": {
-    "industry": 566,
-    "academia": 32
+    "industry": 572,
+    "academia": 34
   },
   "source_counts": {
-    "LinkedIn": 553,
-    "HigherEdJobs": 30,
+    "LinkedIn": 559,
+    "HigherEdJobs": 32,
     "SmartRecruiters": 13,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 8,
+      "count": 21,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 393,
+      "count": 335,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -70,13 +70,13 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 115,
+      "count": 112,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 111,
+    "rejected_current_count": 116,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
@@ -92,13 +92,43 @@
         "reason": "title does not look like a job"
       },
       {
+        "title": "Postdoctoral Research Associate - The Horn Lab within the Department of Biological Sciences and BioDiscovery Institute (BDI).",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Pukenga/Lecturer - Botany",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
         "title": "Precision Agriculture Instructor",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
       },
       {
-        "title": "P&S Finance Vegetables America",
+        "title": "Associate Specialist",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Plant Science Instructor (Rural) - One Semester Full Time Temp, Delano Campus (Spring 2026)",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Adjunct- Art and Science of Cannabis Extraction",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "HSE Lead",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
@@ -134,97 +164,67 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Trialing Specialist Technician",
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Crop Protection Sales Representative",
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Operations Lead",
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Production Technician",
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Regional Legal Counsel - Vegetable Seeds - NAJAK (NA Japan Australia and Korea)",
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Financial Process & Technology Business Process Specialist",
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "IFSCLCU Operator 3",
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Service Delivery Manager",
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Trialing Specialist Technician",
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Trialing Specialist Technician",
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Trialing Specialist Technician",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Golden Harvest Strategic Farm Partner",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Golden Harvest Strategic Farm Partner",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Golden Harvest Strategic Farm Partner",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Trialing Specialist",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Marketing Head",
+        "title": "Senior Cloud Engineer/Administrator",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
