@@ -1,15 +1,15 @@
 {
   "version": 8,
-  "last_updated": "2026-09-01T01:50:15.079990+00:00",
-  "job_count": 606,
+  "last_updated": "2026-09-02T01:01:54.038649+00:00",
+  "job_count": 630,
   "sector_counts": {
-    "industry": 572,
+    "industry": 596,
     "academia": 34
   },
   "source_counts": {
-    "LinkedIn": 559,
+    "SmartRecruiters": 23,
+    "LinkedIn": 573,
     "HigherEdJobs": 32,
-    "SmartRecruiters": 13,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
   },
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 21,
+      "count": 11,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 335,
+      "count": 321,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -70,29 +70,23 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 112,
+      "count": 138,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 116,
+    "rejected_current_count": 129,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
+        "title": "Post Doctoral Fellow",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
         "title": "Assistant Professor of Plant Ecology, Department of Biology, Geology, and Environmental Science",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Adjunct Faculty - Regulations of Cannabis Cultivation (GRADE)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Postdoctoral Research Associate - The Horn Lab within the Department of Biological Sciences and BioDiscovery Institute (BDI).",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
@@ -104,27 +98,123 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Precision Agriculture Instructor",
+        "title": "Postdoctoral Research Associate - The Horn Lab within the Department of Biological Sciences and BioDiscovery Institute (BDI).",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Associate Specialist",
+        "title": "Adjunct Faculty - Regulations of Cannabis Cultivation (GRADE)",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Plant Science Instructor (Rural) - One Semester Full Time Temp, Delano Campus (Spring 2026)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Trialing and Product Placement Intern",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Adjunct- Art and Science of Cannabis Extraction",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Syngenta Seeds Developmental Sales Representative",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Syngenta Seeds Agronomy Developmental Sales Representative",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Seeds Sales Intern",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Agronomic Research Intern",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Agronomic Research Intern",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Breeding Intern-Watermelon",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Vegetable Seed Development Intern-Melon",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Breeding Intern- Cucurbits Germplasm Development",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Finance Intern",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Brand Marketing Intern",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Parent Seed Intern",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Vegetable Seed Production Research Intern",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Seeds Communications Intern",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Engineering Internship with Seed Quality",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Product Safety Intern",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Processing Tomato Plant Breeding Intern",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Imports Exports Logistics Specialist",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
@@ -135,96 +225,6 @@
       },
       {
         "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Senior Cloud Engineer/Administrator",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
