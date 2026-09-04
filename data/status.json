@@ -1,14 +1,14 @@
 {
   "version": 8,
-  "last_updated": "2026-09-03T01:07:31.398002+00:00",
-  "job_count": 647,
+  "last_updated": "2026-09-04T00:59:17.705045+00:00",
+  "job_count": 661,
   "sector_counts": {
-    "industry": 612,
-    "academia": 35
+    "industry": 625,
+    "academia": 36
   },
   "source_counts": {
-    "LinkedIn": 589,
-    "HigherEdJobs": 33,
+    "LinkedIn": 602,
+    "HigherEdJobs": 34,
     "SmartRecruiters": 23,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 6,
+      "count": 18,
       "ok": true,
       "note": ""
     },
@@ -34,9 +34,9 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 267,
+      "count": 296,
       "ok": true,
-      "note": "9/10 searches responded"
+      "note": "10/10 searches responded"
     },
     {
       "name": "Indeed public search",
@@ -76,17 +76,17 @@
     }
   ],
   "validation": {
-    "rejected_current_count": 132,
+    "rejected_current_count": 136,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
-        "title": "Assistant Professor of Plant Ecology, Department of Biology, Geology, and Environmental Science",
+        "title": "Post Doctoral Fellow",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Post Doctoral Fellow",
+        "title": "Assistant Professor of Plant Ecology, Department of Biology, Geology, and Environmental Science",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
@@ -98,19 +98,49 @@
         "reason": "title does not look like a job"
       },
       {
+        "title": "Postdoctoral Research Associate - The Horn Lab within the Department of Biological Sciences and BioDiscovery Institute (BDI).",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
         "title": "Pukenga/Lecturer - Botany",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
       },
       {
-        "title": "QC Analyst",
+        "title": "Adjunct Faculty - Regulations of Cannabis Cultivation (GRADE)",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Precision Agriculture Instructor",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Associate Specialist",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Packaging Engineering Co-Op",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
         "title": "Machine Learning Engineer",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "QC Analyst",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
@@ -198,41 +228,10 @@
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
-      },
-      {
-        "title": "Breeding Intern- Cucurbits Germplasm Development",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Finance Intern",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Brand Marketing Intern",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Parent Seed Intern",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Vegetable Seed Production Research Intern",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
       }
     ]
   },
   "errors": [
-    "LinkedIn 'biologicals scientist agriculture': HTTPError",
     "Indeed 'plant pathology scientist': HTTPError",
     "Indeed 'biologicals scientist agriculture': HTTPError",
     "Indeed 'crop protection research scientist': HTTPError",
