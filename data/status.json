@@ -1,15 +1,15 @@
 {
   "version": 8,
-  "last_updated": "2026-09-04T00:59:17.705045+00:00",
-  "job_count": 661,
+  "last_updated": "2026-09-05T00:57:50.995945+00:00",
+  "job_count": 698,
   "sector_counts": {
-    "industry": 625,
-    "academia": 36
+    "industry": 659,
+    "academia": 39
   },
   "source_counts": {
-    "LinkedIn": 602,
-    "HigherEdJobs": 34,
-    "SmartRecruiters": 23,
+    "SmartRecruiters": 24,
+    "LinkedIn": 635,
+    "HigherEdJobs": 37,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
   },
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 18,
+      "count": 6,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 296,
+      "count": 423,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -70,23 +70,17 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 142,
+      "count": 144,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 136,
+    "rejected_current_count": 131,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
         "title": "Post Doctoral Fellow",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Assistant Professor of Plant Ecology, Department of Biology, Geology, and Environmental Science",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
@@ -98,33 +92,15 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Postdoctoral Research Associate - The Horn Lab within the Department of Biological Sciences and BioDiscovery Institute (BDI).",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "NA Production Manager - SSV",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Pukenga/Lecturer - Botany",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Adjunct Faculty - Regulations of Cannabis Cultivation (GRADE)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Precision Agriculture Instructor",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Associate Specialist",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Engineering Project Manager",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
@@ -225,6 +201,30 @@
       },
       {
         "title": "Vegetable Seed Development Intern-Melon",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Breeding Intern- Cucurbits Germplasm Development",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Finance Intern",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Brand Marketing Intern",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Parent Seed Intern",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
