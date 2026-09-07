@@ -1,13 +1,13 @@
 {
   "version": 8,
-  "last_updated": "2026-09-06T00:58:30.932114+00:00",
-  "job_count": 702,
+  "last_updated": "2026-09-07T01:02:02.320500+00:00",
+  "job_count": 704,
   "sector_counts": {
-    "industry": 663,
+    "industry": 665,
     "academia": 39
   },
   "source_counts": {
-    "LinkedIn": 639,
+    "LinkedIn": 641,
     "SmartRecruiters": 24,
     "HigherEdJobs": 37,
     "University of Florida": 1,
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 12,
+      "count": 8,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 354,
+      "count": 353,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -76,7 +76,7 @@
     }
   ],
   "validation": {
-    "rejected_current_count": 134,
+    "rejected_current_count": 132,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
@@ -92,19 +92,7 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Pukenga/Lecturer - Botany",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
         "title": "Post Doctoral Research Fellow (Leng)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Assistant Professor of Plant Ecology, Department of Biology, Geology, and Environmental Science",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
@@ -225,6 +213,18 @@
       },
       {
         "title": "Breeding Intern- Cucurbits Germplasm Development",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Finance Intern",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Brand Marketing Intern",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
