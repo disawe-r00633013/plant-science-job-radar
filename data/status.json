@@ -1,15 +1,15 @@
 {
   "version": 8,
-  "last_updated": "2026-09-08T01:12:49.593255+00:00",
-  "job_count": 706,
+  "last_updated": "2026-09-09T01:15:26.501316+00:00",
+  "job_count": 724,
   "sector_counts": {
-    "industry": 666,
+    "industry": 684,
     "academia": 40
   },
   "source_counts": {
-    "LinkedIn": 642,
+    "SmartRecruiters": 26,
+    "LinkedIn": 658,
     "HigherEdJobs": 38,
-    "SmartRecruiters": 24,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
   },
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 18,
+      "count": 6,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 339,
+      "count": 353,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -70,13 +70,13 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 144,
+      "count": 149,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 135,
+    "rejected_current_count": 133,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
@@ -86,33 +86,33 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Post Doctoral Research Fellow (Leng)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Assistant Professor of Plant Ecology, Department of Biology, Geology, and Environmental Science",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Pukenga/Lecturer - Botany",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Postdoctoral Research Associate - The Horn Lab within the Department of Biological Sciences and BioDiscovery Institute (BDI).",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Adjunct Faculty - Regulations of Cannabis Cultivation (GRADE)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
@@ -129,18 +129,6 @@
       },
       {
         "title": "Packaging Engineering Co-Op",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Machine Learning Engineer",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "QC Analyst",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
@@ -225,6 +213,18 @@
       },
       {
         "title": "Vegetable Seed Development Intern-Melon",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Breeding Intern- Cucurbits Germplasm Development",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Finance Intern",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
