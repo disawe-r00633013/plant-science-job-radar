@@ -1,13 +1,13 @@
 {
   "version": 8,
-  "last_updated": "2026-09-11T01:06:13.481888+00:00",
-  "job_count": 755,
+  "last_updated": "2026-09-12T01:07:27.154764+00:00",
+  "job_count": 785,
   "sector_counts": {
-    "industry": 711,
+    "industry": 741,
     "academia": 44
   },
   "source_counts": {
-    "LinkedIn": 683,
+    "LinkedIn": 713,
     "HigherEdJobs": 42,
     "SmartRecruiters": 28,
     "University of Florida": 1,
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 23,
+      "count": 7,
       "ok": true,
       "note": ""
     },
@@ -34,9 +34,9 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 384,
+      "count": 333,
       "ok": true,
-      "note": "10/10 searches responded"
+      "note": "8/10 searches responded"
     },
     {
       "name": "Indeed public search",
@@ -70,21 +70,15 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 145,
+      "count": 153,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 134,
+    "rejected_current_count": 137,
     "rejected_old_count": 0,
     "recent_rejections": [
-      {
-        "title": "Assistant Professor of Plant Ecology, Department of Biology, Geology, and Environmental Science",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
       {
         "title": "Post Doctoral Fellow",
         "domain": "higheredjobs.com",
@@ -92,37 +86,7 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Post Doctoral Research Fellow (Leng)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Pukenga/Lecturer - Botany",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Adjunct Faculty - Regulations of Cannabis Cultivation (GRADE)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Associate Specialist",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Product Safety Intern",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Product Safety Intern - Data",
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
@@ -134,19 +98,19 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Lead HSE Territory",
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Trialing Specialist Technician",
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "North America Project Manager",
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
@@ -182,49 +146,85 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "NA Production Manager - SSV",
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Engineering Project Manager",
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Packaging Engineering Co-Op",
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Business Operations Lead",
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "HSE Intern",
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Seeds Production Research Field Technology Intern",
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Seeds Production Research Parent Characterization Intern",
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Seeds Production Research Parent Characterization Intern",
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
@@ -232,6 +232,8 @@
     ]
   },
   "errors": [
+    "LinkedIn 'controlled environment agriculture scientist': HTTPError",
+    "LinkedIn 'product development scientist agriculture': HTTPError",
     "Indeed 'plant pathology scientist': HTTPError",
     "Indeed 'biologicals scientist agriculture': HTTPError",
     "Indeed 'crop protection research scientist': HTTPError",
