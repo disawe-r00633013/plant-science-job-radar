@@ -1,13 +1,13 @@
 {
   "version": 8,
-  "last_updated": "2026-09-12T01:07:27.154764+00:00",
-  "job_count": 785,
+  "last_updated": "2026-09-13T01:01:08.287542+00:00",
+  "job_count": 790,
   "sector_counts": {
-    "industry": 741,
+    "industry": 746,
     "academia": 44
   },
   "source_counts": {
-    "LinkedIn": 713,
+    "LinkedIn": 718,
     "HigherEdJobs": 42,
     "SmartRecruiters": 28,
     "University of Florida": 1,
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 7,
+      "count": 12,
       "ok": true,
       "note": ""
     },
@@ -34,9 +34,9 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 333,
+      "count": 414,
       "ok": true,
-      "note": "8/10 searches responded"
+      "note": "10/10 searches responded"
     },
     {
       "name": "Indeed public search",
@@ -70,7 +70,7 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 153,
+      "count": 152,
       "ok": true,
       "note": ""
     }
@@ -86,9 +86,9 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
+        "title": "Assistant Professor of Plant Ecology, Department of Biology, Geology, and Environmental Science",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
         "reason": "title does not look like a job"
       },
       {
@@ -232,8 +232,6 @@
     ]
   },
   "errors": [
-    "LinkedIn 'controlled environment agriculture scientist': HTTPError",
-    "LinkedIn 'product development scientist agriculture': HTTPError",
     "Indeed 'plant pathology scientist': HTTPError",
     "Indeed 'biologicals scientist agriculture': HTTPError",
     "Indeed 'crop protection research scientist': HTTPError",
