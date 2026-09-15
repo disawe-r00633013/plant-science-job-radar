@@ -1,14 +1,14 @@
 {
   "version": 8,
-  "last_updated": "2026-09-14T01:05:19.759428+00:00",
-  "job_count": 792,
+  "last_updated": "2026-09-15T01:28:35.494464+00:00",
+  "job_count": 807,
   "sector_counts": {
-    "industry": 747,
-    "academia": 45
+    "industry": 758,
+    "academia": 49
   },
   "source_counts": {
-    "LinkedIn": 719,
-    "HigherEdJobs": 43,
+    "LinkedIn": 730,
+    "HigherEdJobs": 47,
     "SmartRecruiters": 28,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 14,
+      "count": 21,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 417,
+      "count": 408,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -70,17 +70,29 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 151,
+      "count": 158,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 137,
+    "rejected_current_count": 147,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
+        "title": "Department Head, Plant Sciences",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
         "title": "Post Doctoral Fellow",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Post Doctoral Research Fellow (Leng)",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
@@ -92,73 +104,61 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Pukenga/Lecturer - Botany",
+        "title": "Professor/ Associate Professor/ Assistant Professor in Landscape Architecture in the Division of Landscape Architecture, Department of Architecture",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Independent Seed Advisor",
+        "title": "Department Chair of Biological & Environmental Sciences",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Protein Design Intern",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Independent Seed Advisor",
+        "title": "Functional Genomics Intern",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Independent Seed Advisor",
+        "title": "Vegetable Seeds Development Intern",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Independent Seed Advisor",
+        "title": "Vegetable Seeds Development Intern",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Independent Seed Advisor",
+        "title": "Crop Protection Developmental Sales Representative",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Independent Seed Advisor",
+        "title": "Crop Protection Sales Intern",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Independent Seed Advisor",
+        "title": "Production Technician 2",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
+        "title": "Trialing Specialist Technician",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
