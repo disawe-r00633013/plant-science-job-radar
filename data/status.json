@@ -1,15 +1,15 @@
 {
   "version": 8,
-  "last_updated": "2026-09-15T01:28:35.494464+00:00",
-  "job_count": 807,
+  "last_updated": "2026-09-16T01:25:54.289410+00:00",
+  "job_count": 822,
   "sector_counts": {
-    "industry": 758,
-    "academia": 49
+    "industry": 772,
+    "academia": 50
   },
   "source_counts": {
-    "LinkedIn": 730,
-    "HigherEdJobs": 47,
-    "SmartRecruiters": 28,
+    "SmartRecruiters": 29,
+    "LinkedIn": 743,
+    "HigherEdJobs": 48,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
   },
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 21,
+      "count": 9,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 408,
+      "count": 401,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -70,49 +70,49 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 158,
+      "count": 157,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 147,
+    "rejected_current_count": 140,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
-        "title": "Department Head, Plant Sciences",
+        "title": "Fellow (Post Doc)",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Post Doctoral Fellow",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Customer Account Specialist",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Post Doctoral Research Fellow (Leng)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Production Technician",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Assistant Professor of Plant Ecology, Department of Biology, Geology, and Environmental Science",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Production Technician 2",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Professor/ Associate Professor/ Assistant Professor in Landscape Architecture in the Division of Landscape Architecture, Department of Architecture",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Production Technician 2",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Department Chair of Biological & Environmental Sciences",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Regulatory & Stewardship Intern",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
