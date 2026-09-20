@@ -1,13 +1,13 @@
 {
   "version": 8,
-  "last_updated": "2026-09-19T01:10:29.874342+00:00",
-  "job_count": 879,
+  "last_updated": "2026-09-20T01:09:36.355887+00:00",
+  "job_count": 884,
   "sector_counts": {
-    "industry": 821,
+    "industry": 826,
     "academia": 58
   },
   "source_counts": {
-    "LinkedIn": 788,
+    "LinkedIn": 793,
     "HigherEdJobs": 56,
     "SmartRecruiters": 33,
     "University of Florida": 1,
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 18,
+      "count": 12,
       "ok": true,
       "note": ""
     },
@@ -34,9 +34,9 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 409,
+      "count": 379,
       "ok": true,
-      "note": "10/10 searches responded"
+      "note": "9/10 searches responded"
     },
     {
       "name": "Indeed public search",
@@ -76,7 +76,7 @@
     }
   ],
   "validation": {
-    "rejected_current_count": 158,
+    "rejected_current_count": 155,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
@@ -105,24 +105,6 @@
       },
       {
         "title": "Open Rank Search in Plant Evolution and Director of the UT-Austin Plant Resources Center",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Department Head, Plant Sciences",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Fellow (Post Doc)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Post Doctoral Fellow",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
@@ -228,10 +210,29 @@
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
+      },
+      {
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Infrastructure Lead",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Team Lead of Monocot Crops",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
       }
     ]
   },
   "errors": [
+    "LinkedIn 'plant health scientist': HTTPError",
     "Indeed 'plant pathology scientist': HTTPError",
     "Indeed 'biologicals scientist agriculture': HTTPError",
     "Indeed 'crop protection research scientist': HTTPError",
