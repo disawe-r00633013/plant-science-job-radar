@@ -1,13 +1,13 @@
 {
   "version": 8,
-  "last_updated": "2026-09-20T01:09:36.355887+00:00",
-  "job_count": 884,
+  "last_updated": "2026-09-21T01:05:33.585609+00:00",
+  "job_count": 891,
   "sector_counts": {
-    "industry": 826,
+    "industry": 833,
     "academia": 58
   },
   "source_counts": {
-    "LinkedIn": 793,
+    "LinkedIn": 800,
     "HigherEdJobs": 56,
     "SmartRecruiters": 33,
     "University of Florida": 1,
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 12,
+      "count": 7,
       "ok": true,
       "note": ""
     },
@@ -34,9 +34,9 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 379,
+      "count": 410,
       "ok": true,
-      "note": "9/10 searches responded"
+      "note": "10/10 searches responded"
     },
     {
       "name": "Indeed public search",
@@ -76,15 +76,9 @@
     }
   ],
   "validation": {
-    "rejected_current_count": 155,
+    "rejected_current_count": 154,
     "rejected_old_count": 0,
     "recent_rejections": [
-      {
-        "title": "Post Doctoral Researcher, Department of Plant and Soil Sciences",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
       {
         "title": "Post-Doctoral Research Associate, Plant Biochemistry & Synthetic Biology- Department of Plant Sciences: UTIA (10007)",
         "domain": "higheredjobs.com",
@@ -92,13 +86,13 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Post-Doctoral Research Associate in Soil Science, Department of Biosystems Engineering & Soil Science: UTIA (9979)",
+        "title": "Post Doctoral Researcher, Department of Plant and Soil Sciences",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Post-Doctoral Associate (# 376206)",
+        "title": "Post-Doctoral Research Associate in Soil Science, Department of Biosystems Engineering & Soil Science: UTIA (9979)",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
@@ -228,11 +222,16 @@
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
+      },
+      {
+        "title": "Customer Account Specialist",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
       }
     ]
   },
   "errors": [
-    "LinkedIn 'plant health scientist': HTTPError",
     "Indeed 'plant pathology scientist': HTTPError",
     "Indeed 'biologicals scientist agriculture': HTTPError",
     "Indeed 'crop protection research scientist': HTTPError",
