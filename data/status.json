@@ -1,15 +1,15 @@
 {
   "version": 8,
-  "last_updated": "2026-09-21T01:05:33.585609+00:00",
-  "job_count": 891,
+  "last_updated": "2026-09-22T01:37:48.297345+00:00",
+  "job_count": 900,
   "sector_counts": {
-    "industry": 833,
-    "academia": 58
+    "industry": 841,
+    "academia": 59
   },
   "source_counts": {
-    "LinkedIn": 800,
-    "HigherEdJobs": 56,
-    "SmartRecruiters": 33,
+    "SmartRecruiters": 34,
+    "LinkedIn": 807,
+    "HigherEdJobs": 57,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
   },
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 7,
+      "count": 13,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 410,
+      "count": 409,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -70,23 +70,29 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 172,
+      "count": 177,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 154,
+    "rejected_current_count": 161,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
-        "title": "Post-Doctoral Research Associate, Plant Biochemistry & Synthetic Biology- Department of Plant Sciences: UTIA (10007)",
+        "title": "Post Doctoral Researcher, Department of Plant and Soil Sciences",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Post Doctoral Researcher, Department of Plant and Soil Sciences",
+        "title": "Post Doctoral Fellow of Barley Breeding and Genetics BF9456",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Post-Doctoral Research Associate, Plant Biochemistry & Synthetic Biology- Department of Plant Sciences: UTIA (10007)",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
@@ -101,6 +107,42 @@
         "title": "Open Rank Search in Plant Evolution and Director of the UT-Austin Plant Resources Center",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Post-Doctoral Associate (# 376206)",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Technician 5",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Field Operations Manager",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Seed Conditioning Process Engineering Intern",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Lead HSE",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Lead HSE",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
@@ -183,48 +225,6 @@
       },
       {
         "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Infrastructure Lead",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Team Lead of Monocot Crops",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Customer Account Specialist",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
