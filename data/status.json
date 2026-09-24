@@ -1,15 +1,15 @@
 {
   "version": 8,
-  "last_updated": "2026-09-23T01:30:55.174732+00:00",
-  "job_count": 914,
+  "last_updated": "2026-09-24T01:24:33.818874+00:00",
+  "job_count": 934,
   "sector_counts": {
-    "industry": 853,
-    "academia": 61
+    "industry": 869,
+    "academia": 65
   },
   "source_counts": {
-    "SmartRecruiters": 35,
-    "LinkedIn": 818,
-    "HigherEdJobs": 59,
+    "SmartRecruiters": 38,
+    "LinkedIn": 831,
+    "HigherEdJobs": 63,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
   },
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 21,
+      "count": 23,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 413,
+      "count": 420,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -76,7 +76,7 @@
     }
   ],
   "validation": {
-    "rejected_current_count": 165,
+    "rejected_current_count": 166,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
@@ -92,13 +92,13 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Post-Doctoral Research Associate, Plant Biochemistry & Synthetic Biology- Department of Plant Sciences: UTIA (10007)",
+        "title": "Open Rank Search in Plant Evolution and Director of the UT-Austin Plant Resources Center",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Open Rank Search in Plant Evolution and Director of the UT-Austin Plant Resources Center",
+        "title": "Post-Doctoral Research Associate, Plant Biochemistry & Synthetic Biology- Department of Plant Sciences: UTIA (10007)",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
@@ -122,13 +122,31 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Senior Data Governance Analyst",
+        "title": "Inventory Associate",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Senior Software Engineer",
+        "title": "Distribution Specialist 2",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Production Technician 2",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "HSE Lead",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Senior Data Governance Analyst",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
@@ -189,24 +207,6 @@
       },
       {
         "title": "Agronomic Research Intern",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
