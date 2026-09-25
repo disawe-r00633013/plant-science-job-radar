@@ -1,15 +1,15 @@
 {
   "version": 8,
-  "last_updated": "2026-09-24T01:24:33.818874+00:00",
-  "job_count": 934,
+  "last_updated": "2026-09-25T01:30:53.531586+00:00",
+  "job_count": 950,
   "sector_counts": {
-    "industry": 869,
-    "academia": 65
+    "industry": 882,
+    "academia": 68
   },
   "source_counts": {
-    "SmartRecruiters": 38,
-    "LinkedIn": 831,
-    "HigherEdJobs": 63,
+    "SmartRecruiters": 39,
+    "LinkedIn": 843,
+    "HigherEdJobs": 66,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
   },
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 23,
+      "count": 15,
       "ok": true,
       "note": ""
     },
@@ -34,9 +34,9 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 420,
+      "count": 384,
       "ok": true,
-      "note": "10/10 searches responded"
+      "note": "9/10 searches responded"
     },
     {
       "name": "Indeed public search",
@@ -70,7 +70,7 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 181,
+      "count": 185,
       "ok": true,
       "note": ""
     }
@@ -92,12 +92,6 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Open Rank Search in Plant Evolution and Director of the UT-Austin Plant Resources Center",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
         "title": "Post-Doctoral Research Associate, Plant Biochemistry & Synthetic Biology- Department of Plant Sciences: UTIA (10007)",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
@@ -110,15 +104,33 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Post-Doctoral Associate (# 376206)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Senior Cloud Engineer",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Department Head, Plant Sciences",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Senior Cloud Engineer",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Bioinformatics Intern - Protein Design",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "R&D Intern",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "R&D Portfolio Intelligence & Analytics Lead",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
@@ -141,12 +153,6 @@
       },
       {
         "title": "HSE Lead",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Senior Data Governance Analyst",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
@@ -222,16 +228,11 @@
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
       }
     ]
   },
   "errors": [
+    "LinkedIn 'plant pathology scientist': HTTPError",
     "Indeed 'plant pathology scientist': HTTPError",
     "Indeed 'biologicals scientist agriculture': HTTPError",
     "Indeed 'crop protection research scientist': HTTPError",
