@@ -1,14 +1,14 @@
 {
   "version": 8,
-  "last_updated": "2026-09-30T02:08:08.569513+00:00",
-  "job_count": 1016,
+  "last_updated": "2026-10-01T02:10:04.976696+00:00",
+  "job_count": 1024,
   "sector_counts": {
-    "industry": 942,
+    "industry": 950,
     "academia": 74
   },
   "source_counts": {
-    "SmartRecruiters": 45,
-    "LinkedIn": 897,
+    "SmartRecruiters": 46,
+    "LinkedIn": 904,
     "HigherEdJobs": 72,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 11,
+      "count": 5,
       "ok": true,
       "note": ""
     },
@@ -34,9 +34,9 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 407,
+      "count": 373,
       "ok": true,
-      "note": "10/10 searches responded"
+      "note": "9/10 searches responded"
     },
     {
       "name": "Indeed public search",
@@ -70,19 +70,31 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 182,
+      "count": 180,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 157,
+    "rejected_current_count": 156,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
         "title": "Lecturer AY - Agricultural Plant and Soil Science",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Global Operations Analytics & Governance Lead",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Crop Protection Sales Representative",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
@@ -158,12 +170,6 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Inventory Associate",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
         "title": "HSE Lead",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
@@ -222,16 +228,11 @@
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
       }
     ]
   },
   "errors": [
+    "LinkedIn 'crop protection research scientist': HTTPError",
     "Indeed 'plant pathology scientist': HTTPError",
     "Indeed 'biologicals scientist agriculture': HTTPError",
     "Indeed 'crop protection research scientist': HTTPError",
