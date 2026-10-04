@@ -1,14 +1,14 @@
 {
   "version": 8,
-  "last_updated": "2026-10-03T01:57:44.424331+00:00",
-  "job_count": 1066,
+  "last_updated": "2026-10-04T02:39:48.964383+00:00",
+  "job_count": 1072,
   "sector_counts": {
-    "industry": 989,
+    "industry": 995,
     "academia": 77
   },
   "source_counts": {
+    "LinkedIn": 947,
     "SmartRecruiters": 48,
-    "LinkedIn": 941,
     "HigherEdJobs": 75,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 11,
+      "count": 9,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 402,
+      "count": 398,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -80,7 +80,7 @@
     "rejected_old_count": 0,
     "recent_rejections": [
       {
-        "title": "Lecturer AY - Agricultural Plant and Soil Science",
+        "title": "Post-Doctoral Associate (# 376462)",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
