@@ -1,13 +1,13 @@
 {
   "version": 8,
-  "last_updated": "2026-10-05T02:01:34.569882+00:00",
-  "job_count": 1074,
+  "last_updated": "2026-10-06T02:58:45.866995+00:00",
+  "job_count": 1087,
   "sector_counts": {
-    "industry": 997,
+    "industry": 1010,
     "academia": 77
   },
   "source_counts": {
-    "LinkedIn": 949,
+    "LinkedIn": 962,
     "SmartRecruiters": 48,
     "HigherEdJobs": 75,
     "University of Florida": 1,
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 10,
+      "count": 3,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 399,
+      "count": 402,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -70,31 +70,43 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 177,
+      "count": 182,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 156,
+    "rejected_current_count": 158,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
-        "title": "Post-Doctoral Associate (# 376462)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Vegetables Seed Production Intern",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Post Doctoral Res. Fellow (Li, Xuehui)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Vegetables Seed Production Intern",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Lecturer AY - Agricultural Plant and Soil Science",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Soil Spectroscopy and Chemometrics Co-op",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Production & Supply Development Program Associate",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Technical Services Representative",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
@@ -213,18 +225,6 @@
       },
       {
         "title": "Lead HSE",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Lead HSE",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "NK Sales Representative",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
