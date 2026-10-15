@@ -1,15 +1,15 @@
 {
   "version": 8,
-  "last_updated": "2026-10-14T01:54:49.692395+00:00",
-  "job_count": 1229,
+  "last_updated": "2026-10-15T01:29:03.610152+00:00",
+  "job_count": 1250,
   "sector_counts": {
-    "industry": 1136,
-    "academia": 93
+    "industry": 1156,
+    "academia": 94
   },
   "source_counts": {
-    "LinkedIn": 1086,
-    "HigherEdJobs": 91,
-    "SmartRecruiters": 50,
+    "SmartRecruiters": 52,
+    "LinkedIn": 1104,
+    "HigherEdJobs": 92,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
   },
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 9,
+      "count": 17,
       "ok": true,
       "note": ""
     },
@@ -34,9 +34,9 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 402,
+      "count": 366,
       "ok": true,
-      "note": "9/10 searches responded"
+      "note": "8/10 searches responded"
     },
     {
       "name": "Indeed public search",
@@ -70,15 +70,21 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 170,
+      "count": 182,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 156,
+    "rejected_current_count": 167,
     "rejected_old_count": 0,
     "recent_rejections": [
+      {
+        "title": "Adjunct/Per Course Faculty - Environmental Plant Science (Spring 2027)",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
       {
         "title": "Assistant Prof and State Extension Vegetable Specialist  BF9549",
         "domain": "higheredjobs.com",
@@ -98,7 +104,91 @@
         "reason": "title does not look like a job"
       },
       {
+        "title": "Assistant Professor of Soil Science and Natural Resources Management - Department of Biology",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "HR Business Partner – CP Commercial US",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
         "title": "Golden Harvest Sales Representative",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Independent Seed Advisor",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "R&D Analytics - AI Developer",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Packaging Operator 3",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
@@ -138,101 +228,12 @@
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
-      },
-      {
-        "title": "NA Production Manager - SSV",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Retail Representative",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Production & Supply Development Program Associate",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Operational Excellence & Transformation Lead, Site Operations",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "State Affairs Lead",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Area Sales Manager",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Area Sales Manager",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Vegetables Seed Production Intern",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Vegetables Seed Production Intern",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Soil Spectroscopy and Chemometrics Co-op",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "HSE Lead",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Coordinator - Seed Quality Lab",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Operations Manager",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Crop Protection Sales Representative",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Quality Control Analyst",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
       }
     ]
   },
   "errors": [
     "LinkedIn 'plant pathology scientist': HTTPError",
+    "LinkedIn 'controlled environment agriculture scientist': HTTPError",
     "Indeed 'plant pathology scientist': HTTPError",
     "Indeed 'biologicals scientist agriculture': HTTPError",
     "Indeed 'crop protection research scientist': HTTPError",
