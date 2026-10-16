@@ -1,15 +1,15 @@
 {
   "version": 8,
-  "last_updated": "2026-10-15T01:29:03.610152+00:00",
-  "job_count": 1250,
+  "last_updated": "2026-10-16T01:20:55.063262+00:00",
+  "job_count": 1271,
   "sector_counts": {
-    "industry": 1156,
-    "academia": 94
+    "industry": 1175,
+    "academia": 96
   },
   "source_counts": {
+    "LinkedIn": 1123,
+    "HigherEdJobs": 94,
     "SmartRecruiters": 52,
-    "LinkedIn": 1104,
-    "HigherEdJobs": 92,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
   },
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 17,
+      "count": 6,
       "ok": true,
       "note": ""
     },
@@ -34,9 +34,9 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 366,
+      "count": 404,
       "ok": true,
-      "note": "8/10 searches responded"
+      "note": "9/10 searches responded"
     },
     {
       "name": "Indeed public search",
@@ -76,17 +76,11 @@
     }
   ],
   "validation": {
-    "rejected_current_count": 167,
+    "rejected_current_count": 165,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
         "title": "Adjunct/Per Course Faculty - Environmental Plant Science (Spring 2027)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Assistant Prof and State Extension Vegetable Specialist  BF9549",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
@@ -98,19 +92,55 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Fellow (Post Doc)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Trialing Specialist",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Assistant Professor of Soil Science and Natural Resources Management - Department of Biology",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Golden Harvest Sales Representative",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
-        "title": "HR Business Partner – CP Commercial US",
+        "title": "Golden Harvest Sales Representative",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "NA Production Manager - SSV",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Lead HSE Territory",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Engineering Project Manager",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Senior Database Administrator",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Retail Representative",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Crop Protection Sales Representative",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
@@ -198,41 +228,10 @@
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
-      },
-      {
-        "title": "Operation research engineer",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Marketing Head",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Marketing Head West",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "HSE Environmental Engineer",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Engineering Project Manager",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
       }
     ]
   },
   "errors": [
-    "LinkedIn 'plant pathology scientist': HTTPError",
     "LinkedIn 'controlled environment agriculture scientist': HTTPError",
     "Indeed 'plant pathology scientist': HTTPError",
     "Indeed 'biologicals scientist agriculture': HTTPError",
