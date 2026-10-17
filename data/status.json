@@ -1,15 +1,15 @@
 {
   "version": 8,
-  "last_updated": "2026-10-16T01:20:55.063262+00:00",
-  "job_count": 1271,
+  "last_updated": "2026-10-17T01:19:56.204295+00:00",
+  "job_count": 1290,
   "sector_counts": {
-    "industry": 1175,
+    "industry": 1194,
     "academia": 96
   },
   "source_counts": {
-    "LinkedIn": 1123,
+    "SmartRecruiters": 53,
+    "LinkedIn": 1141,
     "HigherEdJobs": 94,
-    "SmartRecruiters": 52,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
   },
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 6,
+      "count": 16,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 404,
+      "count": 413,
       "ok": true,
       "note": "9/10 searches responded"
     },
@@ -70,7 +70,7 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 182,
+      "count": 180,
       "ok": true,
       "note": ""
     }
@@ -89,6 +89,30 @@
         "title": "Instructor, Agronomy and Precision Agriculture, School of Agricultural Science",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Assistant Prof and State Extension Vegetable Specialist  BF9549",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Assistant Professor of Soil Science and Natural Resources Management - Department of Biology",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Fellow (Post Doc)",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Coordinator Seed Quality Lab",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
@@ -116,12 +140,6 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Lead HSE Territory",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
         "title": "Engineering Project Manager",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
@@ -141,12 +159,6 @@
       },
       {
         "title": "Crop Protection Sales Representative",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Golden Harvest Sales Representative",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
@@ -216,23 +228,11 @@
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
-      },
-      {
-        "title": "Packaging Operator 3",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "PS Operations Data and Digital Specialist",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
       }
     ]
   },
   "errors": [
-    "LinkedIn 'controlled environment agriculture scientist': HTTPError",
+    "LinkedIn 'field development scientist agriculture': HTTPError",
     "Indeed 'plant pathology scientist': HTTPError",
     "Indeed 'biologicals scientist agriculture': HTTPError",
     "Indeed 'crop protection research scientist': HTTPError",
