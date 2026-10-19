@@ -1,13 +1,13 @@
 {
   "version": 8,
-  "last_updated": "2026-10-18T01:02:49.908764+00:00",
-  "job_count": 1294,
+  "last_updated": "2026-10-19T01:17:20.030365+00:00",
+  "job_count": 1296,
   "sector_counts": {
-    "industry": 1197,
+    "industry": 1199,
     "academia": 97
   },
   "source_counts": {
-    "LinkedIn": 1144,
+    "LinkedIn": 1146,
     "HigherEdJobs": 95,
     "SmartRecruiters": 53,
     "University of Florida": 1,
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 5,
+      "count": 10,
       "ok": true,
       "note": ""
     },
@@ -34,9 +34,9 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 397,
+      "count": 448,
       "ok": true,
-      "note": "9/10 searches responded"
+      "note": "10/10 searches responded"
     },
     {
       "name": "Indeed public search",
@@ -76,11 +76,23 @@
     }
   ],
   "validation": {
-    "rejected_current_count": 161,
+    "rejected_current_count": 163,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
         "title": "Adjunct/Per Course Faculty - Environmental Plant Science (Spring 2027)",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Instructor, Agronomy and Precision Agriculture, School of Agricultural Science",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Assistant Prof and State Extension Vegetable Specialist  BF9549",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
@@ -216,23 +228,10 @@
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
-      },
-      {
-        "title": "Operation research engineer",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Marketing Head",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
       }
     ]
   },
   "errors": [
-    "LinkedIn 'postharvest scientist': HTTPError",
     "Indeed 'plant pathology scientist': HTTPError",
     "Indeed 'biologicals scientist agriculture': HTTPError",
     "Indeed 'crop protection research scientist': HTTPError",
