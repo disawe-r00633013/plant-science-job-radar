@@ -1,13 +1,13 @@
 {
   "version": 8,
-  "last_updated": "2026-10-20T01:50:20.937795+00:00",
-  "job_count": 1308,
+  "last_updated": "2026-10-21T01:36:04.582513+00:00",
+  "job_count": 1327,
   "sector_counts": {
-    "industry": 1211,
+    "industry": 1230,
     "academia": 97
   },
   "source_counts": {
-    "LinkedIn": 1158,
+    "LinkedIn": 1177,
     "HigherEdJobs": 95,
     "SmartRecruiters": 53,
     "University of Florida": 1,
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 2,
+      "count": 3,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 448,
+      "count": 452,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -70,7 +70,7 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 186,
+      "count": 184,
       "ok": true,
       "note": ""
     }
@@ -80,9 +80,9 @@
     "rejected_old_count": 0,
     "recent_rejections": [
       {
-        "title": "Adjunct/Per Course Faculty - Environmental Plant Science (Spring 2027)",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "QAU Specialist",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
