@@ -1,14 +1,14 @@
 {
   "version": 8,
-  "last_updated": "2026-10-22T01:32:28.624263+00:00",
-  "job_count": 1338,
+  "last_updated": "2026-10-23T01:31:37.117159+00:00",
+  "job_count": 1348,
   "sector_counts": {
-    "industry": 1241,
+    "industry": 1251,
     "academia": 97
   },
   "source_counts": {
-    "SmartRecruiters": 54,
-    "LinkedIn": 1187,
+    "SmartRecruiters": 57,
+    "LinkedIn": 1194,
     "HigherEdJobs": 95,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 3,
+      "count": 2,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 465,
+      "count": 464,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -70,7 +70,7 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 187,
+      "count": 190,
       "ok": true,
       "note": ""
     }
@@ -79,6 +79,36 @@
     "rejected_current_count": 171,
     "rejected_old_count": 0,
     "recent_rejections": [
+      {
+        "title": "Customer Experience Specialist Intern - Western USA",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Retail Representative",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Golden Harvest Sales Representative",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Golden Harvest Sales Representative",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Commercial Data Governance Lead",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
       {
         "title": "Customer Account Specialist",
         "domain": "jobs.smartrecruiters.com",
@@ -182,12 +212,6 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Customer Experience Specialist Intern - Western USA",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
         "title": "Digital Phenomics Intern",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
@@ -201,30 +225,6 @@
       },
       {
         "title": "Golden Harvest Sales Representative",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Golden Harvest Sales Representative",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "NA Production Manager - SSV",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Engineering Project Manager",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Senior Database Administrator",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
