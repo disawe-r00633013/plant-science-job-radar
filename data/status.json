@@ -1,14 +1,14 @@
 {
   "version": 8,
-  "last_updated": "2026-10-23T01:31:37.117159+00:00",
-  "job_count": 1348,
+  "last_updated": "2026-10-24T01:35:18.617771+00:00",
+  "job_count": 1365,
   "sector_counts": {
-    "industry": 1251,
+    "industry": 1268,
     "academia": 97
   },
   "source_counts": {
-    "SmartRecruiters": 57,
-    "LinkedIn": 1194,
+    "SmartRecruiters": 60,
+    "LinkedIn": 1208,
     "HigherEdJobs": 95,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 2,
+      "count": 1,
       "ok": true,
       "note": ""
     },
@@ -34,9 +34,9 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 464,
+      "count": 374,
       "ok": true,
-      "note": "10/10 searches responded"
+      "note": "8/10 searches responded"
     },
     {
       "name": "Indeed public search",
@@ -70,15 +70,33 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 190,
+      "count": 194,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 171,
+    "rejected_current_count": 173,
     "rejected_old_count": 0,
     "recent_rejections": [
+      {
+        "title": "Production Technician 2",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Maintenance Engineering Co-op",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Supply Chain Planner",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
       {
         "title": "Customer Experience Specialist Intern - Western USA",
         "domain": "jobs.smartrecruiters.com",
@@ -210,28 +228,12 @@
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
-      },
-      {
-        "title": "Digital Phenomics Intern",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Coordinator Seed Quality Lab",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Golden Harvest Sales Representative",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
       }
     ]
   },
   "errors": [
+    "LinkedIn 'plant health scientist': HTTPError",
+    "LinkedIn 'postharvest scientist': HTTPError",
     "Indeed 'plant pathology scientist': HTTPError",
     "Indeed 'biologicals scientist agriculture': HTTPError",
     "Indeed 'crop protection research scientist': HTTPError",
