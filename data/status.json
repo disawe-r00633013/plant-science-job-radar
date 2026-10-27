@@ -1,13 +1,13 @@
 {
   "version": 8,
-  "last_updated": "2026-10-26T01:10:17.362628+00:00",
-  "job_count": 1377,
+  "last_updated": "2026-10-27T02:05:04.822210+00:00",
+  "job_count": 1388,
   "sector_counts": {
-    "industry": 1278,
+    "industry": 1289,
     "academia": 99
   },
   "source_counts": {
-    "LinkedIn": 1218,
+    "LinkedIn": 1229,
     "HigherEdJobs": 97,
     "SmartRecruiters": 60,
     "University of Florida": 1,
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 2,
+      "count": 3,
       "ok": true,
       "note": ""
     },
@@ -34,9 +34,9 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 460,
+      "count": 419,
       "ok": true,
-      "note": "10/10 searches responded"
+      "note": "9/10 searches responded"
     },
     {
       "name": "Indeed public search",
@@ -70,7 +70,7 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 194,
+      "count": 193,
       "ok": true,
       "note": ""
     }
@@ -232,6 +232,7 @@
     ]
   },
   "errors": [
+    "LinkedIn 'product development scientist agriculture': HTTPError",
     "Indeed 'plant pathology scientist': HTTPError",
     "Indeed 'biologicals scientist agriculture': HTTPError",
     "Indeed 'crop protection research scientist': HTTPError",
