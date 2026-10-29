@@ -1,14 +1,14 @@
 {
   "version": 8,
-  "last_updated": "2026-10-28T02:15:27.489940+00:00",
-  "job_count": 1406,
+  "last_updated": "2026-10-29T02:27:30.404782+00:00",
+  "job_count": 1425,
   "sector_counts": {
-    "industry": 1307,
+    "industry": 1326,
     "academia": 99
   },
   "source_counts": {
+    "LinkedIn": 1265,
     "SmartRecruiters": 61,
-    "LinkedIn": 1246,
     "HigherEdJobs": 97,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 2,
+      "count": 1,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 459,
+      "count": 467,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -70,7 +70,7 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 191,
+      "count": 190,
       "ok": true,
       "note": ""
     }
@@ -79,6 +79,36 @@
     "rejected_current_count": 169,
     "rejected_old_count": 0,
     "recent_rejections": [
+      {
+        "title": "Non-Income Tax Analyst",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Maintenance Engineer",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "PS Operations Data and Digital Specialist",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Senior Data Analyst – Controlled Environments",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Crop Protection Sales Representative",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
       {
         "title": "Area Sales Manager",
         "domain": "jobs.smartrecruiters.com",
@@ -195,36 +225,6 @@
       },
       {
         "title": "Account Development Lead",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Independent Seed Advisor",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Liquid Plant Operator",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
