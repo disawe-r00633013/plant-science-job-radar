@@ -1,14 +1,14 @@
 {
   "version": 8,
-  "last_updated": "2026-11-04T03:00:50.016252+00:00",
-  "job_count": 1478,
+  "last_updated": "2026-11-05T03:29:55.279741+00:00",
+  "job_count": 1492,
   "sector_counts": {
-    "industry": 1379,
+    "industry": 1393,
     "academia": 99
   },
   "source_counts": {
+    "LinkedIn": 1330,
     "SmartRecruiters": 63,
-    "LinkedIn": 1316,
     "HigherEdJobs": 97,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
@@ -34,9 +34,9 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 341,
+      "count": 453,
       "ok": true,
-      "note": "8/10 searches responded"
+      "note": "10/10 searches responded"
     },
     {
       "name": "Indeed public search",
@@ -70,25 +70,37 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 183,
+      "count": 178,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 163,
+    "rejected_current_count": 159,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
-        "title": "Department Head - Agronomy",
+        "title": "Post Doctoral Researcher, Department of Plant and Soil Sciences",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
         "reason": "title does not look like a job"
       },
       {
-        "title": "Post Doctoral Researcher, Department of Plant and Soil Sciences",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
+        "title": "Engineering Project Manager",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Retail Representative",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Crop Protection Sales Representative",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
@@ -129,12 +141,6 @@
       },
       {
         "title": "Operations Manager",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Data Governance & Reporting Analyst",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
@@ -206,18 +212,6 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "NK Sales Representative",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "NK Sales Representative",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
         "title": "Golden Harvest Sales Representative",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
@@ -225,6 +219,12 @@
       },
       {
         "title": "Golden Harvest Sales Representative",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Sales Planning and Enablement Lead",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
@@ -232,8 +232,6 @@
     ]
   },
   "errors": [
-    "LinkedIn 'biologicals scientist agriculture': HTTPError",
-    "LinkedIn 'product development scientist agriculture': HTTPError",
     "Indeed 'plant pathology scientist': HTTPError",
     "Indeed 'biologicals scientist agriculture': HTTPError",
     "Indeed 'crop protection research scientist': HTTPError",
