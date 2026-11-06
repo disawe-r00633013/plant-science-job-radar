@@ -1,15 +1,15 @@
 {
   "version": 8,
-  "last_updated": "2026-11-05T03:29:55.279741+00:00",
-  "job_count": 1492,
+  "last_updated": "2026-11-06T03:26:37.508353+00:00",
+  "job_count": 1505,
   "sector_counts": {
-    "industry": 1393,
-    "academia": 99
+    "industry": 1404,
+    "academia": 101
   },
   "source_counts": {
-    "LinkedIn": 1330,
+    "LinkedIn": 1341,
+    "HigherEdJobs": 99,
     "SmartRecruiters": 63,
-    "HigherEdJobs": 97,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
   },
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 2,
+      "count": 4,
       "ok": true,
       "note": ""
     },
@@ -70,13 +70,13 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 178,
+      "count": 176,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 159,
+    "rejected_current_count": 156,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
@@ -99,12 +99,6 @@
       },
       {
         "title": "Crop Protection Sales Representative",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Packaging Operator 3",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
@@ -152,12 +146,6 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Golden Harvest Sales Representative",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
         "title": "Commercial Data Governance Lead",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
@@ -183,12 +171,6 @@
       },
       {
         "title": "Enterprise Application Engineer",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Customer Account Specialist",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
@@ -225,6 +207,24 @@
       },
       {
         "title": "Sales Planning and Enablement Lead",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Non-Income Tax Analyst",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Maintenance Engineer",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Crop Protection Sales Representative",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
