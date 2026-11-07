@@ -1,14 +1,14 @@
 {
   "version": 8,
-  "last_updated": "2026-11-06T03:26:37.508353+00:00",
-  "job_count": 1505,
+  "last_updated": "2026-11-07T02:48:14.951960+00:00",
+  "job_count": 1520,
   "sector_counts": {
-    "industry": 1404,
-    "academia": 101
+    "industry": 1418,
+    "academia": 102
   },
   "source_counts": {
-    "LinkedIn": 1341,
-    "HigherEdJobs": 99,
+    "LinkedIn": 1355,
+    "HigherEdJobs": 100,
     "SmartRecruiters": 63,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 4,
+      "count": 3,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 453,
+      "count": 460,
       "ok": true,
       "note": "10/10 searches responded"
     },
@@ -70,19 +70,31 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 176,
+      "count": 174,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 156,
+    "rejected_current_count": 154,
     "rejected_old_count": 0,
     "recent_rejections": [
       {
-        "title": "Post Doctoral Researcher, Department of Plant and Soil Sciences",
+        "title": "Department Head - Agronomy",
         "domain": "higheredjobs.com",
         "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Operations Manager",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Agronomic Research Intern",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
         "reason": "title does not look like a job"
       },
       {
@@ -213,18 +225,6 @@
       },
       {
         "title": "Non-Income Tax Analyst",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Maintenance Engineer",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Crop Protection Sales Representative",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
