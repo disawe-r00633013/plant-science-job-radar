@@ -1,13 +1,13 @@
 {
   "version": 8,
-  "last_updated": "2026-11-08T02:29:49.884732+00:00",
-  "job_count": 1524,
+  "last_updated": "2026-11-09T02:39:56.576572+00:00",
+  "job_count": 1510,
   "sector_counts": {
-    "industry": 1422,
+    "industry": 1408,
     "academia": 102
   },
   "source_counts": {
-    "LinkedIn": 1359,
+    "LinkedIn": 1345,
     "HigherEdJobs": 100,
     "SmartRecruiters": 63,
     "University of Florida": 1,
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 3,
+      "count": 1,
       "ok": true,
       "note": ""
     },
@@ -34,9 +34,9 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 409,
+      "count": 461,
       "ok": true,
-      "note": "9/10 searches responded"
+      "note": "10/10 searches responded"
     },
     {
       "name": "Indeed public search",
@@ -76,15 +76,9 @@
     }
   ],
   "validation": {
-    "rejected_current_count": 154,
+    "rejected_current_count": 153,
     "rejected_old_count": 0,
     "recent_rejections": [
-      {
-        "title": "Department Head - Agronomy",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
       {
         "title": "Operations Manager",
         "domain": "jobs.smartrecruiters.com",
@@ -228,11 +222,16 @@
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
+      },
+      {
+        "title": "Maintenance Engineer",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
       }
     ]
   },
   "errors": [
-    "LinkedIn 'biostimulant scientist': HTTPError",
     "Indeed 'plant pathology scientist': HTTPError",
     "Indeed 'biologicals scientist agriculture': HTTPError",
     "Indeed 'crop protection research scientist': HTTPError",
