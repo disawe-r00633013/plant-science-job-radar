@@ -1,14 +1,14 @@
 {
   "version": 8,
-  "last_updated": "2026-11-21T03:58:36.310549+00:00",
-  "job_count": 1518,
+  "last_updated": "2026-11-22T03:10:35.618667+00:00",
+  "job_count": 1510,
   "sector_counts": {
-    "industry": 1428,
+    "industry": 1420,
     "academia": 90
   },
   "source_counts": {
-    "LinkedIn": 1362,
-    "SmartRecruiters": 66,
+    "LinkedIn": 1355,
+    "SmartRecruiters": 65,
     "HigherEdJobs": 88,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
