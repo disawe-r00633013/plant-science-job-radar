@@ -1,15 +1,15 @@
 {
   "version": 8,
-  "last_updated": "2026-11-24T06:57:55.829072+00:00",
-  "job_count": 1488,
+  "last_updated": "2026-11-25T05:26:04.943017+00:00",
+  "job_count": 1501,
   "sector_counts": {
-    "industry": 1400,
-    "academia": 88
+    "industry": 1412,
+    "academia": 89
   },
   "source_counts": {
-    "LinkedIn": 1337,
+    "LinkedIn": 1349,
+    "HigherEdJobs": 87,
     "SmartRecruiters": 63,
-    "HigherEdJobs": 86,
     "University of Florida": 1,
     "AcademicJobsOnline": 1
   },
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 0,
+      "count": 2,
       "ok": true,
       "note": ""
     },
@@ -34,7 +34,7 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 361,
+      "count": 353,
       "ok": true,
       "note": "8/10 searches responded"
     },
@@ -76,9 +76,33 @@
     }
   ],
   "validation": {
-    "rejected_current_count": 144,
+    "rejected_current_count": 145,
     "rejected_old_count": 0,
     "recent_rejections": [
+      {
+        "title": "Post Doctoral Fellow",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Genotyping Scheduling Specialist",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Automation Specialist",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Greenhouse Seed Production Lead",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
       {
         "title": "Golden Harvest Strategic Farm Partner",
         "domain": "jobs.smartrecruiters.com",
@@ -204,36 +228,12 @@
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
-      },
-      {
-        "title": "Enterprise Application Engineer",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Liquid Plant Operator",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Area Sales Manager",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
-        "title": "Area Sales Manager",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
       }
     ]
   },
   "errors": [
-    "LinkedIn 'plant pathology scientist': HTTPError",
-    "LinkedIn 'crop protection research scientist': HTTPError",
+    "LinkedIn 'biologicals scientist agriculture': HTTPError",
+    "LinkedIn 'controlled environment agriculture scientist': HTTPError",
     "Indeed 'plant pathology scientist': HTTPError",
     "Indeed 'biologicals scientist agriculture': HTTPError",
     "Indeed 'crop protection research scientist': HTTPError",
