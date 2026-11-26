@@ -1,13 +1,13 @@
 {
   "version": 8,
-  "last_updated": "2026-11-25T05:26:04.943017+00:00",
-  "job_count": 1501,
+  "last_updated": "2026-11-26T05:03:44.865603+00:00",
+  "job_count": 1499,
   "sector_counts": {
-    "industry": 1412,
+    "industry": 1410,
     "academia": 89
   },
   "source_counts": {
-    "LinkedIn": 1349,
+    "LinkedIn": 1347,
     "HigherEdJobs": 87,
     "SmartRecruiters": 63,
     "University of Florida": 1,
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 2,
+      "count": 0,
       "ok": true,
       "note": ""
     },
@@ -34,9 +34,9 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 353,
+      "count": 399,
       "ok": true,
-      "note": "8/10 searches responded"
+      "note": "9/10 searches responded"
     },
     {
       "name": "Indeed public search",
@@ -70,21 +70,15 @@
     },
     {
       "name": "SmartRecruiters ATS",
-      "count": 158,
+      "count": 157,
       "ok": true,
       "note": ""
     }
   ],
   "validation": {
-    "rejected_current_count": 145,
+    "rejected_current_count": 143,
     "rejected_old_count": 0,
     "recent_rejections": [
-      {
-        "title": "Post Doctoral Fellow",
-        "domain": "higheredjobs.com",
-        "source": "HigherEdJobs",
-        "reason": "title does not look like a job"
-      },
       {
         "title": "Genotyping Scheduling Specialist",
         "domain": "jobs.smartrecruiters.com",
@@ -170,12 +164,6 @@
         "reason": "title does not look like a job"
       },
       {
-        "title": "Brand & Digital Marketing Manager",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
-      },
-      {
         "title": "Crop Protection Sales & Agronomy Intern",
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
@@ -228,12 +216,23 @@
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
+      },
+      {
+        "title": "Enterprise Application Engineer",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
+      },
+      {
+        "title": "Liquid Plant Operator",
+        "domain": "jobs.smartrecruiters.com",
+        "source": "SmartRecruiters",
+        "reason": "title does not look like a job"
       }
     ]
   },
   "errors": [
-    "LinkedIn 'biologicals scientist agriculture': HTTPError",
-    "LinkedIn 'controlled environment agriculture scientist': HTTPError",
+    "LinkedIn 'horticulture research scientist': HTTPError",
     "Indeed 'plant pathology scientist': HTTPError",
     "Indeed 'biologicals scientist agriculture': HTTPError",
     "Indeed 'crop protection research scientist': HTTPError",
