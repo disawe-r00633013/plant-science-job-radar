@@ -1,13 +1,13 @@
 {
   "version": 8,
-  "last_updated": "2026-11-27T05:03:31.532405+00:00",
-  "job_count": 1486,
+  "last_updated": "2026-11-28T04:44:19.036820+00:00",
+  "job_count": 1484,
   "sector_counts": {
-    "industry": 1402,
+    "industry": 1400,
     "academia": 84
   },
   "source_counts": {
-    "LinkedIn": 1341,
+    "LinkedIn": 1339,
     "HigherEdJobs": 82,
     "SmartRecruiters": 61,
     "University of Florida": 1,
@@ -22,7 +22,7 @@
     },
     {
       "name": "HigherEdJobs direct",
-      "count": 0,
+      "count": 1,
       "ok": true,
       "note": ""
     },
@@ -34,9 +34,9 @@
     },
     {
       "name": "LinkedIn public search",
-      "count": 440,
+      "count": 402,
       "ok": true,
-      "note": "10/10 searches responded"
+      "note": "9/10 searches responded"
     },
     {
       "name": "Indeed public search",
@@ -76,9 +76,15 @@
     }
   ],
   "validation": {
-    "rejected_current_count": 143,
+    "rejected_current_count": 144,
     "rejected_old_count": 0,
     "recent_rejections": [
+      {
+        "title": "Post Doctoral Fellow",
+        "domain": "higheredjobs.com",
+        "source": "HigherEdJobs",
+        "reason": "title does not look like a job"
+      },
       {
         "title": "Genotyping Scheduling Specialist",
         "domain": "jobs.smartrecruiters.com",
@@ -222,16 +228,11 @@
         "domain": "jobs.smartrecruiters.com",
         "source": "SmartRecruiters",
         "reason": "title does not look like a job"
-      },
-      {
-        "title": "Liquid Plant Operator",
-        "domain": "jobs.smartrecruiters.com",
-        "source": "SmartRecruiters",
-        "reason": "title does not look like a job"
       }
     ]
   },
   "errors": [
+    "LinkedIn 'horticulture research scientist': HTTPError",
     "Indeed 'plant pathology scientist': HTTPError",
     "Indeed 'biologicals scientist agriculture': HTTPError",
     "Indeed 'crop protection research scientist': HTTPError",
